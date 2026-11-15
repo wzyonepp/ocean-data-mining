@@ -10,13 +10,14 @@ matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 import run_parquet_pilot as c
 from analyze_parquet_formal import read_csv
+from report_revision_sections import contribution_section, exception_section
 
 ROOT=Path('results/alignment_fresh_v1')
 ORDER=['station_first','station_aligned','time_first']
 LABELS=['Station fixed','Station aligned','Time first']
 COLORS=['#ce8f39','#346ca3','#147d83']
 
-def build():
+def build(report_only=False):
     status=json.loads((ROOT/'run_status.json').read_text());protocol=json.loads((ROOT/'protocol.json').read_text())
     rows=read_csv(ROOT/'measurements.csv');query_summary=read_csv(ROOT/'query_summary.csv')
     diag=read_csv(ROOT/'joint_match_summary.csv');queries=json.loads((ROOT/'queries.json').read_text())
@@ -56,7 +57,7 @@ def build():
     figs=ROOT/'figures';figs.mkdir(exist_ok=True)
     plt.rcParams.update({'font.family':'DejaVu Sans','font.size':10,'pdf.fonttype':42,'axes.spines.top':False,'axes.spines.right':False})
     rng=random.Random(20261115)
-    for mode in ['latency','groups']:
+    for mode in ([] if report_only else ['latency','groups']):
         fig,axes=plt.subplots(1,2,figsize=(11,4.6))
         for ax,k in zip(axes,['Q1','Q2']):
             if mode=='latency':
@@ -160,25 +161,7 @@ Q1 指定站点，时间窗口为 1、7、30 天；Q2 不限制站点，窗口�
 
 例如预跑的 41002 单日查询中，原站点优先保留 3 个候选组，但实际只有 1 个组含匹配行。正式对照的非空 Q1 查询平均存在 1.714 个无联合匹配候选组。这些统计是额外 Arrow 读取核对的结果，不是 DuckDB 实际 I/O 跟踪。
 
-## 6. 原创探索点的具体拆解
-
-### 6.1 问题与改动
-
-针对“固定切组跨站点，扩大独立范围统计”的具体问题，新增站点边界对齐。保持站点优先的全局行序，对每个站点独立按最多 16,384 行写入行组，最后仍写入同一个 Parquet 文件。它不增加站点目录分区，不复制数据，不改变查询 SQL，也不改变数据模式、压缩算法和行组上限。
-
-过程可表示为：排序后取一个站点的连续记录 → 按上限切完整组 → 保留该站点尾部短组 → 下一站点从新行组开始。所有组的站点 min=max，文件整体仍按站点、时间有序。
-
-### 6.2 与原方案的差别及代价
-
-这一步改变了分组边界，已超出初始“只改变排序”的实验，故单独命名、保存方案并重新测量。原站点优先有 44 组、7 个跨站点组；新布局有 48 组、0 个跨站点组。更细的分组可能改善范围统计，但也带来更多尾部短组和元数据，需作为成本记录，不能强行保持行组总数相同。
-
-新增方法采用 ParquetWriter 分批写入。为检查接口差异，先用同一接口按原固定边界重建原站点优先，要求生成文件与原文件逐字节相同；该检查通过。新文件完整读回也与原站点优先行序和值完全相同。
-
-### 6.3 探索结果与证据边界
-
-在已见的 108 条查询上重新交错测量，原验证日期组 Q1 均值从 3.392 降为 2.827 ms（下降 16.65%），Q2 从 7.917 降为 6.049 ms（下降 23.60%）；同轮时间优先分别为 2.715 和 2.366 ms，仍更低。该轮被明确标为探索性复测，而非新的盲验证。
-
-本课程实验的探索贡献在于：依据具体异常提出局部改动、检查写入控制和逻辑一致性、将范围误保留减少与耗时及成本一起验证。站点聚集和边界切组本身属于已有设计思路；本报告不把它们描述为全球首创，也不捏造学生独立提出或未发生的思考过程。
+{contribution_section()}
 
 ## 7. 预先锁定新日期的验证
 
@@ -196,6 +179,8 @@ Q1 指定站点，时间窗口为 1、7、30 天；Q2 不限制站点，窗口�
 
 新日期非空 Q1 中，原站点优先的平均无匹配候选组为 {get('Q1',ORDER[0])['false_positive_groups']:.3f}，对齐后为 0；本轮非空 Q2 对齐后也为 0。探索轮 Q2 对齐后曾有误保留，说明即使消除跨站边界，站点内部时间间断仍可能形成范围误保留。不得将本轮为 0 推广为任意查询均为 0。
 
+{exception_section()}
+
 ## 8. 收益、成本与局限
 
 | 物理指标 | 原站点优先 | 站点对齐 | 时间优先 |
@@ -210,9 +195,11 @@ Q1 指定站点，时间窗口为 1、7、30 天；Q2 不限制站点，窗口�
 
 ![物理成本](../results/alignment_v1/figures/alignment_costs.png)
 
+这里已测的成本仅为组数、存储、footer 与一个全表扫描探针，未系统测量构建、重写和维护成本；不能将文件增加约 0.072% 等同于整体成本很低。
+
 相同设置下，时间优先压缩文件显著更小。因此排序和分组的总体影响包含压缩、解码和跳过等因素，不能将全部提速归因于候选组减少。候选组、额外读取的含匹配组与实际引擎 I/O 分开解释。跨查询累计的无匹配组数是查询—行组组合次数，不是独立物理组的数量。
 
-局限包括：仅 8 个站点、同一历史数据、两个新起始日、固定行组上限、单机暖缓存和五次重复；新日期不是新数据集。没有匹配行组数量的额外控制，不能独立拆分对齐与组数变化的全部影响。没有冷缓存、并发或跨硬件验证，也没有证明每条查询均改善或存在统计显著性。改动在本次验证前未调整；若继续修改，需要另留验证查询。
+局限包括：仅 8 个站点、同一历史数据、两个新起始日、固定行组上限、单机暖缓存和五次重复；新日期不是新数据集。没有匹配行组数量的额外控制，不能独立拆分对齐与组数变化的全部影响；约 10% 应解释为完整策略在当前条件下的类别均值变化，而非纯边界效应。没有冷缓存、并发或跨硬件验证，也没有证明每条查询均改善或存在统计显著性。改动在本次验证前未调整；若继续修改，需要另留验证查询。
 
 ## 9. 结论
 
@@ -249,4 +236,8 @@ python code/run_alignment_fresh_dates.py --run-id fresh_replication
 '''
     Path('report/实验报告.md').write_text(text,encoding='utf-8')
 
-if __name__=='__main__':build()
+if __name__=='__main__':
+    import argparse
+    parser=argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--report-only',action='store_true',help='Update text and derived statistics without regenerating figures')
+    args=parser.parse_args();build(args.report_only)

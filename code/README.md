@@ -1,5 +1,7 @@
 # 数据筛查与实验代码
 
+报告文字与补充统计可通过 `python code/build_final_report.py --report-only` 更新，不重跑 SQL，也不重新生成既有图表。详细贡献拆解和反例由 report_revision_sections.py 根据已保存证据生成；原始计时保持不变。
+
 ## 站点边界对齐与新日期验证
 
 安装锁定依赖后，从仓库根目录运行：

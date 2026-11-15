@@ -1,0 +1,73 @@
+{
+  "counts": [
+    {
+      "kind": "Q1",
+      "queries": 48,
+      "mean_lower": 37,
+      "mean_not_lower": 11
+    },
+    {
+      "kind": "Q2",
+      "queries": 6,
+      "mean_lower": 4,
+      "mean_not_lower": 2
+    }
+  ],
+  "worst_mean_case": {
+    "query_id": "fresh_Q1_1_41013_168",
+    "kind": "Q1",
+    "station_id": "41013",
+    "start_utc": "2024-11-15T00:00:00+00:00",
+    "window_hours": 168,
+    "matching_rows": 1000,
+    "station_first_mean_ms": 4.4659106,
+    "station_aligned_mean_ms": 9.8443624,
+    "mean_reduction_percent": -120.4334856143336,
+    "station_first_median_ms": 3.547001,
+    "station_aligned_median_ms": 3.301746,
+    "aligned_mean_lower": false
+  },
+  "raw_case": [
+    {
+      "layout": "station_first",
+      "runs_ms": [
+        7.987022,
+        3.218432,
+        4.286731,
+        3.547001,
+        3.290367
+      ],
+      "mean_ms": 4.4659106,
+      "median_ms": 3.547001
+    },
+    {
+      "layout": "station_aligned",
+      "runs_ms": [
+        36.718618,
+        2.634708,
+        3.422418,
+        3.144322,
+        3.301746
+      ],
+      "mean_ms": 9.8443624,
+      "median_ms": 3.301746
+    },
+    {
+      "layout": "time_first",
+      "runs_ms": [
+        9.953438,
+        2.982496,
+        2.8284,
+        2.673917,
+        3.106233
+      ],
+      "mean_ms": 4.3088968,
+      "median_ms": 2.982496
+    }
+  ],
+  "primary_mean_metric_unchanged": true,
+  "raw_measurements_modified": false,
+  "measurements_sha256": "258b30bcc3a7e050b5b20f5102827acd6f90efe08dc0532fb553a04ae3fd16b7",
+  "summary_sha256": "2ae1912ae09cf7168017de583de77c0bfcb910a6c9ee0ad8b11bede78d33dcdc",
+  "revision_module_sha256": "d39566b5959ab7dcb72bf1424587005386cde4542be9ffac6e9ad72a1b9c5d03"
+}
