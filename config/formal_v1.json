@@ -1,0 +1,13 @@
+{
+  "name": "formal_v1",
+  "pilot_config": "config/pilot_v1.json",
+  "pilot_results": "results/pilot_v1",
+  "preregistered_queries": "results/pilot_v1/planned_formal_queries_NOT_RUN.json",
+  "plan": "report/06_formal_experiment_plan.md",
+  "expected_queries_per_role": 54,
+  "candidate_layouts": ["station_first", "time_first"],
+  "tie_breaker": "time_first",
+  "selection_metric": "mean of per-query mean warm execution times, normalized separately within Q1 and Q2",
+  "diagnostic_layouts": ["station_first", "time_first"],
+  "diagnostic_timing": "after all benchmark measurements; direct Arrow row-group inspection, not DuckDB I/O tracing"
+}

@@ -1,5 +1,18 @@
 # 数据筛查与实验代码
 
+当前正式实验与图表已完成，入口为 [run_parquet_formal.py](run_parquet_formal.py)、[analyze_parquet_formal.py](analyze_parquet_formal.py)。正式结果复现使用以下流程，后文保留原始筛查与预跑说明。
+
+```bash
+python -m pip install -r requirements-formal.txt
+python code/restore_parquet_inputs.py
+python code/run_parquet_formal.py --run-id formal_v1_replication
+python code/analyze_parquet_formal.py --run-dir results/formal_v1_replication
+```
+
+[restore_parquet_inputs.py](restore_parquet_inputs.py) 按仓库中冻结的 SHA-256 下载缺失 CSV，并重建本地 Parquet 文件，不修改已提交的源数据和结果清单。需要原 Python 3.12.14 及锁定依赖；上游数据修订导致无法匹配时明确失败。不要用默认筛查命令覆盖已提交的清单来复现原结果。
+
+正式运行复用哈希校验过的三个布局，保存调整集测量并冻结选择，再开始验证计时。已有运行 ID 不可覆盖。分析脚本只读取已有测量，重新生成统计、报告和 PNG/PDF，不重新执行查询。
+
 当前提供 [screen_ndbc_data.py](screen_ndbc_data.py)，用于从 NOAA ERDDAP 下载固定浮标子集并检查数据规模、缺测、重复键和时间覆盖；它尚不执行 Parquet 性能实验。
 
 ## 运行
@@ -44,5 +57,5 @@ python code/run_parquet_pilot.py --run-id pilot_v1_replication
 
 脚本验证输入哈希，生成三个布局并检查逻辑内容，保存逐行组统计、查询计划、每次耗时及校验结果。计时为预热后端到端查询，不是冷磁盘 I/O 测试。
 
-results/pilot_v1/ 为已有运行证据；本轮文档修订没有改变脚本、数据、配置或计时。正式的 108 条查询已生成，但本脚本目前仅执行预跑。
+results/pilot_v1/ 为已有预跑证据；说明修订没有改变其脚本、数据、配置或计时。正式的 108 条查询已由 run_parquet_formal.py 执行；run_parquet_pilot.py 仍仅负责预跑。
 

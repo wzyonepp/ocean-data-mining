@@ -1,0 +1,5 @@
+kind,layout,nonempty_validation_queries,mean_candidate_groups,mean_groups_with_matches,mean_false_positive_groups,total_false_positive_groups,boundary_false_positive_groups
+Q1,station_first,42,2.857142857142857,1.1428571428571428,1.7142857142857142,72,72
+Q1,time_first,42,1.8571428571428572,1.8571428571428572,0,0,0
+Q2,station_first,6,14.666666666666666,7.166666666666667,7.5,45,39
+Q2,time_first,6,1.1666666666666667,1.1666666666666667,0,0,0

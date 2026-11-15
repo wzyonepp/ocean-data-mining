@@ -1,0 +1,113 @@
+{
+  "costs_by_query_type_ms": {
+    "random": {
+      "Q1": 23.795633825,
+      "Q2": 20.7036076
+    },
+    "station_first": {
+      "Q1": 3.1608879291666665,
+      "Q2": 6.8015587
+    },
+    "time_first": {
+      "Q1": 2.685275520833333,
+      "Q2": 2.2977296666666667
+    }
+  },
+  "decisions": [
+    {
+      "q1_proportion": 0,
+      "chosen_layout": "time_first",
+      "tuning_costs_ms": {
+        "station_first": 6.8015587,
+        "time_first": 2.2977296666666667
+      }
+    },
+    {
+      "q1_proportion": 0.1,
+      "chosen_layout": "time_first",
+      "tuning_costs_ms": {
+        "station_first": 6.437491622916667,
+        "time_first": 2.3364842520833333
+      }
+    },
+    {
+      "q1_proportion": 0.2,
+      "chosen_layout": "time_first",
+      "tuning_costs_ms": {
+        "station_first": 6.073424545833334,
+        "time_first": 2.3752388375000004
+      }
+    },
+    {
+      "q1_proportion": 0.3,
+      "chosen_layout": "time_first",
+      "tuning_costs_ms": {
+        "station_first": 5.7093574687499995,
+        "time_first": 2.4139934229166666
+      }
+    },
+    {
+      "q1_proportion": 0.4,
+      "chosen_layout": "time_first",
+      "tuning_costs_ms": {
+        "station_first": 5.3452903916666665,
+        "time_first": 2.4527480083333333
+      }
+    },
+    {
+      "q1_proportion": 0.5,
+      "chosen_layout": "time_first",
+      "tuning_costs_ms": {
+        "station_first": 4.981223314583334,
+        "time_first": 2.49150259375
+      }
+    },
+    {
+      "q1_proportion": 0.6,
+      "chosen_layout": "time_first",
+      "tuning_costs_ms": {
+        "station_first": 4.6171562375,
+        "time_first": 2.5302571791666666
+      }
+    },
+    {
+      "q1_proportion": 0.7,
+      "chosen_layout": "time_first",
+      "tuning_costs_ms": {
+        "station_first": 4.253089160416667,
+        "time_first": 2.5690117645833332
+      }
+    },
+    {
+      "q1_proportion": 0.8,
+      "chosen_layout": "time_first",
+      "tuning_costs_ms": {
+        "station_first": 3.8890220833333333,
+        "time_first": 2.60776635
+      }
+    },
+    {
+      "q1_proportion": 0.9,
+      "chosen_layout": "time_first",
+      "tuning_costs_ms": {
+        "station_first": 3.52495500625,
+        "time_first": 2.6465209354166666
+      }
+    },
+    {
+      "q1_proportion": 1,
+      "chosen_layout": "time_first",
+      "tuning_costs_ms": {
+        "station_first": 3.1608879291666665,
+        "time_first": 2.685275520833333
+      }
+    }
+  ],
+  "metric": "mean of per-query mean warm execution times, normalized separately within Q1 and Q2",
+  "uses_validation_timings": false,
+  "calculation_ms": 0.788803,
+  "frozen_at_utc": "2026-11-15T08:45:30.415153+00:00",
+  "tuning_measurements_sha256": "755cb9aa2bd836d322dbddfd65b7e1f4d1d844041849c67bccb3e30fb5c17f1b",
+  "tuning_phase_wall_ms": 9684.732706,
+  "tuning_candidate_query_ms_including_warmup": 2018.0652029999999
+}

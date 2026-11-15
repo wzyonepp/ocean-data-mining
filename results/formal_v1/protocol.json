@@ -1,0 +1,120 @@
+{
+  "run_id": "formal_v1",
+  "created_at_utc": "2026-11-15T08:45:14.207864+00:00",
+  "config": {
+    "name": "formal_v1",
+    "pilot_config": "config/pilot_v1.json",
+    "pilot_results": "results/pilot_v1",
+    "preregistered_queries": "results/pilot_v1/planned_formal_queries_NOT_RUN.json",
+    "plan": "report/06_formal_experiment_plan.md",
+    "expected_queries_per_role": 54,
+    "candidate_layouts": [
+      "station_first",
+      "time_first"
+    ],
+    "tie_breaker": "time_first",
+    "selection_metric": "mean of per-query mean warm execution times, normalized separately within Q1 and Q2",
+    "diagnostic_layouts": [
+      "station_first",
+      "time_first"
+    ],
+    "diagnostic_timing": "after all benchmark measurements; direct Arrow row-group inspection, not DuckDB I/O tracing"
+  },
+  "pilot_config": {
+    "name": "pilot_v1",
+    "purpose": "Correctness and feasibility pilot; not a confirmatory performance study",
+    "data_manifest": "results/data_screening_manifest.json",
+    "random_seed": 20261115,
+    "threads": 1,
+    "warmup_repetitions": 1,
+    "measured_repetitions": 5,
+    "absolute_tolerance": 1e-09,
+    "relative_tolerance": 1e-12,
+    "writer": {
+      "row_group_size": 16384,
+      "compression": "zstd",
+      "compression_level": 3,
+      "use_dictionary": [
+        "station_id"
+      ],
+      "write_statistics": true,
+      "write_page_index": false,
+      "version": "2.6",
+      "data_page_version": "1.0",
+      "data_page_size": 1048576,
+      "write_batch_size": 1024,
+      "dictionary_pagesize_limit": 1048576,
+      "coerce_timestamps": "us",
+      "allow_truncated_timestamps": false
+    },
+    "q1_window_hours": [
+      24,
+      168,
+      720
+    ],
+    "q2_window_hours": [
+      1,
+      24,
+      168
+    ],
+    "pilot_cases": [
+      {
+        "station_id": "41002",
+        "start_utc": "2023-03-15T00:00:00Z"
+      },
+      {
+        "station_id": "41010",
+        "start_utc": "2024-09-15T00:00:00Z"
+      }
+    ],
+    "formal_tuning_starts_utc": [
+      "2023-02-01T00:00:00Z",
+      "2023-08-01T00:00:00Z"
+    ],
+    "formal_validation_starts_utc": [
+      "2024-02-01T00:00:00Z",
+      "2024-08-01T00:00:00Z"
+    ],
+    "formal_mixture_q1_proportions": [
+      0,
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.9,
+      1
+    ]
+  },
+  "environment": {
+    "python": "3.12.14",
+    "pyarrow": "26.0.1",
+    "duckdb": "2.0.0",
+    "system": "Linux",
+    "kernel": "6.18.57",
+    "machine": "x86_64",
+    "reported_logical_cpus": 3,
+    "cpu_affinity_count": 3,
+    "duckdb_settings": {
+      "enable_external_file_cache": "true",
+      "memory_limit": "6.3 GiB",
+      "threads": "1",
+      "TimeZone": "UTC"
+    },
+    "cgroup_memory.max": "8589934592",
+    "cgroup_cpu.max": "200000 100000",
+    "cpu_model": "INTEL(R) XEON(R) PLATINUM 8573C"
+  },
+  "config_sha256": "67c8e0e4b08cc53a3fb6b7de13368a776270fe6abbb667fd280f410e8d4562dd",
+  "script_sha256": "851e226a4bab97f2dcab1effb3d942460cc818b2a07237a9dae435b474b6f72a",
+  "helper_script_sha256": "20a763b8a6c3f08f11580d958459728f74d7b476e34f7e7e78c6e153b00d41e5",
+  "source_manifest_sha256": "dc4f48fa50b468d0be6aabe37b1114a078edb9f108331d18555aad34c5e4e05c",
+  "layout_manifest_sha256": "139d23bff1c550de4d1d5fd77af447c73f56cdb9e35c24ff0ea84d0c115d4040",
+  "query_file_sha256": "bd85644c3b17af1b49dffa818e019725a18510b2f63b0464d00a156b07989df4",
+  "plan_sha256": "bc6756e0d18ecdff6549903899e7f11310eff9d4ddf7ba991992008523982177",
+  "cache_regime": "warm engine and OS cache; full verification and correctness precede measurement",
+  "selection_protocol": "tuning timings only; decisions saved before any validation timings"
+}

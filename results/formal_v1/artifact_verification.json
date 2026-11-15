@@ -1,0 +1,18 @@
+{
+  "run_passed": true,
+  "108_unique_queries": true,
+  "324_correct_answers": true,
+  "1620_timings_five_per_combination": true,
+  "324_extra_warmups": true,
+  "selection_only_reproduced_from_tuning": true,
+  "frozen_selection_unchanged": true,
+  "selection_frozen_before_validation": true,
+  "tuning_file_matches_freeze": true,
+  "all_tuning_before_all_validation": true,
+  "frozen_plan_matches": true,
+  "script_and_helper_match": true,
+  "configuration_matches": true,
+  "parquet_files_unchanged": true,
+  "same_44_row_groups": true,
+  "all_diagnostic_counts_match_reference": true
+}

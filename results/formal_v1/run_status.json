@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "completed_at_utc": "2026-11-15T08:45:42.397351+00:00",
+  "base_rows": 713823,
+  "queries": 108,
+  "tuning_queries": 54,
+  "validation_queries": 54,
+  "correctness_checks": 324,
+  "measured_executions": 1620,
+  "extra_warmups": 324,
+  "empty_queries_by_role": {
+    "tuning": 3,
+    "validation": 6
+  },
+  "selection_sha256_before_validation": "8f62b04513eab8a9e60dd49691bbaa9fe0ab13627262827f939b506831c0d159",
+  "validation_started_at_utc": "2026-11-15T08:45:30.417115+00:00",
+  "measurement_counts": {
+    "tuning/warmup": 162,
+    "tuning/measured": 810,
+    "validation/warmup": 162,
+    "validation/measured": 810
+  },
+  "diagnostic_query_layout_pairs": 216
+}

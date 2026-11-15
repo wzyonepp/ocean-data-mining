@@ -1,5 +1,19 @@
 # 结果与证据
 
+## 正式实验
+
+[formal_v1/](formal_v1/) 保存 108 条正式查询的 324 次答案检查、1,620 次计时和 324 次额外预热。选择结果仅依据调整集，在验证计时前冻结。
+
+- [正式结果说明](../report/07_formal_results.md)
+- [四组图表 PNG / PDF](formal_v1/figures/)
+- [逐次测量](formal_v1/measurements.csv)
+- [调整集冻结建议](formal_v1/frozen_selection.json)
+- [逐比例验证结果](formal_v1/selection_validation.csv)
+- [联合匹配行组诊断](formal_v1/joint_match_diagnostic.csv)
+- [输入重新生成校验](formal_v1/snapshot_rebuild_verification.json)
+
+类型平均耗时在当前验证集上均由时间优先较低；未证明按查询比例选择能比固定时间优先额外获益。保留空结果与非空敏感性分析，且不把候选行组估算当作实际磁盘读取量。
+
 ## 数据筛查
 
 - [数据文件及来源校验清单](data_screening_manifest.json)
@@ -21,5 +35,5 @@
 - [后续文档说明修订](pilot_v1/documentation_revision.json)
 - [当前证据检查](pilot_v1/artifact_verification.json)
 
-文档修订只取消个人预测环节并同步文件；冻结原文按其运行时哈希保留，属于历史证据。正式实验的 108 条查询尚未运行，不能把预跑结果当作普遍性能结论。
+预跑冻结原文按其运行时哈希保留，属于历史证据；正式实验另外保存在 formal_v1/。预跑样例不能当作普遍性能结论。
 
