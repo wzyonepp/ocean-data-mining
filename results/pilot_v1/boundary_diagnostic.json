@@ -1,0 +1,50 @@
+{
+  "query": {
+    "query_id": "pilot_Q1_0_24h",
+    "role": "pilot",
+    "kind": "Q1",
+    "station_id": "41002",
+    "start_utc": "2023-03-15T00:00:00+00:00",
+    "end_utc": "2023-03-16T00:00:00+00:00",
+    "window_hours": 24
+  },
+  "meaning": "Separate direct row-group inspection; not a record of which groups DuckDB actually scanned",
+  "groups": [
+    {
+      "layout": "station_first",
+      "row_group": 4,
+      "station_min": "41001",
+      "station_max": "41002",
+      "time_min": "2023-01-01T00:00:00+00:00",
+      "time_max": "2024-09-20T06:00:00+00:00",
+      "matching_rows_on_direct_inspection": 0
+    },
+    {
+      "layout": "station_first",
+      "row_group": 5,
+      "station_min": "41002",
+      "station_max": "41002",
+      "time_min": "2023-03-05T11:40:00+00:00",
+      "time_max": "2023-06-27T22:30:00+00:00",
+      "matching_rows_on_direct_inspection": 144
+    },
+    {
+      "layout": "station_first",
+      "row_group": 10,
+      "station_min": "41002",
+      "station_max": "41004",
+      "time_min": "2023-01-01T00:00:00+00:00",
+      "time_max": "2024-12-30T19:50:00+00:00",
+      "matching_rows_on_direct_inspection": 0
+    },
+    {
+      "layout": "time_first",
+      "row_group": 4,
+      "station_min": "41001",
+      "station_max": "41025",
+      "time_min": "2023-03-09T05:30:00+00:00",
+      "time_max": "2023-03-25T21:20:00+00:00",
+      "matching_rows_on_direct_inspection": 144
+    }
+  ]
+}

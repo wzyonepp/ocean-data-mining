@@ -1,0 +1,4892 @@
+{
+  "random": [
+    {
+      "row_group": 0,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41001",
+          "max": "41025",
+          "null_count": 0,
+          "compressed_bytes": 6297,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2023-01-01T02:30:00+00:00",
+          "max": "2024-12-31T23:50:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 89709,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 7.9,
+          "max": 31.7,
+          "null_count": 0,
+          "compressed_bytes": 29503,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 1,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41001",
+          "max": "41025",
+          "null_count": 0,
+          "compressed_bytes": 6299,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2023-01-01T00:00:00+00:00",
+          "max": "2024-12-31T23:40:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 89550,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 7.9,
+          "max": 31.8,
+          "null_count": 0,
+          "compressed_bytes": 29590,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 2,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41001",
+          "max": "41025",
+          "null_count": 0,
+          "compressed_bytes": 6298,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2023-01-01T00:00:00+00:00",
+          "max": "2024-12-31T23:50:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 89670,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 7.9,
+          "max": 31.6,
+          "null_count": 0,
+          "compressed_bytes": 29478,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 3,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41001",
+          "max": "41025",
+          "null_count": 0,
+          "compressed_bytes": 6298,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2023-01-01T00:10:00+00:00",
+          "max": "2024-12-31T22:50:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 89618,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 7.9,
+          "max": 31.3,
+          "null_count": 0,
+          "compressed_bytes": 29495,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 4,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41001",
+          "max": "41025",
+          "null_count": 0,
+          "compressed_bytes": 6299,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2023-01-01T00:10:00+00:00",
+          "max": "2024-12-31T22:20:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 89637,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 7.9,
+          "max": 31.6,
+          "null_count": 0,
+          "compressed_bytes": 29595,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 5,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41001",
+          "max": "41025",
+          "null_count": 0,
+          "compressed_bytes": 6298,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2023-01-01T01:40:00+00:00",
+          "max": "2024-12-31T23:50:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 89681,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 7.9,
+          "max": 31.7,
+          "null_count": 0,
+          "compressed_bytes": 29504,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 6,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41001",
+          "max": "41025",
+          "null_count": 0,
+          "compressed_bytes": 6298,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2023-01-01T00:30:00+00:00",
+          "max": "2024-12-31T23:30:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 89672,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 8.0,
+          "max": 31.8,
+          "null_count": 0,
+          "compressed_bytes": 29560,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 7,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41001",
+          "max": "41025",
+          "null_count": 0,
+          "compressed_bytes": 6297,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2023-01-01T01:10:00+00:00",
+          "max": "2024-12-31T23:10:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 89653,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 7.9,
+          "max": 31.4,
+          "null_count": 0,
+          "compressed_bytes": 29422,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 8,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41001",
+          "max": "41025",
+          "null_count": 0,
+          "compressed_bytes": 6298,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2023-01-01T00:00:00+00:00",
+          "max": "2024-12-31T22:40:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 89660,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 7.9,
+          "max": 31.3,
+          "null_count": 0,
+          "compressed_bytes": 29497,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 9,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41001",
+          "max": "41025",
+          "null_count": 0,
+          "compressed_bytes": 6300,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2023-01-01T00:40:00+00:00",
+          "max": "2024-12-31T22:00:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 89749,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 7.9,
+          "max": 31.0,
+          "null_count": 0,
+          "compressed_bytes": 29521,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 10,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41001",
+          "max": "41025",
+          "null_count": 0,
+          "compressed_bytes": 6298,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2023-01-01T01:30:00+00:00",
+          "max": "2024-12-31T21:20:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 89820,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 7.9,
+          "max": 31.2,
+          "null_count": 0,
+          "compressed_bytes": 29536,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 11,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41001",
+          "max": "41025",
+          "null_count": 0,
+          "compressed_bytes": 6297,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2023-01-01T00:50:00+00:00",
+          "max": "2024-12-31T23:40:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 89648,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 7.9,
+          "max": 31.9,
+          "null_count": 0,
+          "compressed_bytes": 29450,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 12,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41001",
+          "max": "41025",
+          "null_count": 0,
+          "compressed_bytes": 6298,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2023-01-01T01:10:00+00:00",
+          "max": "2024-12-31T21:30:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 89706,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 7.9,
+          "max": 31.8,
+          "null_count": 0,
+          "compressed_bytes": 29434,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 13,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41001",
+          "max": "41025",
+          "null_count": 0,
+          "compressed_bytes": 6298,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2023-01-01T01:00:00+00:00",
+          "max": "2024-12-31T22:10:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 89614,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 7.9,
+          "max": 31.5,
+          "null_count": 0,
+          "compressed_bytes": 29586,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 14,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41001",
+          "max": "41025",
+          "null_count": 0,
+          "compressed_bytes": 6298,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2023-01-01T00:50:00+00:00",
+          "max": "2024-12-31T23:40:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 89691,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 7.9,
+          "max": 31.5,
+          "null_count": 0,
+          "compressed_bytes": 29549,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 15,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41001",
+          "max": "41025",
+          "null_count": 0,
+          "compressed_bytes": 6299,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2023-01-01T00:40:00+00:00",
+          "max": "2024-12-31T23:30:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 89667,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 7.9,
+          "max": 31.1,
+          "null_count": 0,
+          "compressed_bytes": 29455,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 16,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41001",
+          "max": "41025",
+          "null_count": 0,
+          "compressed_bytes": 6298,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2023-01-01T02:20:00+00:00",
+          "max": "2024-12-31T22:50:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 89669,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 7.9,
+          "max": 31.8,
+          "null_count": 0,
+          "compressed_bytes": 29483,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 17,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41001",
+          "max": "41025",
+          "null_count": 0,
+          "compressed_bytes": 6299,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2023-01-01T00:20:00+00:00",
+          "max": "2024-12-31T23:00:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 89534,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 7.9,
+          "max": 31.1,
+          "null_count": 0,
+          "compressed_bytes": 29456,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 18,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41001",
+          "max": "41025",
+          "null_count": 0,
+          "compressed_bytes": 6298,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2023-01-01T00:20:00+00:00",
+          "max": "2024-12-31T23:40:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 89736,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 7.9,
+          "max": 31.2,
+          "null_count": 0,
+          "compressed_bytes": 29495,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 19,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41001",
+          "max": "41025",
+          "null_count": 0,
+          "compressed_bytes": 6298,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2023-01-01T00:40:00+00:00",
+          "max": "2024-12-31T23:00:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 89661,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 7.9,
+          "max": 31.2,
+          "null_count": 0,
+          "compressed_bytes": 29417,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 20,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41001",
+          "max": "41025",
+          "null_count": 0,
+          "compressed_bytes": 6300,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2023-01-01T01:10:00+00:00",
+          "max": "2024-12-31T21:00:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 89613,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 7.9,
+          "max": 31.3,
+          "null_count": 0,
+          "compressed_bytes": 29478,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 21,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41001",
+          "max": "41025",
+          "null_count": 0,
+          "compressed_bytes": 6297,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2023-01-01T02:30:00+00:00",
+          "max": "2024-12-31T23:50:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 89553,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 7.9,
+          "max": 31.8,
+          "null_count": 0,
+          "compressed_bytes": 29451,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 22,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41001",
+          "max": "41025",
+          "null_count": 0,
+          "compressed_bytes": 6297,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2023-01-01T00:10:00+00:00",
+          "max": "2024-12-31T22:40:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 89698,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 7.9,
+          "max": 31.2,
+          "null_count": 0,
+          "compressed_bytes": 29395,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 23,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41001",
+          "max": "41025",
+          "null_count": 0,
+          "compressed_bytes": 6299,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2023-01-01T00:10:00+00:00",
+          "max": "2024-12-31T23:10:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 89554,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 7.9,
+          "max": 31.9,
+          "null_count": 0,
+          "compressed_bytes": 29555,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 24,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41001",
+          "max": "41025",
+          "null_count": 0,
+          "compressed_bytes": 6298,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2023-01-01T02:10:00+00:00",
+          "max": "2024-12-31T22:40:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 89597,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 8.0,
+          "max": 31.8,
+          "null_count": 0,
+          "compressed_bytes": 29434,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 25,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41001",
+          "max": "41025",
+          "null_count": 0,
+          "compressed_bytes": 6299,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2023-01-01T00:30:00+00:00",
+          "max": "2024-12-31T20:50:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 89752,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 7.9,
+          "max": 31.2,
+          "null_count": 0,
+          "compressed_bytes": 29419,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 26,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41001",
+          "max": "41025",
+          "null_count": 0,
+          "compressed_bytes": 6298,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2023-01-01T00:20:00+00:00",
+          "max": "2024-12-31T22:50:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 89523,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 7.9,
+          "max": 31.7,
+          "null_count": 0,
+          "compressed_bytes": 29426,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 27,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41001",
+          "max": "41025",
+          "null_count": 0,
+          "compressed_bytes": 6298,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2023-01-01T00:50:00+00:00",
+          "max": "2024-12-31T23:10:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 89727,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 7.9,
+          "max": 31.3,
+          "null_count": 0,
+          "compressed_bytes": 29522,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 28,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41001",
+          "max": "41025",
+          "null_count": 0,
+          "compressed_bytes": 6298,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2023-01-01T00:20:00+00:00",
+          "max": "2024-12-31T19:30:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 89719,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 7.9,
+          "max": 32.1,
+          "null_count": 0,
+          "compressed_bytes": 29439,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 29,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41001",
+          "max": "41025",
+          "null_count": 0,
+          "compressed_bytes": 6298,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2023-01-01T00:00:00+00:00",
+          "max": "2024-12-31T23:50:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 89694,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 7.9,
+          "max": 31.6,
+          "null_count": 0,
+          "compressed_bytes": 29550,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 30,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41001",
+          "max": "41025",
+          "null_count": 0,
+          "compressed_bytes": 6297,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2023-01-01T00:20:00+00:00",
+          "max": "2024-12-31T23:50:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 89694,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 7.9,
+          "max": 31.4,
+          "null_count": 0,
+          "compressed_bytes": 29441,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 31,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41001",
+          "max": "41025",
+          "null_count": 0,
+          "compressed_bytes": 6299,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2023-01-01T01:00:00+00:00",
+          "max": "2024-12-31T22:30:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 89758,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 7.9,
+          "max": 31.3,
+          "null_count": 0,
+          "compressed_bytes": 29516,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 32,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41001",
+          "max": "41025",
+          "null_count": 0,
+          "compressed_bytes": 6297,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2023-01-01T01:10:00+00:00",
+          "max": "2024-12-31T22:30:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 89716,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 7.9,
+          "max": 31.2,
+          "null_count": 0,
+          "compressed_bytes": 29388,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 33,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41001",
+          "max": "41025",
+          "null_count": 0,
+          "compressed_bytes": 6300,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2023-01-01T00:40:00+00:00",
+          "max": "2024-12-31T23:00:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 89664,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 8.0,
+          "max": 31.2,
+          "null_count": 0,
+          "compressed_bytes": 29456,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 34,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41001",
+          "max": "41025",
+          "null_count": 0,
+          "compressed_bytes": 6298,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2023-01-01T01:50:00+00:00",
+          "max": "2024-12-31T23:20:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 89641,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 7.9,
+          "max": 31.2,
+          "null_count": 0,
+          "compressed_bytes": 29431,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 35,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41001",
+          "max": "41025",
+          "null_count": 0,
+          "compressed_bytes": 6298,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2023-01-01T00:00:00+00:00",
+          "max": "2024-12-31T21:40:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 89738,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 7.9,
+          "max": 31.8,
+          "null_count": 0,
+          "compressed_bytes": 29441,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 36,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41001",
+          "max": "41025",
+          "null_count": 0,
+          "compressed_bytes": 6297,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2023-01-01T00:10:00+00:00",
+          "max": "2024-12-31T23:30:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 89737,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 7.9,
+          "max": 31.9,
+          "null_count": 0,
+          "compressed_bytes": 29491,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 37,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41001",
+          "max": "41025",
+          "null_count": 0,
+          "compressed_bytes": 6298,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2023-01-01T04:20:00+00:00",
+          "max": "2024-12-31T23:40:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 89696,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 7.9,
+          "max": 31.2,
+          "null_count": 0,
+          "compressed_bytes": 29413,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 38,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41001",
+          "max": "41025",
+          "null_count": 0,
+          "compressed_bytes": 6299,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2023-01-01T01:40:00+00:00",
+          "max": "2024-12-31T23:30:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 89684,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 7.9,
+          "max": 31.4,
+          "null_count": 0,
+          "compressed_bytes": 29517,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 39,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41001",
+          "max": "41025",
+          "null_count": 0,
+          "compressed_bytes": 6299,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2023-01-01T01:40:00+00:00",
+          "max": "2024-12-31T19:50:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 89774,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 7.9,
+          "max": 31.3,
+          "null_count": 0,
+          "compressed_bytes": 29556,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 40,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41001",
+          "max": "41025",
+          "null_count": 0,
+          "compressed_bytes": 6298,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2023-01-01T01:20:00+00:00",
+          "max": "2024-12-31T22:40:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 89750,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 7.9,
+          "max": 31.3,
+          "null_count": 0,
+          "compressed_bytes": 29480,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 41,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41001",
+          "max": "41025",
+          "null_count": 0,
+          "compressed_bytes": 6299,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2023-01-01T00:00:00+00:00",
+          "max": "2024-12-31T23:30:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 89706,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 7.9,
+          "max": 31.3,
+          "null_count": 0,
+          "compressed_bytes": 29381,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 42,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41001",
+          "max": "41025",
+          "null_count": 0,
+          "compressed_bytes": 6297,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2023-01-01T02:00:00+00:00",
+          "max": "2024-12-31T23:10:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 89681,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 7.9,
+          "max": 31.0,
+          "null_count": 0,
+          "compressed_bytes": 29497,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 43,
+      "rows": 9311,
+      "columns": {
+        "station_id": {
+          "min": "41001",
+          "max": "41025",
+          "null_count": 0,
+          "compressed_bytes": 3633,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2023-01-01T02:50:00+00:00",
+          "max": "2024-12-31T22:10:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 55867,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 7.9,
+          "max": 31.6,
+          "null_count": 0,
+          "compressed_bytes": 16790,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    }
+  ],
+  "station_first": [
+    {
+      "row_group": 0,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41001",
+          "max": "41001",
+          "null_count": 0,
+          "compressed_bytes": 93,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2023-01-01T00:00:00+00:00",
+          "max": "2023-04-25T13:30:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 54081,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 19.2,
+          "max": 24.3,
+          "null_count": 0,
+          "compressed_bytes": 4972,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 1,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41001",
+          "max": "41001",
+          "null_count": 0,
+          "compressed_bytes": 93,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2023-04-25T13:40:00+00:00",
+          "max": "2023-08-18T10:50:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 54082,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 19.9,
+          "max": 28.8,
+          "null_count": 0,
+          "compressed_bytes": 4745,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 2,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41001",
+          "max": "41001",
+          "null_count": 0,
+          "compressed_bytes": 93,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2023-08-18T11:00:00+00:00",
+          "max": "2023-12-11T00:50:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 54093,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 21.6,
+          "max": 29.1,
+          "null_count": 0,
+          "compressed_bytes": 4280,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 3,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41001",
+          "max": "41001",
+          "null_count": 0,
+          "compressed_bytes": 93,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2023-12-11T01:00:00+00:00",
+          "max": "2024-07-31T07:00:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 54085,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 20.8,
+          "max": 29.2,
+          "null_count": 0,
+          "compressed_bytes": 5510,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 4,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41001",
+          "max": "41002",
+          "null_count": 0,
+          "compressed_bytes": 105,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2023-01-01T00:00:00+00:00",
+          "max": "2024-09-20T06:00:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 54096,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 20.9,
+          "max": 28.5,
+          "null_count": 0,
+          "compressed_bytes": 3693,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 5,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41002",
+          "max": "41002",
+          "null_count": 0,
+          "compressed_bytes": 93,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2023-03-05T11:40:00+00:00",
+          "max": "2023-06-27T22:30:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 54081,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 20.6,
+          "max": 27.1,
+          "null_count": 0,
+          "compressed_bytes": 5805,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 6,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41002",
+          "max": "41002",
+          "null_count": 0,
+          "compressed_bytes": 93,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2023-06-27T22:40:00+00:00",
+          "max": "2023-10-20T08:30:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 54094,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 25.4,
+          "max": 30.6,
+          "null_count": 0,
+          "compressed_bytes": 4629,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 7,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41002",
+          "max": "41002",
+          "null_count": 0,
+          "compressed_bytes": 93,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2023-10-20T08:40:00+00:00",
+          "max": "2024-02-11T16:20:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 54086,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 21.0,
+          "max": 25.5,
+          "null_count": 0,
+          "compressed_bytes": 3392,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 8,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41002",
+          "max": "41002",
+          "null_count": 0,
+          "compressed_bytes": 93,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2024-02-11T16:30:00+00:00",
+          "max": "2024-06-04T23:10:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 54076,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 20.4,
+          "max": 26.8,
+          "null_count": 0,
+          "compressed_bytes": 5405,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 9,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41002",
+          "max": "41002",
+          "null_count": 0,
+          "compressed_bytes": 93,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2024-06-04T23:20:00+00:00",
+          "max": "2024-09-27T09:40:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 54095,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 24.8,
+          "max": 30.6,
+          "null_count": 0,
+          "compressed_bytes": 5324,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 10,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41002",
+          "max": "41004",
+          "null_count": 0,
+          "compressed_bytes": 105,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2023-01-01T00:00:00+00:00",
+          "max": "2024-12-30T19:50:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 54079,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 18.0,
+          "max": 28.0,
+          "null_count": 0,
+          "compressed_bytes": 4592,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 11,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41004",
+          "max": "41004",
+          "null_count": 0,
+          "compressed_bytes": 93,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2023-01-20T22:40:00+00:00",
+          "max": "2023-05-15T11:20:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 54084,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 18.7,
+          "max": 24.5,
+          "null_count": 0,
+          "compressed_bytes": 7167,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 12,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41004",
+          "max": "41004",
+          "null_count": 0,
+          "compressed_bytes": 93,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2023-05-15T11:30:00+00:00",
+          "max": "2023-09-07T10:40:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 54085,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 23.5,
+          "max": 31.8,
+          "null_count": 0,
+          "compressed_bytes": 6549,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 13,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41004",
+          "max": "41004",
+          "null_count": 0,
+          "compressed_bytes": 93,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2023-09-07T10:50:00+00:00",
+          "max": "2023-12-30T22:50:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 54090,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 20.9,
+          "max": 29.7,
+          "null_count": 0,
+          "compressed_bytes": 5883,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 14,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41004",
+          "max": "41004",
+          "null_count": 0,
+          "compressed_bytes": 93,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2023-12-30T23:00:00+00:00",
+          "max": "2024-04-23T10:10:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 54078,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 16.5,
+          "max": 23.4,
+          "null_count": 0,
+          "compressed_bytes": 7801,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 15,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41004",
+          "max": "41004",
+          "null_count": 0,
+          "compressed_bytes": 93,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2024-04-23T10:20:00+00:00",
+          "max": "2024-08-16T06:20:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 54106,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 19.9,
+          "max": 30.5,
+          "null_count": 0,
+          "compressed_bytes": 6377,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 16,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41004",
+          "max": "41004",
+          "null_count": 0,
+          "compressed_bytes": 93,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2024-08-16T06:30:00+00:00",
+          "max": "2024-12-08T14:50:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 54083,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 21.1,
+          "max": 30.7,
+          "null_count": 0,
+          "compressed_bytes": 5513,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 17,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41004",
+          "max": "41008",
+          "null_count": 0,
+          "compressed_bytes": 105,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2023-01-01T00:50:00+00:00",
+          "max": "2024-12-31T23:50:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 58220,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 13.1,
+          "max": 31.9,
+          "null_count": 0,
+          "compressed_bytes": 10292,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 18,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41008",
+          "max": "41008",
+          "null_count": 0,
+          "compressed_bytes": 93,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2023-08-21T20:40:00+00:00",
+          "max": "2023-12-19T00:50:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 54094,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 15.8,
+          "max": 30.8,
+          "null_count": 0,
+          "compressed_bytes": 5806,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 19,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41008",
+          "max": "41008",
+          "null_count": 0,
+          "compressed_bytes": 93,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2023-12-19T01:00:00+00:00",
+          "max": "2024-04-11T15:30:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 54074,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 12.0,
+          "max": 19.6,
+          "null_count": 0,
+          "compressed_bytes": 6707,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 20,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41008",
+          "max": "41008",
+          "null_count": 0,
+          "compressed_bytes": 93,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2024-04-11T15:40:00+00:00",
+          "max": "2024-08-04T07:50:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 54098,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 18.6,
+          "max": 31.6,
+          "null_count": 0,
+          "compressed_bytes": 7642,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 21,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41008",
+          "max": "41008",
+          "null_count": 0,
+          "compressed_bytes": 93,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2024-08-04T08:00:00+00:00",
+          "max": "2024-11-26T20:10:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 54097,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 18.9,
+          "max": 30.4,
+          "null_count": 0,
+          "compressed_bytes": 5179,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 22,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41008",
+          "max": "41009",
+          "null_count": 0,
+          "compressed_bytes": 105,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2023-01-01T00:00:00+00:00",
+          "max": "2024-12-31T23:50:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 54424,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 14.5,
+          "max": 29.5,
+          "null_count": 0,
+          "compressed_bytes": 6314,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 23,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41009",
+          "max": "41009",
+          "null_count": 0,
+          "compressed_bytes": 93,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2023-06-23T16:30:00+00:00",
+          "max": "2023-10-16T04:00:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 54088,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 26.7,
+          "max": 32.1,
+          "null_count": 0,
+          "compressed_bytes": 8686,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 24,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41009",
+          "max": "41009",
+          "null_count": 0,
+          "compressed_bytes": 93,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2023-10-16T04:10:00+00:00",
+          "max": "2024-02-08T04:10:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 54083,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 17.9,
+          "max": 28.7,
+          "null_count": 0,
+          "compressed_bytes": 6222,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 25,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41009",
+          "max": "41009",
+          "null_count": 0,
+          "compressed_bytes": 93,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2024-02-08T04:20:00+00:00",
+          "max": "2024-06-01T17:10:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 54081,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 16.5,
+          "max": 29.4,
+          "null_count": 0,
+          "compressed_bytes": 8138,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 26,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41009",
+          "max": "41009",
+          "null_count": 0,
+          "compressed_bytes": 93,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2024-06-01T17:20:00+00:00",
+          "max": "2024-09-24T04:20:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 54107,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 25.3,
+          "max": 31.8,
+          "null_count": 0,
+          "compressed_bytes": 8808,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 27,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41009",
+          "max": "41010",
+          "null_count": 0,
+          "compressed_bytes": 105,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2023-01-02T15:00:00+00:00",
+          "max": "2024-12-31T23:50:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 54101,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 19.2,
+          "max": 30.5,
+          "null_count": 0,
+          "compressed_bytes": 5729,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 28,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41010",
+          "max": "41010",
+          "null_count": 0,
+          "compressed_bytes": 93,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2023-02-04T11:40:00+00:00",
+          "max": "2024-06-08T04:10:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 54103,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 23.3,
+          "max": 28.3,
+          "null_count": 0,
+          "compressed_bytes": 5298,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 29,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41010",
+          "max": "41010",
+          "null_count": 0,
+          "compressed_bytes": 93,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2024-06-08T04:20:00+00:00",
+          "max": "2024-09-30T17:10:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 54105,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 26.9,
+          "max": 31.1,
+          "null_count": 0,
+          "compressed_bytes": 5440,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 30,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41010",
+          "max": "41013",
+          "null_count": 0,
+          "compressed_bytes": 105,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2023-01-01T00:00:00+00:00",
+          "max": "2024-12-31T23:50:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 54085,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 13.8,
+          "max": 30.1,
+          "null_count": 0,
+          "compressed_bytes": 5278,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 31,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41013",
+          "max": "41013",
+          "null_count": 0,
+          "compressed_bytes": 93,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2023-01-23T09:10:00+00:00",
+          "max": "2023-05-17T21:30:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 54083,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 17.0,
+          "max": 26.0,
+          "null_count": 0,
+          "compressed_bytes": 8147,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 32,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41013",
+          "max": "41013",
+          "null_count": 0,
+          "compressed_bytes": 93,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2023-05-17T21:40:00+00:00",
+          "max": "2023-09-09T18:10:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 54080,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 22.6,
+          "max": 30.8,
+          "null_count": 0,
+          "compressed_bytes": 6260,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 33,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41013",
+          "max": "41013",
+          "null_count": 0,
+          "compressed_bytes": 93,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2023-09-09T18:20:00+00:00",
+          "max": "2024-01-02T05:40:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 54088,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 16.6,
+          "max": 29.1,
+          "null_count": 0,
+          "compressed_bytes": 6692,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 34,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41013",
+          "max": "41013",
+          "null_count": 0,
+          "compressed_bytes": 93,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2024-01-02T05:50:00+00:00",
+          "max": "2024-04-25T16:30:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 54078,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 12.7,
+          "max": 21.7,
+          "null_count": 0,
+          "compressed_bytes": 9783,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 35,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41013",
+          "max": "41013",
+          "null_count": 0,
+          "compressed_bytes": 93,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2024-04-25T16:40:00+00:00",
+          "max": "2024-08-17T23:00:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 54091,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 18.7,
+          "max": 29.6,
+          "null_count": 0,
+          "compressed_bytes": 6807,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 36,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41013",
+          "max": "41013",
+          "null_count": 0,
+          "compressed_bytes": 93,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2024-08-17T23:10:00+00:00",
+          "max": "2024-12-10T08:10:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 54083,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 18.6,
+          "max": 29.5,
+          "null_count": 0,
+          "compressed_bytes": 6645,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 37,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41013",
+          "max": "41025",
+          "null_count": 0,
+          "compressed_bytes": 105,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2023-01-01T00:00:00+00:00",
+          "max": "2024-12-31T23:50:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 54105,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 11.4,
+          "max": 25.3,
+          "null_count": 0,
+          "compressed_bytes": 9674,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 38,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41025",
+          "max": "41025",
+          "null_count": 0,
+          "compressed_bytes": 93,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2023-04-04T00:40:00+00:00",
+          "max": "2023-07-27T23:50:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 54084,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 19.3,
+          "max": 30.6,
+          "null_count": 0,
+          "compressed_bytes": 8987,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 39,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41025",
+          "max": "41025",
+          "null_count": 0,
+          "compressed_bytes": 93,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2023-07-28T00:00:00+00:00",
+          "max": "2023-11-19T14:50:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 54094,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 17.8,
+          "max": 31.1,
+          "null_count": 0,
+          "compressed_bytes": 8805,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 40,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41025",
+          "max": "41025",
+          "null_count": 0,
+          "compressed_bytes": 93,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2023-11-19T15:00:00+00:00",
+          "max": "2024-03-13T00:50:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 54076,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 7.9,
+          "max": 25.9,
+          "null_count": 0,
+          "compressed_bytes": 11866,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 41,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41025",
+          "max": "41025",
+          "null_count": 0,
+          "compressed_bytes": 93,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2024-03-13T01:00:00+00:00",
+          "max": "2024-07-05T09:10:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 54077,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 10.1,
+          "max": 29.9,
+          "null_count": 0,
+          "compressed_bytes": 12528,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 42,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41025",
+          "max": "41025",
+          "null_count": 0,
+          "compressed_bytes": 93,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2024-07-05T09:20:00+00:00",
+          "max": "2024-10-27T18:50:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 54094,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 20.1,
+          "max": 29.8,
+          "null_count": 0,
+          "compressed_bytes": 9436,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 43,
+      "rows": 9311,
+      "columns": {
+        "station_id": {
+          "min": "41025",
+          "max": "41025",
+          "null_count": 0,
+          "compressed_bytes": 93,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2024-10-27T19:00:00+00:00",
+          "max": "2024-12-31T23:50:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 30771,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 12.2,
+          "max": 27.6,
+          "null_count": 0,
+          "compressed_bytes": 6560,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    }
+  ],
+  "time_first": [
+    {
+      "row_group": 0,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41001",
+          "max": "41025",
+          "null_count": 0,
+          "compressed_bytes": 958,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2023-01-01T00:00:00+00:00",
+          "max": "2023-01-19T01:10:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 9651,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 11.7,
+          "max": 25.5,
+          "null_count": 0,
+          "compressed_bytes": 11591,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 1,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41001",
+          "max": "41025",
+          "null_count": 0,
+          "compressed_bytes": 1222,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2023-01-19T01:10:00+00:00",
+          "max": "2023-02-04T17:10:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 9098,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 13.3,
+          "max": 25.2,
+          "null_count": 0,
+          "compressed_bytes": 11870,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 2,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41001",
+          "max": "41025",
+          "null_count": 0,
+          "compressed_bytes": 1341,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2023-02-04T17:10:00+00:00",
+          "max": "2023-02-20T23:20:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 8847,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 14.0,
+          "max": 25.3,
+          "null_count": 0,
+          "compressed_bytes": 11771,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 3,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41001",
+          "max": "41025",
+          "null_count": 0,
+          "compressed_bytes": 1374,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2023-02-20T23:20:00+00:00",
+          "max": "2023-03-09T05:30:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 8839,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 12.0,
+          "max": 26.0,
+          "null_count": 0,
+          "compressed_bytes": 12373,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 4,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41001",
+          "max": "41025",
+          "null_count": 0,
+          "compressed_bytes": 1580,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2023-03-09T05:30:00+00:00",
+          "max": "2023-03-25T21:20:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 9082,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 11.4,
+          "max": 25.6,
+          "null_count": 0,
+          "compressed_bytes": 13327,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 5,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41001",
+          "max": "41025",
+          "null_count": 0,
+          "compressed_bytes": 759,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2023-03-25T21:20:00+00:00",
+          "max": "2023-04-13T10:40:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 9717,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 18.4,
+          "max": 26.3,
+          "null_count": 0,
+          "compressed_bytes": 11368,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 6,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41001",
+          "max": "41025",
+          "null_count": 0,
+          "compressed_bytes": 850,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2023-04-13T10:40:00+00:00",
+          "max": "2023-05-03T22:10:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 10761,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 19.1,
+          "max": 26.1,
+          "null_count": 0,
+          "compressed_bytes": 12096,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 7,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41001",
+          "max": "41025",
+          "null_count": 0,
+          "compressed_bytes": 857,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2023-05-03T22:10:00+00:00",
+          "max": "2023-05-26T02:50:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 11402,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 19.9,
+          "max": 26.4,
+          "null_count": 0,
+          "compressed_bytes": 10571,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 8,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41001",
+          "max": "41025",
+          "null_count": 0,
+          "compressed_bytes": 926,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2023-05-26T02:50:00+00:00",
+          "max": "2023-06-17T10:40:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 11520,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 19.3,
+          "max": 27.1,
+          "null_count": 0,
+          "compressed_bytes": 11351,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 9,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41001",
+          "max": "41025",
+          "null_count": 0,
+          "compressed_bytes": 649,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2023-06-17T10:40:00+00:00",
+          "max": "2023-07-03T21:00:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 8732,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 22.8,
+          "max": 30.0,
+          "null_count": 0,
+          "compressed_bytes": 10581,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 10,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41001",
+          "max": "41025",
+          "null_count": 0,
+          "compressed_bytes": 734,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2023-07-03T21:00:00+00:00",
+          "max": "2023-07-20T05:50:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 8678,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 26.2,
+          "max": 31.6,
+          "null_count": 0,
+          "compressed_bytes": 10239,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 11,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41001",
+          "max": "41025",
+          "null_count": 0,
+          "compressed_bytes": 675,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2023-07-20T05:50:00+00:00",
+          "max": "2023-08-05T14:20:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 8657,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 27.2,
+          "max": 31.8,
+          "null_count": 0,
+          "compressed_bytes": 9482,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 12,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41001",
+          "max": "41025",
+          "null_count": 0,
+          "compressed_bytes": 677,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2023-08-05T14:20:00+00:00",
+          "max": "2023-08-22T09:30:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 8980,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 27.4,
+          "max": 32.1,
+          "null_count": 0,
+          "compressed_bytes": 8673,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 13,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41001",
+          "max": "41025",
+          "null_count": 0,
+          "compressed_bytes": 676,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2023-08-22T09:30:00+00:00",
+          "max": "2023-09-08T05:40:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 9007,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 25.8,
+          "max": 31.8,
+          "null_count": 0,
+          "compressed_bytes": 9751,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 14,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41001",
+          "max": "41025",
+          "null_count": 0,
+          "compressed_bytes": 658,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2023-09-08T05:40:00+00:00",
+          "max": "2023-09-24T18:50:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 8830,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 25.6,
+          "max": 30.9,
+          "null_count": 0,
+          "compressed_bytes": 8318,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 15,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41001",
+          "max": "41025",
+          "null_count": 0,
+          "compressed_bytes": 637,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2023-09-24T18:50:00+00:00",
+          "max": "2023-10-11T03:40:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 8643,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 23.0,
+          "max": 30.5,
+          "null_count": 0,
+          "compressed_bytes": 7882,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 16,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41001",
+          "max": "41025",
+          "null_count": 0,
+          "compressed_bytes": 625,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2023-10-11T03:50:00+00:00",
+          "max": "2023-10-27T11:50:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 8643,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 22.3,
+          "max": 29.3,
+          "null_count": 0,
+          "compressed_bytes": 7462,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 17,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41001",
+          "max": "41025",
+          "null_count": 0,
+          "compressed_bytes": 648,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2023-10-27T11:50:00+00:00",
+          "max": "2023-11-12T20:00:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 8648,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 19.7,
+          "max": 28.2,
+          "null_count": 0,
+          "compressed_bytes": 8695,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 18,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41001",
+          "max": "41025",
+          "null_count": 0,
+          "compressed_bytes": 685,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2023-11-12T20:00:00+00:00",
+          "max": "2023-11-29T05:00:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 8681,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 15.8,
+          "max": 27.8,
+          "null_count": 0,
+          "compressed_bytes": 8283,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 19,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41001",
+          "max": "41025",
+          "null_count": 0,
+          "compressed_bytes": 666,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2023-11-29T05:00:00+00:00",
+          "max": "2023-12-15T14:30:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 8700,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 16.1,
+          "max": 26.9,
+          "null_count": 0,
+          "compressed_bytes": 8903,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 20,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41001",
+          "max": "41025",
+          "null_count": 0,
+          "compressed_bytes": 685,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2023-12-15T14:30:00+00:00",
+          "max": "2024-01-03T06:30:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 9741,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 11.3,
+          "max": 25.3,
+          "null_count": 0,
+          "compressed_bytes": 9855,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 21,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41002",
+          "max": "41025",
+          "null_count": 0,
+          "compressed_bytes": 647,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2024-01-03T06:40:00+00:00",
+          "max": "2024-01-22T08:50:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 9749,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 11.3,
+          "max": 24.7,
+          "null_count": 0,
+          "compressed_bytes": 10689,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 22,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41002",
+          "max": "41025",
+          "null_count": 0,
+          "compressed_bytes": 582,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2024-01-22T09:00:00+00:00",
+          "max": "2024-02-10T10:10:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 9710,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 7.9,
+          "max": 24.2,
+          "null_count": 0,
+          "compressed_bytes": 10623,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 23,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41002",
+          "max": "41025",
+          "null_count": 0,
+          "compressed_bytes": 647,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2024-02-10T10:20:00+00:00",
+          "max": "2024-02-29T12:10:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 9738,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 7.9,
+          "max": 24.2,
+          "null_count": 0,
+          "compressed_bytes": 12183,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 24,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41002",
+          "max": "41025",
+          "null_count": 0,
+          "compressed_bytes": 664,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2024-02-29T12:10:00+00:00",
+          "max": "2024-03-19T14:30:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 9749,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 10.4,
+          "max": 24.6,
+          "null_count": 0,
+          "compressed_bytes": 12028,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 25,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41002",
+          "max": "41025",
+          "null_count": 0,
+          "compressed_bytes": 622,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2024-03-19T14:30:00+00:00",
+          "max": "2024-04-07T16:20:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 9729,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 10.1,
+          "max": 25.5,
+          "null_count": 0,
+          "compressed_bytes": 11713,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 26,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41001",
+          "max": "41025",
+          "null_count": 0,
+          "compressed_bytes": 699,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2024-04-07T16:20:00+00:00",
+          "max": "2024-04-25T01:20:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 9325,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 11.1,
+          "max": 27.2,
+          "null_count": 0,
+          "compressed_bytes": 11991,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 27,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41001",
+          "max": "41025",
+          "null_count": 0,
+          "compressed_bytes": 672,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2024-04-25T01:30:00+00:00",
+          "max": "2024-05-10T04:50:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 8267,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 12.5,
+          "max": 27.8,
+          "null_count": 0,
+          "compressed_bytes": 12764,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 28,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41001",
+          "max": "41025",
+          "null_count": 0,
+          "compressed_bytes": 660,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2024-05-10T04:50:00+00:00",
+          "max": "2024-05-24T12:20:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 7617,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 14.6,
+          "max": 28.6,
+          "null_count": 0,
+          "compressed_bytes": 11676,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 29,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41001",
+          "max": "41025",
+          "null_count": 0,
+          "compressed_bytes": 634,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2024-05-24T12:20:00+00:00",
+          "max": "2024-06-07T20:10:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 7625,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 18.6,
+          "max": 29.4,
+          "null_count": 0,
+          "compressed_bytes": 11779,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 30,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41001",
+          "max": "41025",
+          "null_count": 0,
+          "compressed_bytes": 623,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2024-06-07T20:10:00+00:00",
+          "max": "2024-06-22T03:30:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 7610,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 24.1,
+          "max": 29.1,
+          "null_count": 0,
+          "compressed_bytes": 9040,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 31,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41001",
+          "max": "41025",
+          "null_count": 0,
+          "compressed_bytes": 615,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2024-06-22T03:30:00+00:00",
+          "max": "2024-07-06T10:40:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 7596,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 25.7,
+          "max": 30.7,
+          "null_count": 0,
+          "compressed_bytes": 9907,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 32,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41001",
+          "max": "41025",
+          "null_count": 0,
+          "compressed_bytes": 628,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2024-07-06T10:40:00+00:00",
+          "max": "2024-07-20T18:00:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 7611,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 26.2,
+          "max": 31.6,
+          "null_count": 0,
+          "compressed_bytes": 9003,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 33,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41001",
+          "max": "41025",
+          "null_count": 0,
+          "compressed_bytes": 632,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2024-07-20T18:00:00+00:00",
+          "max": "2024-08-04T01:20:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 7610,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 26.6,
+          "max": 31.3,
+          "null_count": 0,
+          "compressed_bytes": 8900,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 34,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41001",
+          "max": "41025",
+          "null_count": 0,
+          "compressed_bytes": 630,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2024-08-04T01:20:00+00:00",
+          "max": "2024-08-18T08:50:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 7615,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 25.3,
+          "max": 31.8,
+          "null_count": 0,
+          "compressed_bytes": 7525,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 35,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41001",
+          "max": "41025",
+          "null_count": 0,
+          "compressed_bytes": 628,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2024-08-18T08:50:00+00:00",
+          "max": "2024-09-01T16:00:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 7601,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 26.5,
+          "max": 31.0,
+          "null_count": 0,
+          "compressed_bytes": 9957,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 36,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41001",
+          "max": "41025",
+          "null_count": 0,
+          "compressed_bytes": 653,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2024-09-01T16:00:00+00:00",
+          "max": "2024-09-15T23:30:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 7613,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 23.2,
+          "max": 31.3,
+          "null_count": 0,
+          "compressed_bytes": 7897,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 37,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41001",
+          "max": "41025",
+          "null_count": 0,
+          "compressed_bytes": 727,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2024-09-15T23:30:00+00:00",
+          "max": "2024-10-01T17:30:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 8569,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 23.2,
+          "max": 30.7,
+          "null_count": 0,
+          "compressed_bytes": 9561,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 38,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41002",
+          "max": "41025",
+          "null_count": 0,
+          "compressed_bytes": 681,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2024-10-01T17:40:00+00:00",
+          "max": "2024-10-18T02:00:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 8655,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 23.0,
+          "max": 30.1,
+          "null_count": 0,
+          "compressed_bytes": 8150,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 39,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41002",
+          "max": "41025",
+          "null_count": 0,
+          "compressed_bytes": 725,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2024-10-18T02:10:00+00:00",
+          "max": "2024-11-03T10:50:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 8662,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 20.1,
+          "max": 27.9,
+          "null_count": 0,
+          "compressed_bytes": 8491,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 40,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41002",
+          "max": "41025",
+          "null_count": 0,
+          "compressed_bytes": 701,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2024-11-03T10:50:00+00:00",
+          "max": "2024-11-19T19:50:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 8685,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 17.7,
+          "max": 27.7,
+          "null_count": 0,
+          "compressed_bytes": 7348,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 41,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41002",
+          "max": "41025",
+          "null_count": 0,
+          "compressed_bytes": 664,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2024-11-19T19:50:00+00:00",
+          "max": "2024-12-06T04:20:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 8659,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 16.2,
+          "max": 26.8,
+          "null_count": 0,
+          "compressed_bytes": 9823,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 42,
+      "rows": 16384,
+      "columns": {
+        "station_id": {
+          "min": "41002",
+          "max": "41025",
+          "null_count": 0,
+          "compressed_bytes": 649,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2024-12-06T04:20:00+00:00",
+          "max": "2024-12-22T12:40:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 8657,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 16.1,
+          "max": 26.2,
+          "null_count": 0,
+          "compressed_bytes": 9757,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    },
+    {
+      "row_group": 43,
+      "rows": 9311,
+      "columns": {
+        "station_id": {
+          "min": "41002",
+          "max": "41025",
+          "null_count": 0,
+          "compressed_bytes": 507,
+          "encodings": [
+            "PLAIN",
+            "RLE",
+            "RLE_DICTIONARY"
+          ]
+        },
+        "observation_time": {
+          "min": "2024-12-22T12:50:00+00:00",
+          "max": "2024-12-31T23:50:00+00:00",
+          "null_count": 0,
+          "compressed_bytes": 5108,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        },
+        "sst": {
+          "min": 12.2,
+          "max": 25.4,
+          "null_count": 0,
+          "compressed_bytes": 5820,
+          "encodings": [
+            "RLE",
+            "PLAIN"
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "run_id": "pilot_v1",
+  "config": {
+    "name": "pilot_v1",
+    "purpose": "Correctness and feasibility pilot; not a confirmatory performance study",
+    "data_manifest": "results/data_screening_manifest.json",
+    "random_seed": 20261115,
+    "threads": 1,
+    "warmup_repetitions": 1,
+    "measured_repetitions": 5,
+    "absolute_tolerance": 1e-09,
+    "relative_tolerance": 1e-12,
+    "writer": {
+      "row_group_size": 16384,
+      "compression": "zstd",
+      "compression_level": 3,
+      "use_dictionary": [
+        "station_id"
+      ],
+      "write_statistics": true,
+      "write_page_index": false,
+      "version": "2.6",
+      "data_page_version": "1.0",
+      "data_page_size": 1048576,
+      "write_batch_size": 1024,
+      "dictionary_pagesize_limit": 1048576,
+      "coerce_timestamps": "us",
+      "allow_truncated_timestamps": false
+    },
+    "q1_window_hours": [
+      24,
+      168,
+      720
+    ],
+    "q2_window_hours": [
+      1,
+      24,
+      168
+    ],
+    "pilot_cases": [
+      {
+        "station_id": "41002",
+        "start_utc": "2023-03-15T00:00:00Z"
+      },
+      {
+        "station_id": "41010",
+        "start_utc": "2024-09-15T00:00:00Z"
+      }
+    ],
+    "formal_tuning_starts_utc": [
+      "2023-02-01T00:00:00Z",
+      "2023-08-01T00:00:00Z"
+    ],
+    "formal_validation_starts_utc": [
+      "2024-02-01T00:00:00Z",
+      "2024-08-01T00:00:00Z"
+    ],
+    "formal_mixture_q1_proportions": [
+      0,
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.9,
+      1
+    ]
+  },
+  "config_sha256": "5b204f7fc8ae402fb7c44bf324a4f57147daee603dbd3748e228e575c5cb34e9",
+  "script_sha256": "20a763b8a6c3f08f11580d958459728f74d7b476e34f7e7e78c6e153b00d41e5",
+  "source_manifest_sha256": "dc4f48fa50b468d0be6aabe37b1114a078edb9f108331d18555aad34c5e4e05c",
+  "experiment_protocol_sha256": "b400ebeb6001c882e0e01cb8c2cb3986f8e46ddf85c651b889e4016d65f08b6d",
+  "environment": {
+    "python": "3.12.14",
+    "pyarrow": "26.0.1",
+    "duckdb": "2.0.0",
+    "system": "Linux",
+    "kernel": "6.18.57",
+    "machine": "x86_64",
+    "reported_logical_cpus": 3,
+    "cpu_affinity_count": 3,
+    "duckdb_settings": {
+      "enable_external_file_cache": "true",
+      "memory_limit": "6.3 GiB",
+      "threads": "1",
+      "TimeZone": "UTC"
+    },
+    "cgroup_memory.max": "8589934592",
+    "cgroup_cpu.max": "200000 100000",
+    "cpu_model": "INTEL(R) XEON(R) PLATINUM 8573C"
+  },
+  "cache_regime": "warm; includes engine and OS caches; no cold-cache claim",
+  "frozen_before_first_timing": true
+}

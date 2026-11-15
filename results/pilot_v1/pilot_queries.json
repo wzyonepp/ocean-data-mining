@@ -1,0 +1,110 @@
+[
+  {
+    "query_id": "pilot_Q1_0_24h",
+    "role": "pilot",
+    "kind": "Q1",
+    "station_id": "41002",
+    "start_utc": "2023-03-15T00:00:00+00:00",
+    "end_utc": "2023-03-16T00:00:00+00:00",
+    "window_hours": 24
+  },
+  {
+    "query_id": "pilot_Q1_0_168h",
+    "role": "pilot",
+    "kind": "Q1",
+    "station_id": "41002",
+    "start_utc": "2023-03-15T00:00:00+00:00",
+    "end_utc": "2023-03-22T00:00:00+00:00",
+    "window_hours": 168
+  },
+  {
+    "query_id": "pilot_Q1_0_720h",
+    "role": "pilot",
+    "kind": "Q1",
+    "station_id": "41002",
+    "start_utc": "2023-03-15T00:00:00+00:00",
+    "end_utc": "2023-04-14T00:00:00+00:00",
+    "window_hours": 720
+  },
+  {
+    "query_id": "pilot_Q2_0_1h",
+    "role": "pilot",
+    "kind": "Q2",
+    "station_id": null,
+    "start_utc": "2023-03-15T00:00:00+00:00",
+    "end_utc": "2023-03-15T01:00:00+00:00",
+    "window_hours": 1
+  },
+  {
+    "query_id": "pilot_Q2_0_24h",
+    "role": "pilot",
+    "kind": "Q2",
+    "station_id": null,
+    "start_utc": "2023-03-15T00:00:00+00:00",
+    "end_utc": "2023-03-16T00:00:00+00:00",
+    "window_hours": 24
+  },
+  {
+    "query_id": "pilot_Q2_0_168h",
+    "role": "pilot",
+    "kind": "Q2",
+    "station_id": null,
+    "start_utc": "2023-03-15T00:00:00+00:00",
+    "end_utc": "2023-03-22T00:00:00+00:00",
+    "window_hours": 168
+  },
+  {
+    "query_id": "pilot_Q1_1_24h",
+    "role": "pilot",
+    "kind": "Q1",
+    "station_id": "41010",
+    "start_utc": "2024-09-15T00:00:00+00:00",
+    "end_utc": "2024-09-16T00:00:00+00:00",
+    "window_hours": 24
+  },
+  {
+    "query_id": "pilot_Q1_1_168h",
+    "role": "pilot",
+    "kind": "Q1",
+    "station_id": "41010",
+    "start_utc": "2024-09-15T00:00:00+00:00",
+    "end_utc": "2024-09-22T00:00:00+00:00",
+    "window_hours": 168
+  },
+  {
+    "query_id": "pilot_Q1_1_720h",
+    "role": "pilot",
+    "kind": "Q1",
+    "station_id": "41010",
+    "start_utc": "2024-09-15T00:00:00+00:00",
+    "end_utc": "2024-10-15T00:00:00+00:00",
+    "window_hours": 720
+  },
+  {
+    "query_id": "pilot_Q2_1_1h",
+    "role": "pilot",
+    "kind": "Q2",
+    "station_id": null,
+    "start_utc": "2024-09-15T00:00:00+00:00",
+    "end_utc": "2024-09-15T01:00:00+00:00",
+    "window_hours": 1
+  },
+  {
+    "query_id": "pilot_Q2_1_24h",
+    "role": "pilot",
+    "kind": "Q2",
+    "station_id": null,
+    "start_utc": "2024-09-15T00:00:00+00:00",
+    "end_utc": "2024-09-16T00:00:00+00:00",
+    "window_hours": 24
+  },
+  {
+    "query_id": "pilot_Q2_1_168h",
+    "role": "pilot",
+    "kind": "Q2",
+    "station_id": null,
+    "start_utc": "2024-09-15T00:00:00+00:00",
+    "end_utc": "2024-09-22T00:00:00+00:00",
+    "window_hours": 168
+  }
+]

@@ -1,0 +1,974 @@
+[
+  {
+    "query_id": "tuning_Q1_0_41001_24h",
+    "role": "tuning",
+    "kind": "Q1",
+    "station_id": "41001",
+    "start_utc": "2023-02-01T00:00:00+00:00",
+    "end_utc": "2023-02-02T00:00:00+00:00",
+    "window_hours": 24
+  },
+  {
+    "query_id": "tuning_Q1_0_41001_168h",
+    "role": "tuning",
+    "kind": "Q1",
+    "station_id": "41001",
+    "start_utc": "2023-02-01T00:00:00+00:00",
+    "end_utc": "2023-02-08T00:00:00+00:00",
+    "window_hours": 168
+  },
+  {
+    "query_id": "tuning_Q1_0_41001_720h",
+    "role": "tuning",
+    "kind": "Q1",
+    "station_id": "41001",
+    "start_utc": "2023-02-01T00:00:00+00:00",
+    "end_utc": "2023-03-03T00:00:00+00:00",
+    "window_hours": 720
+  },
+  {
+    "query_id": "tuning_Q1_0_41002_24h",
+    "role": "tuning",
+    "kind": "Q1",
+    "station_id": "41002",
+    "start_utc": "2023-02-01T00:00:00+00:00",
+    "end_utc": "2023-02-02T00:00:00+00:00",
+    "window_hours": 24
+  },
+  {
+    "query_id": "tuning_Q1_0_41002_168h",
+    "role": "tuning",
+    "kind": "Q1",
+    "station_id": "41002",
+    "start_utc": "2023-02-01T00:00:00+00:00",
+    "end_utc": "2023-02-08T00:00:00+00:00",
+    "window_hours": 168
+  },
+  {
+    "query_id": "tuning_Q1_0_41002_720h",
+    "role": "tuning",
+    "kind": "Q1",
+    "station_id": "41002",
+    "start_utc": "2023-02-01T00:00:00+00:00",
+    "end_utc": "2023-03-03T00:00:00+00:00",
+    "window_hours": 720
+  },
+  {
+    "query_id": "tuning_Q1_0_41004_24h",
+    "role": "tuning",
+    "kind": "Q1",
+    "station_id": "41004",
+    "start_utc": "2023-02-01T00:00:00+00:00",
+    "end_utc": "2023-02-02T00:00:00+00:00",
+    "window_hours": 24
+  },
+  {
+    "query_id": "tuning_Q1_0_41004_168h",
+    "role": "tuning",
+    "kind": "Q1",
+    "station_id": "41004",
+    "start_utc": "2023-02-01T00:00:00+00:00",
+    "end_utc": "2023-02-08T00:00:00+00:00",
+    "window_hours": 168
+  },
+  {
+    "query_id": "tuning_Q1_0_41004_720h",
+    "role": "tuning",
+    "kind": "Q1",
+    "station_id": "41004",
+    "start_utc": "2023-02-01T00:00:00+00:00",
+    "end_utc": "2023-03-03T00:00:00+00:00",
+    "window_hours": 720
+  },
+  {
+    "query_id": "tuning_Q1_0_41008_24h",
+    "role": "tuning",
+    "kind": "Q1",
+    "station_id": "41008",
+    "start_utc": "2023-02-01T00:00:00+00:00",
+    "end_utc": "2023-02-02T00:00:00+00:00",
+    "window_hours": 24
+  },
+  {
+    "query_id": "tuning_Q1_0_41008_168h",
+    "role": "tuning",
+    "kind": "Q1",
+    "station_id": "41008",
+    "start_utc": "2023-02-01T00:00:00+00:00",
+    "end_utc": "2023-02-08T00:00:00+00:00",
+    "window_hours": 168
+  },
+  {
+    "query_id": "tuning_Q1_0_41008_720h",
+    "role": "tuning",
+    "kind": "Q1",
+    "station_id": "41008",
+    "start_utc": "2023-02-01T00:00:00+00:00",
+    "end_utc": "2023-03-03T00:00:00+00:00",
+    "window_hours": 720
+  },
+  {
+    "query_id": "tuning_Q1_0_41009_24h",
+    "role": "tuning",
+    "kind": "Q1",
+    "station_id": "41009",
+    "start_utc": "2023-02-01T00:00:00+00:00",
+    "end_utc": "2023-02-02T00:00:00+00:00",
+    "window_hours": 24
+  },
+  {
+    "query_id": "tuning_Q1_0_41009_168h",
+    "role": "tuning",
+    "kind": "Q1",
+    "station_id": "41009",
+    "start_utc": "2023-02-01T00:00:00+00:00",
+    "end_utc": "2023-02-08T00:00:00+00:00",
+    "window_hours": 168
+  },
+  {
+    "query_id": "tuning_Q1_0_41009_720h",
+    "role": "tuning",
+    "kind": "Q1",
+    "station_id": "41009",
+    "start_utc": "2023-02-01T00:00:00+00:00",
+    "end_utc": "2023-03-03T00:00:00+00:00",
+    "window_hours": 720
+  },
+  {
+    "query_id": "tuning_Q1_0_41010_24h",
+    "role": "tuning",
+    "kind": "Q1",
+    "station_id": "41010",
+    "start_utc": "2023-02-01T00:00:00+00:00",
+    "end_utc": "2023-02-02T00:00:00+00:00",
+    "window_hours": 24
+  },
+  {
+    "query_id": "tuning_Q1_0_41010_168h",
+    "role": "tuning",
+    "kind": "Q1",
+    "station_id": "41010",
+    "start_utc": "2023-02-01T00:00:00+00:00",
+    "end_utc": "2023-02-08T00:00:00+00:00",
+    "window_hours": 168
+  },
+  {
+    "query_id": "tuning_Q1_0_41010_720h",
+    "role": "tuning",
+    "kind": "Q1",
+    "station_id": "41010",
+    "start_utc": "2023-02-01T00:00:00+00:00",
+    "end_utc": "2023-03-03T00:00:00+00:00",
+    "window_hours": 720
+  },
+  {
+    "query_id": "tuning_Q1_0_41013_24h",
+    "role": "tuning",
+    "kind": "Q1",
+    "station_id": "41013",
+    "start_utc": "2023-02-01T00:00:00+00:00",
+    "end_utc": "2023-02-02T00:00:00+00:00",
+    "window_hours": 24
+  },
+  {
+    "query_id": "tuning_Q1_0_41013_168h",
+    "role": "tuning",
+    "kind": "Q1",
+    "station_id": "41013",
+    "start_utc": "2023-02-01T00:00:00+00:00",
+    "end_utc": "2023-02-08T00:00:00+00:00",
+    "window_hours": 168
+  },
+  {
+    "query_id": "tuning_Q1_0_41013_720h",
+    "role": "tuning",
+    "kind": "Q1",
+    "station_id": "41013",
+    "start_utc": "2023-02-01T00:00:00+00:00",
+    "end_utc": "2023-03-03T00:00:00+00:00",
+    "window_hours": 720
+  },
+  {
+    "query_id": "tuning_Q1_0_41025_24h",
+    "role": "tuning",
+    "kind": "Q1",
+    "station_id": "41025",
+    "start_utc": "2023-02-01T00:00:00+00:00",
+    "end_utc": "2023-02-02T00:00:00+00:00",
+    "window_hours": 24
+  },
+  {
+    "query_id": "tuning_Q1_0_41025_168h",
+    "role": "tuning",
+    "kind": "Q1",
+    "station_id": "41025",
+    "start_utc": "2023-02-01T00:00:00+00:00",
+    "end_utc": "2023-02-08T00:00:00+00:00",
+    "window_hours": 168
+  },
+  {
+    "query_id": "tuning_Q1_0_41025_720h",
+    "role": "tuning",
+    "kind": "Q1",
+    "station_id": "41025",
+    "start_utc": "2023-02-01T00:00:00+00:00",
+    "end_utc": "2023-03-03T00:00:00+00:00",
+    "window_hours": 720
+  },
+  {
+    "query_id": "tuning_Q2_0_1h",
+    "role": "tuning",
+    "kind": "Q2",
+    "station_id": null,
+    "start_utc": "2023-02-01T00:00:00+00:00",
+    "end_utc": "2023-02-01T01:00:00+00:00",
+    "window_hours": 1
+  },
+  {
+    "query_id": "tuning_Q2_0_24h",
+    "role": "tuning",
+    "kind": "Q2",
+    "station_id": null,
+    "start_utc": "2023-02-01T00:00:00+00:00",
+    "end_utc": "2023-02-02T00:00:00+00:00",
+    "window_hours": 24
+  },
+  {
+    "query_id": "tuning_Q2_0_168h",
+    "role": "tuning",
+    "kind": "Q2",
+    "station_id": null,
+    "start_utc": "2023-02-01T00:00:00+00:00",
+    "end_utc": "2023-02-08T00:00:00+00:00",
+    "window_hours": 168
+  },
+  {
+    "query_id": "tuning_Q1_1_41001_24h",
+    "role": "tuning",
+    "kind": "Q1",
+    "station_id": "41001",
+    "start_utc": "2023-08-01T00:00:00+00:00",
+    "end_utc": "2023-08-02T00:00:00+00:00",
+    "window_hours": 24
+  },
+  {
+    "query_id": "tuning_Q1_1_41001_168h",
+    "role": "tuning",
+    "kind": "Q1",
+    "station_id": "41001",
+    "start_utc": "2023-08-01T00:00:00+00:00",
+    "end_utc": "2023-08-08T00:00:00+00:00",
+    "window_hours": 168
+  },
+  {
+    "query_id": "tuning_Q1_1_41001_720h",
+    "role": "tuning",
+    "kind": "Q1",
+    "station_id": "41001",
+    "start_utc": "2023-08-01T00:00:00+00:00",
+    "end_utc": "2023-08-31T00:00:00+00:00",
+    "window_hours": 720
+  },
+  {
+    "query_id": "tuning_Q1_1_41002_24h",
+    "role": "tuning",
+    "kind": "Q1",
+    "station_id": "41002",
+    "start_utc": "2023-08-01T00:00:00+00:00",
+    "end_utc": "2023-08-02T00:00:00+00:00",
+    "window_hours": 24
+  },
+  {
+    "query_id": "tuning_Q1_1_41002_168h",
+    "role": "tuning",
+    "kind": "Q1",
+    "station_id": "41002",
+    "start_utc": "2023-08-01T00:00:00+00:00",
+    "end_utc": "2023-08-08T00:00:00+00:00",
+    "window_hours": 168
+  },
+  {
+    "query_id": "tuning_Q1_1_41002_720h",
+    "role": "tuning",
+    "kind": "Q1",
+    "station_id": "41002",
+    "start_utc": "2023-08-01T00:00:00+00:00",
+    "end_utc": "2023-08-31T00:00:00+00:00",
+    "window_hours": 720
+  },
+  {
+    "query_id": "tuning_Q1_1_41004_24h",
+    "role": "tuning",
+    "kind": "Q1",
+    "station_id": "41004",
+    "start_utc": "2023-08-01T00:00:00+00:00",
+    "end_utc": "2023-08-02T00:00:00+00:00",
+    "window_hours": 24
+  },
+  {
+    "query_id": "tuning_Q1_1_41004_168h",
+    "role": "tuning",
+    "kind": "Q1",
+    "station_id": "41004",
+    "start_utc": "2023-08-01T00:00:00+00:00",
+    "end_utc": "2023-08-08T00:00:00+00:00",
+    "window_hours": 168
+  },
+  {
+    "query_id": "tuning_Q1_1_41004_720h",
+    "role": "tuning",
+    "kind": "Q1",
+    "station_id": "41004",
+    "start_utc": "2023-08-01T00:00:00+00:00",
+    "end_utc": "2023-08-31T00:00:00+00:00",
+    "window_hours": 720
+  },
+  {
+    "query_id": "tuning_Q1_1_41008_24h",
+    "role": "tuning",
+    "kind": "Q1",
+    "station_id": "41008",
+    "start_utc": "2023-08-01T00:00:00+00:00",
+    "end_utc": "2023-08-02T00:00:00+00:00",
+    "window_hours": 24
+  },
+  {
+    "query_id": "tuning_Q1_1_41008_168h",
+    "role": "tuning",
+    "kind": "Q1",
+    "station_id": "41008",
+    "start_utc": "2023-08-01T00:00:00+00:00",
+    "end_utc": "2023-08-08T00:00:00+00:00",
+    "window_hours": 168
+  },
+  {
+    "query_id": "tuning_Q1_1_41008_720h",
+    "role": "tuning",
+    "kind": "Q1",
+    "station_id": "41008",
+    "start_utc": "2023-08-01T00:00:00+00:00",
+    "end_utc": "2023-08-31T00:00:00+00:00",
+    "window_hours": 720
+  },
+  {
+    "query_id": "tuning_Q1_1_41009_24h",
+    "role": "tuning",
+    "kind": "Q1",
+    "station_id": "41009",
+    "start_utc": "2023-08-01T00:00:00+00:00",
+    "end_utc": "2023-08-02T00:00:00+00:00",
+    "window_hours": 24
+  },
+  {
+    "query_id": "tuning_Q1_1_41009_168h",
+    "role": "tuning",
+    "kind": "Q1",
+    "station_id": "41009",
+    "start_utc": "2023-08-01T00:00:00+00:00",
+    "end_utc": "2023-08-08T00:00:00+00:00",
+    "window_hours": 168
+  },
+  {
+    "query_id": "tuning_Q1_1_41009_720h",
+    "role": "tuning",
+    "kind": "Q1",
+    "station_id": "41009",
+    "start_utc": "2023-08-01T00:00:00+00:00",
+    "end_utc": "2023-08-31T00:00:00+00:00",
+    "window_hours": 720
+  },
+  {
+    "query_id": "tuning_Q1_1_41010_24h",
+    "role": "tuning",
+    "kind": "Q1",
+    "station_id": "41010",
+    "start_utc": "2023-08-01T00:00:00+00:00",
+    "end_utc": "2023-08-02T00:00:00+00:00",
+    "window_hours": 24
+  },
+  {
+    "query_id": "tuning_Q1_1_41010_168h",
+    "role": "tuning",
+    "kind": "Q1",
+    "station_id": "41010",
+    "start_utc": "2023-08-01T00:00:00+00:00",
+    "end_utc": "2023-08-08T00:00:00+00:00",
+    "window_hours": 168
+  },
+  {
+    "query_id": "tuning_Q1_1_41010_720h",
+    "role": "tuning",
+    "kind": "Q1",
+    "station_id": "41010",
+    "start_utc": "2023-08-01T00:00:00+00:00",
+    "end_utc": "2023-08-31T00:00:00+00:00",
+    "window_hours": 720
+  },
+  {
+    "query_id": "tuning_Q1_1_41013_24h",
+    "role": "tuning",
+    "kind": "Q1",
+    "station_id": "41013",
+    "start_utc": "2023-08-01T00:00:00+00:00",
+    "end_utc": "2023-08-02T00:00:00+00:00",
+    "window_hours": 24
+  },
+  {
+    "query_id": "tuning_Q1_1_41013_168h",
+    "role": "tuning",
+    "kind": "Q1",
+    "station_id": "41013",
+    "start_utc": "2023-08-01T00:00:00+00:00",
+    "end_utc": "2023-08-08T00:00:00+00:00",
+    "window_hours": 168
+  },
+  {
+    "query_id": "tuning_Q1_1_41013_720h",
+    "role": "tuning",
+    "kind": "Q1",
+    "station_id": "41013",
+    "start_utc": "2023-08-01T00:00:00+00:00",
+    "end_utc": "2023-08-31T00:00:00+00:00",
+    "window_hours": 720
+  },
+  {
+    "query_id": "tuning_Q1_1_41025_24h",
+    "role": "tuning",
+    "kind": "Q1",
+    "station_id": "41025",
+    "start_utc": "2023-08-01T00:00:00+00:00",
+    "end_utc": "2023-08-02T00:00:00+00:00",
+    "window_hours": 24
+  },
+  {
+    "query_id": "tuning_Q1_1_41025_168h",
+    "role": "tuning",
+    "kind": "Q1",
+    "station_id": "41025",
+    "start_utc": "2023-08-01T00:00:00+00:00",
+    "end_utc": "2023-08-08T00:00:00+00:00",
+    "window_hours": 168
+  },
+  {
+    "query_id": "tuning_Q1_1_41025_720h",
+    "role": "tuning",
+    "kind": "Q1",
+    "station_id": "41025",
+    "start_utc": "2023-08-01T00:00:00+00:00",
+    "end_utc": "2023-08-31T00:00:00+00:00",
+    "window_hours": 720
+  },
+  {
+    "query_id": "tuning_Q2_1_1h",
+    "role": "tuning",
+    "kind": "Q2",
+    "station_id": null,
+    "start_utc": "2023-08-01T00:00:00+00:00",
+    "end_utc": "2023-08-01T01:00:00+00:00",
+    "window_hours": 1
+  },
+  {
+    "query_id": "tuning_Q2_1_24h",
+    "role": "tuning",
+    "kind": "Q2",
+    "station_id": null,
+    "start_utc": "2023-08-01T00:00:00+00:00",
+    "end_utc": "2023-08-02T00:00:00+00:00",
+    "window_hours": 24
+  },
+  {
+    "query_id": "tuning_Q2_1_168h",
+    "role": "tuning",
+    "kind": "Q2",
+    "station_id": null,
+    "start_utc": "2023-08-01T00:00:00+00:00",
+    "end_utc": "2023-08-08T00:00:00+00:00",
+    "window_hours": 168
+  },
+  {
+    "query_id": "validation_Q1_0_41001_24h",
+    "role": "validation",
+    "kind": "Q1",
+    "station_id": "41001",
+    "start_utc": "2024-02-01T00:00:00+00:00",
+    "end_utc": "2024-02-02T00:00:00+00:00",
+    "window_hours": 24
+  },
+  {
+    "query_id": "validation_Q1_0_41001_168h",
+    "role": "validation",
+    "kind": "Q1",
+    "station_id": "41001",
+    "start_utc": "2024-02-01T00:00:00+00:00",
+    "end_utc": "2024-02-08T00:00:00+00:00",
+    "window_hours": 168
+  },
+  {
+    "query_id": "validation_Q1_0_41001_720h",
+    "role": "validation",
+    "kind": "Q1",
+    "station_id": "41001",
+    "start_utc": "2024-02-01T00:00:00+00:00",
+    "end_utc": "2024-03-02T00:00:00+00:00",
+    "window_hours": 720
+  },
+  {
+    "query_id": "validation_Q1_0_41002_24h",
+    "role": "validation",
+    "kind": "Q1",
+    "station_id": "41002",
+    "start_utc": "2024-02-01T00:00:00+00:00",
+    "end_utc": "2024-02-02T00:00:00+00:00",
+    "window_hours": 24
+  },
+  {
+    "query_id": "validation_Q1_0_41002_168h",
+    "role": "validation",
+    "kind": "Q1",
+    "station_id": "41002",
+    "start_utc": "2024-02-01T00:00:00+00:00",
+    "end_utc": "2024-02-08T00:00:00+00:00",
+    "window_hours": 168
+  },
+  {
+    "query_id": "validation_Q1_0_41002_720h",
+    "role": "validation",
+    "kind": "Q1",
+    "station_id": "41002",
+    "start_utc": "2024-02-01T00:00:00+00:00",
+    "end_utc": "2024-03-02T00:00:00+00:00",
+    "window_hours": 720
+  },
+  {
+    "query_id": "validation_Q1_0_41004_24h",
+    "role": "validation",
+    "kind": "Q1",
+    "station_id": "41004",
+    "start_utc": "2024-02-01T00:00:00+00:00",
+    "end_utc": "2024-02-02T00:00:00+00:00",
+    "window_hours": 24
+  },
+  {
+    "query_id": "validation_Q1_0_41004_168h",
+    "role": "validation",
+    "kind": "Q1",
+    "station_id": "41004",
+    "start_utc": "2024-02-01T00:00:00+00:00",
+    "end_utc": "2024-02-08T00:00:00+00:00",
+    "window_hours": 168
+  },
+  {
+    "query_id": "validation_Q1_0_41004_720h",
+    "role": "validation",
+    "kind": "Q1",
+    "station_id": "41004",
+    "start_utc": "2024-02-01T00:00:00+00:00",
+    "end_utc": "2024-03-02T00:00:00+00:00",
+    "window_hours": 720
+  },
+  {
+    "query_id": "validation_Q1_0_41008_24h",
+    "role": "validation",
+    "kind": "Q1",
+    "station_id": "41008",
+    "start_utc": "2024-02-01T00:00:00+00:00",
+    "end_utc": "2024-02-02T00:00:00+00:00",
+    "window_hours": 24
+  },
+  {
+    "query_id": "validation_Q1_0_41008_168h",
+    "role": "validation",
+    "kind": "Q1",
+    "station_id": "41008",
+    "start_utc": "2024-02-01T00:00:00+00:00",
+    "end_utc": "2024-02-08T00:00:00+00:00",
+    "window_hours": 168
+  },
+  {
+    "query_id": "validation_Q1_0_41008_720h",
+    "role": "validation",
+    "kind": "Q1",
+    "station_id": "41008",
+    "start_utc": "2024-02-01T00:00:00+00:00",
+    "end_utc": "2024-03-02T00:00:00+00:00",
+    "window_hours": 720
+  },
+  {
+    "query_id": "validation_Q1_0_41009_24h",
+    "role": "validation",
+    "kind": "Q1",
+    "station_id": "41009",
+    "start_utc": "2024-02-01T00:00:00+00:00",
+    "end_utc": "2024-02-02T00:00:00+00:00",
+    "window_hours": 24
+  },
+  {
+    "query_id": "validation_Q1_0_41009_168h",
+    "role": "validation",
+    "kind": "Q1",
+    "station_id": "41009",
+    "start_utc": "2024-02-01T00:00:00+00:00",
+    "end_utc": "2024-02-08T00:00:00+00:00",
+    "window_hours": 168
+  },
+  {
+    "query_id": "validation_Q1_0_41009_720h",
+    "role": "validation",
+    "kind": "Q1",
+    "station_id": "41009",
+    "start_utc": "2024-02-01T00:00:00+00:00",
+    "end_utc": "2024-03-02T00:00:00+00:00",
+    "window_hours": 720
+  },
+  {
+    "query_id": "validation_Q1_0_41010_24h",
+    "role": "validation",
+    "kind": "Q1",
+    "station_id": "41010",
+    "start_utc": "2024-02-01T00:00:00+00:00",
+    "end_utc": "2024-02-02T00:00:00+00:00",
+    "window_hours": 24
+  },
+  {
+    "query_id": "validation_Q1_0_41010_168h",
+    "role": "validation",
+    "kind": "Q1",
+    "station_id": "41010",
+    "start_utc": "2024-02-01T00:00:00+00:00",
+    "end_utc": "2024-02-08T00:00:00+00:00",
+    "window_hours": 168
+  },
+  {
+    "query_id": "validation_Q1_0_41010_720h",
+    "role": "validation",
+    "kind": "Q1",
+    "station_id": "41010",
+    "start_utc": "2024-02-01T00:00:00+00:00",
+    "end_utc": "2024-03-02T00:00:00+00:00",
+    "window_hours": 720
+  },
+  {
+    "query_id": "validation_Q1_0_41013_24h",
+    "role": "validation",
+    "kind": "Q1",
+    "station_id": "41013",
+    "start_utc": "2024-02-01T00:00:00+00:00",
+    "end_utc": "2024-02-02T00:00:00+00:00",
+    "window_hours": 24
+  },
+  {
+    "query_id": "validation_Q1_0_41013_168h",
+    "role": "validation",
+    "kind": "Q1",
+    "station_id": "41013",
+    "start_utc": "2024-02-01T00:00:00+00:00",
+    "end_utc": "2024-02-08T00:00:00+00:00",
+    "window_hours": 168
+  },
+  {
+    "query_id": "validation_Q1_0_41013_720h",
+    "role": "validation",
+    "kind": "Q1",
+    "station_id": "41013",
+    "start_utc": "2024-02-01T00:00:00+00:00",
+    "end_utc": "2024-03-02T00:00:00+00:00",
+    "window_hours": 720
+  },
+  {
+    "query_id": "validation_Q1_0_41025_24h",
+    "role": "validation",
+    "kind": "Q1",
+    "station_id": "41025",
+    "start_utc": "2024-02-01T00:00:00+00:00",
+    "end_utc": "2024-02-02T00:00:00+00:00",
+    "window_hours": 24
+  },
+  {
+    "query_id": "validation_Q1_0_41025_168h",
+    "role": "validation",
+    "kind": "Q1",
+    "station_id": "41025",
+    "start_utc": "2024-02-01T00:00:00+00:00",
+    "end_utc": "2024-02-08T00:00:00+00:00",
+    "window_hours": 168
+  },
+  {
+    "query_id": "validation_Q1_0_41025_720h",
+    "role": "validation",
+    "kind": "Q1",
+    "station_id": "41025",
+    "start_utc": "2024-02-01T00:00:00+00:00",
+    "end_utc": "2024-03-02T00:00:00+00:00",
+    "window_hours": 720
+  },
+  {
+    "query_id": "validation_Q2_0_1h",
+    "role": "validation",
+    "kind": "Q2",
+    "station_id": null,
+    "start_utc": "2024-02-01T00:00:00+00:00",
+    "end_utc": "2024-02-01T01:00:00+00:00",
+    "window_hours": 1
+  },
+  {
+    "query_id": "validation_Q2_0_24h",
+    "role": "validation",
+    "kind": "Q2",
+    "station_id": null,
+    "start_utc": "2024-02-01T00:00:00+00:00",
+    "end_utc": "2024-02-02T00:00:00+00:00",
+    "window_hours": 24
+  },
+  {
+    "query_id": "validation_Q2_0_168h",
+    "role": "validation",
+    "kind": "Q2",
+    "station_id": null,
+    "start_utc": "2024-02-01T00:00:00+00:00",
+    "end_utc": "2024-02-08T00:00:00+00:00",
+    "window_hours": 168
+  },
+  {
+    "query_id": "validation_Q1_1_41001_24h",
+    "role": "validation",
+    "kind": "Q1",
+    "station_id": "41001",
+    "start_utc": "2024-08-01T00:00:00+00:00",
+    "end_utc": "2024-08-02T00:00:00+00:00",
+    "window_hours": 24
+  },
+  {
+    "query_id": "validation_Q1_1_41001_168h",
+    "role": "validation",
+    "kind": "Q1",
+    "station_id": "41001",
+    "start_utc": "2024-08-01T00:00:00+00:00",
+    "end_utc": "2024-08-08T00:00:00+00:00",
+    "window_hours": 168
+  },
+  {
+    "query_id": "validation_Q1_1_41001_720h",
+    "role": "validation",
+    "kind": "Q1",
+    "station_id": "41001",
+    "start_utc": "2024-08-01T00:00:00+00:00",
+    "end_utc": "2024-08-31T00:00:00+00:00",
+    "window_hours": 720
+  },
+  {
+    "query_id": "validation_Q1_1_41002_24h",
+    "role": "validation",
+    "kind": "Q1",
+    "station_id": "41002",
+    "start_utc": "2024-08-01T00:00:00+00:00",
+    "end_utc": "2024-08-02T00:00:00+00:00",
+    "window_hours": 24
+  },
+  {
+    "query_id": "validation_Q1_1_41002_168h",
+    "role": "validation",
+    "kind": "Q1",
+    "station_id": "41002",
+    "start_utc": "2024-08-01T00:00:00+00:00",
+    "end_utc": "2024-08-08T00:00:00+00:00",
+    "window_hours": 168
+  },
+  {
+    "query_id": "validation_Q1_1_41002_720h",
+    "role": "validation",
+    "kind": "Q1",
+    "station_id": "41002",
+    "start_utc": "2024-08-01T00:00:00+00:00",
+    "end_utc": "2024-08-31T00:00:00+00:00",
+    "window_hours": 720
+  },
+  {
+    "query_id": "validation_Q1_1_41004_24h",
+    "role": "validation",
+    "kind": "Q1",
+    "station_id": "41004",
+    "start_utc": "2024-08-01T00:00:00+00:00",
+    "end_utc": "2024-08-02T00:00:00+00:00",
+    "window_hours": 24
+  },
+  {
+    "query_id": "validation_Q1_1_41004_168h",
+    "role": "validation",
+    "kind": "Q1",
+    "station_id": "41004",
+    "start_utc": "2024-08-01T00:00:00+00:00",
+    "end_utc": "2024-08-08T00:00:00+00:00",
+    "window_hours": 168
+  },
+  {
+    "query_id": "validation_Q1_1_41004_720h",
+    "role": "validation",
+    "kind": "Q1",
+    "station_id": "41004",
+    "start_utc": "2024-08-01T00:00:00+00:00",
+    "end_utc": "2024-08-31T00:00:00+00:00",
+    "window_hours": 720
+  },
+  {
+    "query_id": "validation_Q1_1_41008_24h",
+    "role": "validation",
+    "kind": "Q1",
+    "station_id": "41008",
+    "start_utc": "2024-08-01T00:00:00+00:00",
+    "end_utc": "2024-08-02T00:00:00+00:00",
+    "window_hours": 24
+  },
+  {
+    "query_id": "validation_Q1_1_41008_168h",
+    "role": "validation",
+    "kind": "Q1",
+    "station_id": "41008",
+    "start_utc": "2024-08-01T00:00:00+00:00",
+    "end_utc": "2024-08-08T00:00:00+00:00",
+    "window_hours": 168
+  },
+  {
+    "query_id": "validation_Q1_1_41008_720h",
+    "role": "validation",
+    "kind": "Q1",
+    "station_id": "41008",
+    "start_utc": "2024-08-01T00:00:00+00:00",
+    "end_utc": "2024-08-31T00:00:00+00:00",
+    "window_hours": 720
+  },
+  {
+    "query_id": "validation_Q1_1_41009_24h",
+    "role": "validation",
+    "kind": "Q1",
+    "station_id": "41009",
+    "start_utc": "2024-08-01T00:00:00+00:00",
+    "end_utc": "2024-08-02T00:00:00+00:00",
+    "window_hours": 24
+  },
+  {
+    "query_id": "validation_Q1_1_41009_168h",
+    "role": "validation",
+    "kind": "Q1",
+    "station_id": "41009",
+    "start_utc": "2024-08-01T00:00:00+00:00",
+    "end_utc": "2024-08-08T00:00:00+00:00",
+    "window_hours": 168
+  },
+  {
+    "query_id": "validation_Q1_1_41009_720h",
+    "role": "validation",
+    "kind": "Q1",
+    "station_id": "41009",
+    "start_utc": "2024-08-01T00:00:00+00:00",
+    "end_utc": "2024-08-31T00:00:00+00:00",
+    "window_hours": 720
+  },
+  {
+    "query_id": "validation_Q1_1_41010_24h",
+    "role": "validation",
+    "kind": "Q1",
+    "station_id": "41010",
+    "start_utc": "2024-08-01T00:00:00+00:00",
+    "end_utc": "2024-08-02T00:00:00+00:00",
+    "window_hours": 24
+  },
+  {
+    "query_id": "validation_Q1_1_41010_168h",
+    "role": "validation",
+    "kind": "Q1",
+    "station_id": "41010",
+    "start_utc": "2024-08-01T00:00:00+00:00",
+    "end_utc": "2024-08-08T00:00:00+00:00",
+    "window_hours": 168
+  },
+  {
+    "query_id": "validation_Q1_1_41010_720h",
+    "role": "validation",
+    "kind": "Q1",
+    "station_id": "41010",
+    "start_utc": "2024-08-01T00:00:00+00:00",
+    "end_utc": "2024-08-31T00:00:00+00:00",
+    "window_hours": 720
+  },
+  {
+    "query_id": "validation_Q1_1_41013_24h",
+    "role": "validation",
+    "kind": "Q1",
+    "station_id": "41013",
+    "start_utc": "2024-08-01T00:00:00+00:00",
+    "end_utc": "2024-08-02T00:00:00+00:00",
+    "window_hours": 24
+  },
+  {
+    "query_id": "validation_Q1_1_41013_168h",
+    "role": "validation",
+    "kind": "Q1",
+    "station_id": "41013",
+    "start_utc": "2024-08-01T00:00:00+00:00",
+    "end_utc": "2024-08-08T00:00:00+00:00",
+    "window_hours": 168
+  },
+  {
+    "query_id": "validation_Q1_1_41013_720h",
+    "role": "validation",
+    "kind": "Q1",
+    "station_id": "41013",
+    "start_utc": "2024-08-01T00:00:00+00:00",
+    "end_utc": "2024-08-31T00:00:00+00:00",
+    "window_hours": 720
+  },
+  {
+    "query_id": "validation_Q1_1_41025_24h",
+    "role": "validation",
+    "kind": "Q1",
+    "station_id": "41025",
+    "start_utc": "2024-08-01T00:00:00+00:00",
+    "end_utc": "2024-08-02T00:00:00+00:00",
+    "window_hours": 24
+  },
+  {
+    "query_id": "validation_Q1_1_41025_168h",
+    "role": "validation",
+    "kind": "Q1",
+    "station_id": "41025",
+    "start_utc": "2024-08-01T00:00:00+00:00",
+    "end_utc": "2024-08-08T00:00:00+00:00",
+    "window_hours": 168
+  },
+  {
+    "query_id": "validation_Q1_1_41025_720h",
+    "role": "validation",
+    "kind": "Q1",
+    "station_id": "41025",
+    "start_utc": "2024-08-01T00:00:00+00:00",
+    "end_utc": "2024-08-31T00:00:00+00:00",
+    "window_hours": 720
+  },
+  {
+    "query_id": "validation_Q2_1_1h",
+    "role": "validation",
+    "kind": "Q2",
+    "station_id": null,
+    "start_utc": "2024-08-01T00:00:00+00:00",
+    "end_utc": "2024-08-01T01:00:00+00:00",
+    "window_hours": 1
+  },
+  {
+    "query_id": "validation_Q2_1_24h",
+    "role": "validation",
+    "kind": "Q2",
+    "station_id": null,
+    "start_utc": "2024-08-01T00:00:00+00:00",
+    "end_utc": "2024-08-02T00:00:00+00:00",
+    "window_hours": 24
+  },
+  {
+    "query_id": "validation_Q2_1_168h",
+    "role": "validation",
+    "kind": "Q2",
+    "station_id": null,
+    "start_utc": "2024-08-01T00:00:00+00:00",
+    "end_utc": "2024-08-08T00:00:00+00:00",
+    "window_hours": 168
+  }
+]

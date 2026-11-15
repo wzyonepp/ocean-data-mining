@@ -4,23 +4,28 @@
 
 仓库：https://github.com/wzyonepp/ocean-data-mining
 
-当前已完成研究问题与边界、资料调研，以及公开数据的实际下载和筛查。尚未运行 Parquet 性能实验，未形成排序优劣结论。
+当前已完成研究边界、资料调研、公开数据筛查、实验方案及 12 条查询的预跑。三个布局的 36 次答案检查通过，保存了 180 次计时；正式实验尚未运行。
 
 ## 文档入口
 
-- [研究问题与研究边界](report/01_research_scope.md)
-- [资料调研与研究定位](report/02_literature_review.md)
-- [公开数据筛选与实测检查](report/03_data_selection.md)
-- [数据筛查结果与校验清单](results/data_screening_manifest.json)
-- [数据访问过程记录](results/data_access_notes.md)
+- [研究问题与边界](report/01_research_scope.md)
+- [资料调研](report/02_literature_review.md)
+- [数据筛选](report/03_data_selection.md)
+- [实验方案](report/04_experiment_protocol.md)
+- [预跑结果及边界行组诊断](report/05_pilot_findings.md)
+- [下一步：正式实验计划](report/06_formal_experiment_plan.md)
+- [按用户指定范围导出的 AI 对话](ai_logs/01_课程解读到实验预跑.md)
 
-## 目录
+## 目录与复现
 
-- [report/](report/)：研究计划与报告。
-- [code/](code/)：数据筛查及后续实验代码。
-- [results/](results/)：真实运行结果与证据。
-- [ai_logs/](ai_logs/)：完整 AI 对话 Markdown 的存放位置，目前尚待导出上传。
+- [report/](report/)：研究计划和报告。
+- [code/](code/)：数据筛查与预跑脚本。
+- [results/](results/)：实际数据检查、原始测量、查询计划与校验文件。
+- [ai_logs/](ai_logs/)：用户与助手对话记录；按用户要求排除了一轮对话及对应回复。
 
-数据筛查脚本仅依赖 Python 标准库。在仓库根目录运行 `python code/screen_ndbc_data.py`；详细说明见 [代码目录](code/README.md)。
+数据筛查：`python code/screen_ndbc_data.py`。
 
-下一步：锁定实验参数、查询集合、软件版本和测量规则，再进行小规模试跑。
+预跑：安装 [requirements-pilot.txt](requirements-pilot.txt) 后，执行 `python code/run_parquet_pilot.py --run-id pilot_v1_replication`。运行 ID 应保持唯一，保留既有证据。
+
+原始 CSV 与 Parquet 文件在本地 data/ 保存，未纳入 Git；来源与 SHA-256 见结果清单。方案修订仅取消个人预测环节，研究假设与实验参数继续保留。下一步运行预留的 108 条正式查询，检验排序适用边界及选择建议。
+

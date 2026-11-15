@@ -1,0 +1,35 @@
+{
+  "name": "pilot_v1",
+  "purpose": "Correctness and feasibility pilot; not a confirmatory performance study",
+  "data_manifest": "results/data_screening_manifest.json",
+  "random_seed": 20261115,
+  "threads": 1,
+  "warmup_repetitions": 1,
+  "measured_repetitions": 5,
+  "absolute_tolerance": 1e-9,
+  "relative_tolerance": 1e-12,
+  "writer": {
+    "row_group_size": 16384,
+    "compression": "zstd",
+    "compression_level": 3,
+    "use_dictionary": ["station_id"],
+    "write_statistics": true,
+    "write_page_index": false,
+    "version": "2.6",
+    "data_page_version": "1.0",
+    "data_page_size": 1048576,
+    "write_batch_size": 1024,
+    "dictionary_pagesize_limit": 1048576,
+    "coerce_timestamps": "us",
+    "allow_truncated_timestamps": false
+  },
+  "q1_window_hours": [24, 168, 720],
+  "q2_window_hours": [1, 24, 168],
+  "pilot_cases": [
+    {"station_id": "41002", "start_utc": "2023-03-15T00:00:00Z"},
+    {"station_id": "41010", "start_utc": "2024-09-15T00:00:00Z"}
+  ],
+  "formal_tuning_starts_utc": ["2023-02-01T00:00:00Z", "2023-08-01T00:00:00Z"],
+  "formal_validation_starts_utc": ["2024-02-01T00:00:00Z", "2024-08-01T00:00:00Z"],
+  "formal_mixture_q1_proportions": [0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1]
+}

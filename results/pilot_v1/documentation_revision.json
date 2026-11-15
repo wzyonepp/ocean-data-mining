@@ -1,0 +1,9 @@
+{
+  "change": "Documentation only: remove a separate personal-prediction requirement and publish existing pilot evidence",
+  "original_protocol_file": "experiment_protocol_frozen.md",
+  "original_protocol_sha256": "b400ebeb6001c882e0e01cb8c2cb3986f8e46ddf85c651b889e4016d65f08b6d",
+  "revised_protocol_file": "../../report/04_experiment_protocol.md",
+  "revised_protocol_sha256": "2740f98b7ac92c5fd6d065be1ba3c7d8ffb931df621c509d4b35379822216e4e",
+  "data_config_script_or_measurements_changed": false,
+  "original_verification_file": "artifact_verification_original.json"
+}

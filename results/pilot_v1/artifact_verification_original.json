@@ -1,0 +1,11 @@
+{
+  "run_passed": true,
+  "same_logical_contents": true,
+  "44_row_groups_each": true,
+  "713823_rows_each": true,
+  "all_file_hashes_match": true,
+  "all_36_correctness_checks_pass": true,
+  "five_measurements_per_query_and_layout": true,
+  "one_extra_warmup_per_query_and_layout": true,
+  "script_config_protocol_match": true
+}

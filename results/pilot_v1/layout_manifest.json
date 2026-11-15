@@ -1,0 +1,32 @@
+{
+  "random": {
+    "path": "data/parquet/pilot_v1/random.parquet",
+    "rows": 713823,
+    "row_groups": 44,
+    "file_bytes": 5485899,
+    "file_sha256": "3750846c969e3440b8427a1a042547bfeddf8b2a9fbdbbed82c9831f1b5da7de",
+    "logical_sha256": "5584573b88b5722881e88c90aefe290b73d947b2160e4623225a79c324733783",
+    "ordering_ms": 365.137491,
+    "writing_ms": 100.464985
+  },
+  "station_first": {
+    "path": "data/parquet/pilot_v1/station_first.parquet",
+    "rows": 713823,
+    "row_groups": 44,
+    "file_bytes": 2679571,
+    "file_sha256": "0f2265db066ab00239f5c7d663e2ef08d899437fc694608ae149589b3a80660a",
+    "logical_sha256": "5584573b88b5722881e88c90aefe290b73d947b2160e4623225a79c324733783",
+    "ordering_ms": 50.677288,
+    "writing_ms": 58.623161
+  },
+  "time_first": {
+    "path": "data/parquet/pilot_v1/time_first.parquet",
+    "rows": 713823,
+    "row_groups": 44,
+    "file_bytes": 875334,
+    "file_sha256": "a1691aa2b539c7090b6ec0f16d63aa0d2a913644c121effd7ed069be98c0e78a",
+    "logical_sha256": "5584573b88b5722881e88c90aefe290b73d947b2160e4623225a79c324733783",
+    "ordering_ms": 30.015063,
+    "writing_ms": 43.638311
+  }
+}

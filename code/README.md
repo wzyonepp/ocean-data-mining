@@ -28,3 +28,21 @@ python code/screen_ndbc_data.py --stations 41001 --years 2024 --output-dir data/
 发生下载或解析错误时，清单标记 `complete: false`，脚本返回非零退出码；检查并解决错误后重新运行。重新取得的上游数据应与原清单比对，变化需作为新版本记录。
 
 PyArrow、DuckDB 的依赖版本将在后续实验设计和试跑阶段锁定。
+
+## Parquet 预跑
+
+[run_parquet_pilot.py](run_parquet_pilot.py) 已完成一次真实运行：三种布局、12 条查询、36 次正确性检查、180 次计时及 36 次额外预热。
+
+先完成数据筛查，再安装锁定依赖：
+
+```bash
+python -m pip install -r requirements-pilot.txt
+python code/run_parquet_pilot.py --run-id pilot_v1_replication
+```
+
+命令从仓库根目录执行。配置来源为 config/pilot_v1.json；新运行 ID 不得与已存在的结果或 Parquet 目录重名。
+
+脚本验证输入哈希，生成三个布局并检查逻辑内容，保存逐行组统计、查询计划、每次耗时及校验结果。计时为预热后端到端查询，不是冷磁盘 I/O 测试。
+
+results/pilot_v1/ 为已有运行证据；本轮文档修订没有改变脚本、数据、配置或计时。正式的 108 条查询已生成，但本脚本目前仅执行预跑。
+

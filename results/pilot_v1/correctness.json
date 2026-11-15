@@ -1,0 +1,259 @@
+{
+  "base_rows": 713823,
+  "duplicate_keys": 0,
+  "base_logical_sha256": "5584573b88b5722881e88c90aefe290b73d947b2160e4623225a79c324733783",
+  "checks": [
+    {
+      "query_id": "pilot_Q1_0_24h",
+      "layout": "random",
+      "count": 144,
+      "mean_sst": 21.057638888888874,
+      "matches_reference": true
+    },
+    {
+      "query_id": "pilot_Q1_0_24h",
+      "layout": "station_first",
+      "count": 144,
+      "mean_sst": 21.05763888888886,
+      "matches_reference": true
+    },
+    {
+      "query_id": "pilot_Q1_0_24h",
+      "layout": "time_first",
+      "count": 144,
+      "mean_sst": 21.05763888888886,
+      "matches_reference": true
+    },
+    {
+      "query_id": "pilot_Q1_0_168h",
+      "layout": "random",
+      "count": 1008,
+      "mean_sst": 21.857738095238094,
+      "matches_reference": true
+    },
+    {
+      "query_id": "pilot_Q1_0_168h",
+      "layout": "station_first",
+      "count": 1008,
+      "mean_sst": 21.85773809523805,
+      "matches_reference": true
+    },
+    {
+      "query_id": "pilot_Q1_0_168h",
+      "layout": "time_first",
+      "count": 1008,
+      "mean_sst": 21.85773809523805,
+      "matches_reference": true
+    },
+    {
+      "query_id": "pilot_Q1_0_720h",
+      "layout": "random",
+      "count": 4304,
+      "mean_sst": 23.526486988847562,
+      "matches_reference": true
+    },
+    {
+      "query_id": "pilot_Q1_0_720h",
+      "layout": "station_first",
+      "count": 4304,
+      "mean_sst": 23.52648698884755,
+      "matches_reference": true
+    },
+    {
+      "query_id": "pilot_Q1_0_720h",
+      "layout": "time_first",
+      "count": 4304,
+      "mean_sst": 23.52648698884755,
+      "matches_reference": true
+    },
+    {
+      "query_id": "pilot_Q2_0_1h",
+      "layout": "random",
+      "count": 40,
+      "mean_sst": 22.069999999999997,
+      "matches_reference": true
+    },
+    {
+      "query_id": "pilot_Q2_0_1h",
+      "layout": "station_first",
+      "count": 40,
+      "mean_sst": 22.07,
+      "matches_reference": true
+    },
+    {
+      "query_id": "pilot_Q2_0_1h",
+      "layout": "time_first",
+      "count": 40,
+      "mean_sst": 22.07,
+      "matches_reference": true
+    },
+    {
+      "query_id": "pilot_Q2_0_24h",
+      "layout": "random",
+      "count": 968,
+      "mean_sst": 21.994628099173507,
+      "matches_reference": true
+    },
+    {
+      "query_id": "pilot_Q2_0_24h",
+      "layout": "station_first",
+      "count": 968,
+      "mean_sst": 21.994628099173543,
+      "matches_reference": true
+    },
+    {
+      "query_id": "pilot_Q2_0_24h",
+      "layout": "time_first",
+      "count": 968,
+      "mean_sst": 21.99462809917357,
+      "matches_reference": true
+    },
+    {
+      "query_id": "pilot_Q2_0_168h",
+      "layout": "random",
+      "count": 6850,
+      "mean_sst": 21.71989781021888,
+      "matches_reference": true
+    },
+    {
+      "query_id": "pilot_Q2_0_168h",
+      "layout": "station_first",
+      "count": 6850,
+      "mean_sst": 21.719897810218797,
+      "matches_reference": true
+    },
+    {
+      "query_id": "pilot_Q2_0_168h",
+      "layout": "time_first",
+      "count": 6850,
+      "mean_sst": 21.719897810218978,
+      "matches_reference": true
+    },
+    {
+      "query_id": "pilot_Q1_1_24h",
+      "layout": "random",
+      "count": 143,
+      "mean_sst": 29.978321678321695,
+      "matches_reference": true
+    },
+    {
+      "query_id": "pilot_Q1_1_24h",
+      "layout": "station_first",
+      "count": 143,
+      "mean_sst": 29.97832167832171,
+      "matches_reference": true
+    },
+    {
+      "query_id": "pilot_Q1_1_24h",
+      "layout": "time_first",
+      "count": 143,
+      "mean_sst": 29.97832167832171,
+      "matches_reference": true
+    },
+    {
+      "query_id": "pilot_Q1_1_168h",
+      "layout": "random",
+      "count": 998,
+      "mean_sst": 29.769238476953834,
+      "matches_reference": true
+    },
+    {
+      "query_id": "pilot_Q1_1_168h",
+      "layout": "station_first",
+      "count": 998,
+      "mean_sst": 29.769238476953728,
+      "matches_reference": true
+    },
+    {
+      "query_id": "pilot_Q1_1_168h",
+      "layout": "time_first",
+      "count": 998,
+      "mean_sst": 29.769238476953728,
+      "matches_reference": true
+    },
+    {
+      "query_id": "pilot_Q1_1_720h",
+      "layout": "random",
+      "count": 4270,
+      "mean_sst": 29.30255269320858,
+      "matches_reference": true
+    },
+    {
+      "query_id": "pilot_Q1_1_720h",
+      "layout": "station_first",
+      "count": 4270,
+      "mean_sst": 29.30255269320831,
+      "matches_reference": true
+    },
+    {
+      "query_id": "pilot_Q1_1_720h",
+      "layout": "time_first",
+      "count": 4270,
+      "mean_sst": 29.30255269320831,
+      "matches_reference": true
+    },
+    {
+      "query_id": "pilot_Q2_1_1h",
+      "layout": "random",
+      "count": 48,
+      "mean_sst": 27.91458333333333,
+      "matches_reference": true
+    },
+    {
+      "query_id": "pilot_Q2_1_1h",
+      "layout": "station_first",
+      "count": 48,
+      "mean_sst": 27.914583333333315,
+      "matches_reference": true
+    },
+    {
+      "query_id": "pilot_Q2_1_1h",
+      "layout": "time_first",
+      "count": 48,
+      "mean_sst": 27.914583333333326,
+      "matches_reference": true
+    },
+    {
+      "query_id": "pilot_Q2_1_24h",
+      "layout": "random",
+      "count": 1141,
+      "mean_sst": 27.788957055214674,
+      "matches_reference": true
+    },
+    {
+      "query_id": "pilot_Q2_1_24h",
+      "layout": "station_first",
+      "count": 1141,
+      "mean_sst": 27.78895705521479,
+      "matches_reference": true
+    },
+    {
+      "query_id": "pilot_Q2_1_24h",
+      "layout": "time_first",
+      "count": 1141,
+      "mean_sst": 27.788957055214635,
+      "matches_reference": true
+    },
+    {
+      "query_id": "pilot_Q2_1_168h",
+      "layout": "random",
+      "count": 7751,
+      "mean_sst": 27.758173138950056,
+      "matches_reference": true
+    },
+    {
+      "query_id": "pilot_Q2_1_168h",
+      "layout": "station_first",
+      "count": 7751,
+      "mean_sst": 27.75817313894977,
+      "matches_reference": true
+    },
+    {
+      "query_id": "pilot_Q2_1_168h",
+      "layout": "time_first",
+      "count": 7751,
+      "mean_sst": 27.75817313895002,
+      "matches_reference": true
+    }
+  ]
+}
