@@ -1,23 +1,20 @@
-# 研究文档与报告
+# 实验报告与研究依据
 
-**[完整实验报告](实验报告.md)**：按研究问题、相关资料、原始对照、诊断、改动、新日期验证，以及改进、代价与局限整理，首页列出公开仓库与对话链接。提交人姓名、学号需提交时填写。
+- [最终实验报告](实验报告.md)
+- [大作业ai对话记录](../ai_logs/02_研究过程补充问答.md)：研究完成后按提纲整理的补充问答。
 
-审查修订已补充第 6 节的贡献定位、范围统计未能排除无匹配行组的真实案例、分组示意、伪代码和对照条件；第 7.1—7.2 节展示没有改善的查询，以及一次较长计时对平均值的影响。文字修订将第 8 节改名为“改进、代价与局限”，并补充必要术语的解释。主要统计方式、原始计时和实验参数未改动。
+报告第 6 节拆解问题诊断、分组改动、实现和对照条件；第 7 节给出新日期验证与未改善查询；第 8 节说明改进、代价与局限。提交人姓名、学号需提交时填写。
 
-- [08：边界对齐扩展方案](08_alignment_protocol.md)
-- [09：探索复测结果](09_alignment_results.md)
-- [10：新日期预先方案](10_fresh_dates_protocol.md)
-- [11：新日期验证结果](11_fresh_dates_results.md)
+## 支撑文档
 
-- [01：研究问题与边界](01_research_scope.md)
-- [02：资料调研](02_literature_review.md)
-- [03：数据筛选](03_data_selection.md)
-- [04：实验方案](04_experiment_protocol.md)
-- [05：预跑结果](05_pilot_findings.md)
-- [06：正式实验计划与执行状态](06_formal_experiment_plan.md)
-- [07：正式实验结果与排序选择验证](07_formal_results.md)
+- [研究问题与边界](01_research_scope.md)
+- [资料调研](02_literature_review.md)
+- [数据筛选](03_data_selection.md)
+- [初始实验方案](04_experiment_protocol.md)
+- [预跑与真实行组诊断](05_pilot_findings.md)
+- [正式实验方案](06_formal_experiment_plan.md)
+- [正式实验结果](07_formal_results.md)
+- [边界对齐方案](08_alignment_protocol.md)与[探索结果](09_alignment_results.md)
+- [新日期预先方案](10_fresh_dates_protocol.md)与[验证结果](11_fresh_dates_results.md)
 
-正式实验已完成：108 条查询、324 次答案检查、1,620 次计时和四组图表。结论限于当前数据、查询窗口和暖缓存运行条件。按用户要求，不设置个人预测环节。
-
-运行时的原方案快照与文档修订说明保存在 results/pilot_v1/，保证已有测量能追溯到原条件。最终报告首页须填写仓库链接：https://github.com/wzyonepp/ocean-data-mining
-
+上述文档支撑最终报告的分析；运行时方案快照、原始计时和图表保存在 results/，与实验代码一并保留，便于核查和复现。
