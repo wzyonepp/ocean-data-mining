@@ -63,6 +63,6 @@
     "2024-06-15T00:00:00Z",
     "2024-11-15T00:00:00Z"
   ],
-  "build_script_sha256": "35958fcb333ed3dd4d756e354af7601fd52b8ea7100a4830ca3f1f8ef8fed021",
+  "build_script_sha256": "a73cbab1cf4187e5899a518b720c984425ba8a68b6020ef68f4acad5dee4622e",
   "scope": "new query dates; same historical dataset and machine"
 }
