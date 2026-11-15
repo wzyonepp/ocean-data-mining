@@ -1,0 +1,4253 @@
+[
+  {
+    "query_id": "tuning_Q1_0_41001_24h",
+    "layout": "station_first",
+    "expected": [
+      144,
+      20.414583333333383
+    ],
+    "actual": [
+      144,
+      20.414583333333383
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_0_41001_24h",
+    "layout": "station_aligned",
+    "expected": [
+      144,
+      20.414583333333383
+    ],
+    "actual": [
+      144,
+      20.414583333333383
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_0_41001_24h",
+    "layout": "time_first",
+    "expected": [
+      144,
+      20.414583333333383
+    ],
+    "actual": [
+      144,
+      20.414583333333383
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_0_41001_168h",
+    "layout": "station_first",
+    "expected": [
+      1004,
+      20.293824701195287
+    ],
+    "actual": [
+      1004,
+      20.293824701195287
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_0_41001_168h",
+    "layout": "station_aligned",
+    "expected": [
+      1004,
+      20.293824701195287
+    ],
+    "actual": [
+      1004,
+      20.293824701195287
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_0_41001_168h",
+    "layout": "time_first",
+    "expected": [
+      1004,
+      20.293824701195287
+    ],
+    "actual": [
+      1004,
+      20.293824701195287
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_0_41001_720h",
+    "layout": "station_first",
+    "expected": [
+      4297,
+      21.70125669071432
+    ],
+    "actual": [
+      4297,
+      21.70125669071432
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_0_41001_720h",
+    "layout": "station_aligned",
+    "expected": [
+      4297,
+      21.70125669071432
+    ],
+    "actual": [
+      4297,
+      21.70125669071432
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_0_41001_720h",
+    "layout": "time_first",
+    "expected": [
+      4297,
+      21.70125669071432
+    ],
+    "actual": [
+      4297,
+      21.70125669071432
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_0_41002_24h",
+    "layout": "station_first",
+    "expected": [
+      142,
+      21.778873239436646
+    ],
+    "actual": [
+      142,
+      21.778873239436646
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_0_41002_24h",
+    "layout": "station_aligned",
+    "expected": [
+      142,
+      21.778873239436646
+    ],
+    "actual": [
+      142,
+      21.778873239436646
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_0_41002_24h",
+    "layout": "time_first",
+    "expected": [
+      142,
+      21.778873239436646
+    ],
+    "actual": [
+      142,
+      21.778873239436646
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_0_41002_168h",
+    "layout": "station_first",
+    "expected": [
+      1003,
+      21.816051844466504
+    ],
+    "actual": [
+      1003,
+      21.816051844466504
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_0_41002_168h",
+    "layout": "station_aligned",
+    "expected": [
+      1003,
+      21.816051844466504
+    ],
+    "actual": [
+      1003,
+      21.816051844466504
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_0_41002_168h",
+    "layout": "time_first",
+    "expected": [
+      1003,
+      21.816051844466504
+    ],
+    "actual": [
+      1003,
+      21.816051844466504
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_0_41002_720h",
+    "layout": "station_first",
+    "expected": [
+      4296,
+      21.81492085661095
+    ],
+    "actual": [
+      4296,
+      21.81492085661095
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_0_41002_720h",
+    "layout": "station_aligned",
+    "expected": [
+      4296,
+      21.81492085661095
+    ],
+    "actual": [
+      4296,
+      21.81492085661095
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_0_41002_720h",
+    "layout": "time_first",
+    "expected": [
+      4296,
+      21.81492085661095
+    ],
+    "actual": [
+      4296,
+      21.81492085661095
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_0_41004_24h",
+    "layout": "station_first",
+    "expected": [
+      143,
+      20.651748251748266
+    ],
+    "actual": [
+      143,
+      20.651748251748266
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_0_41004_24h",
+    "layout": "station_aligned",
+    "expected": [
+      143,
+      20.651748251748266
+    ],
+    "actual": [
+      143,
+      20.651748251748266
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_0_41004_24h",
+    "layout": "time_first",
+    "expected": [
+      143,
+      20.651748251748266
+    ],
+    "actual": [
+      143,
+      20.651748251748266
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_0_41004_168h",
+    "layout": "station_first",
+    "expected": [
+      1001,
+      21.792907092907
+    ],
+    "actual": [
+      1001,
+      21.792907092907
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_0_41004_168h",
+    "layout": "station_aligned",
+    "expected": [
+      1001,
+      21.792907092907
+    ],
+    "actual": [
+      1001,
+      21.792907092907
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_0_41004_168h",
+    "layout": "time_first",
+    "expected": [
+      1001,
+      21.792907092907
+    ],
+    "actual": [
+      1001,
+      21.792907092907
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_0_41004_720h",
+    "layout": "station_first",
+    "expected": [
+      4298,
+      20.96889250814297
+    ],
+    "actual": [
+      4298,
+      20.96889250814297
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_0_41004_720h",
+    "layout": "station_aligned",
+    "expected": [
+      4298,
+      20.96889250814297
+    ],
+    "actual": [
+      4298,
+      20.96889250814297
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_0_41004_720h",
+    "layout": "time_first",
+    "expected": [
+      4298,
+      20.96889250814297
+    ],
+    "actual": [
+      4298,
+      20.96889250814297
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_0_41008_24h",
+    "layout": "station_first",
+    "expected": [
+      24,
+      14.3375
+    ],
+    "actual": [
+      24,
+      14.3375
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_0_41008_24h",
+    "layout": "station_aligned",
+    "expected": [
+      24,
+      14.3375
+    ],
+    "actual": [
+      24,
+      14.3375
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_0_41008_24h",
+    "layout": "time_first",
+    "expected": [
+      24,
+      14.3375
+    ],
+    "actual": [
+      24,
+      14.3375
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_0_41008_168h",
+    "layout": "station_first",
+    "expected": [
+      168,
+      14.285714285714272
+    ],
+    "actual": [
+      168,
+      14.285714285714272
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_0_41008_168h",
+    "layout": "station_aligned",
+    "expected": [
+      168,
+      14.285714285714272
+    ],
+    "actual": [
+      168,
+      14.285714285714272
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_0_41008_168h",
+    "layout": "time_first",
+    "expected": [
+      168,
+      14.285714285714272
+    ],
+    "actual": [
+      168,
+      14.285714285714272
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_0_41008_720h",
+    "layout": "station_first",
+    "expected": [
+      719,
+      15.71502086230875
+    ],
+    "actual": [
+      719,
+      15.71502086230875
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_0_41008_720h",
+    "layout": "station_aligned",
+    "expected": [
+      719,
+      15.71502086230875
+    ],
+    "actual": [
+      719,
+      15.71502086230875
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_0_41008_720h",
+    "layout": "time_first",
+    "expected": [
+      719,
+      15.71502086230875
+    ],
+    "actual": [
+      719,
+      15.71502086230875
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_0_41009_24h",
+    "layout": "station_first",
+    "expected": [
+      132,
+      23.458333333333332
+    ],
+    "actual": [
+      132,
+      23.458333333333332
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_0_41009_24h",
+    "layout": "station_aligned",
+    "expected": [
+      132,
+      23.458333333333332
+    ],
+    "actual": [
+      132,
+      23.458333333333332
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_0_41009_24h",
+    "layout": "time_first",
+    "expected": [
+      132,
+      23.458333333333332
+    ],
+    "actual": [
+      132,
+      23.458333333333332
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_0_41009_168h",
+    "layout": "station_first",
+    "expected": [
+      874,
+      23.52700228832955
+    ],
+    "actual": [
+      874,
+      23.52700228832955
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_0_41009_168h",
+    "layout": "station_aligned",
+    "expected": [
+      874,
+      23.52700228832955
+    ],
+    "actual": [
+      874,
+      23.52700228832955
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_0_41009_168h",
+    "layout": "time_first",
+    "expected": [
+      874,
+      23.52700228832955
+    ],
+    "actual": [
+      874,
+      23.52700228832955
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_0_41009_720h",
+    "layout": "station_first",
+    "expected": [
+      3822,
+      23.645133437990758
+    ],
+    "actual": [
+      3822,
+      23.645133437990758
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_0_41009_720h",
+    "layout": "station_aligned",
+    "expected": [
+      3822,
+      23.645133437990758
+    ],
+    "actual": [
+      3822,
+      23.645133437990758
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_0_41009_720h",
+    "layout": "time_first",
+    "expected": [
+      3822,
+      23.645133437990758
+    ],
+    "actual": [
+      3822,
+      23.645133437990758
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_0_41010_24h",
+    "layout": "station_first",
+    "expected": [
+      142,
+      24.549999999999972
+    ],
+    "actual": [
+      142,
+      24.549999999999972
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_0_41010_24h",
+    "layout": "station_aligned",
+    "expected": [
+      142,
+      24.549999999999972
+    ],
+    "actual": [
+      142,
+      24.549999999999972
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_0_41010_24h",
+    "layout": "time_first",
+    "expected": [
+      142,
+      24.549999999999972
+    ],
+    "actual": [
+      142,
+      24.549999999999972
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_0_41010_168h",
+    "layout": "station_first",
+    "expected": [
+      999,
+      23.875175175174977
+    ],
+    "actual": [
+      999,
+      23.875175175174977
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_0_41010_168h",
+    "layout": "station_aligned",
+    "expected": [
+      999,
+      23.875175175174977
+    ],
+    "actual": [
+      999,
+      23.875175175174977
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_0_41010_168h",
+    "layout": "time_first",
+    "expected": [
+      999,
+      23.875175175174977
+    ],
+    "actual": [
+      999,
+      23.875175175174977
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_0_41010_720h",
+    "layout": "station_first",
+    "expected": [
+      4281,
+      24.00747488904451
+    ],
+    "actual": [
+      4281,
+      24.00747488904451
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_0_41010_720h",
+    "layout": "station_aligned",
+    "expected": [
+      4281,
+      24.00747488904451
+    ],
+    "actual": [
+      4281,
+      24.00747488904451
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_0_41010_720h",
+    "layout": "time_first",
+    "expected": [
+      4281,
+      24.00747488904451
+    ],
+    "actual": [
+      4281,
+      24.00747488904451
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_0_41013_24h",
+    "layout": "station_first",
+    "expected": [
+      144,
+      21.69791666666667
+    ],
+    "actual": [
+      144,
+      21.69791666666667
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_0_41013_24h",
+    "layout": "station_aligned",
+    "expected": [
+      144,
+      21.69791666666667
+    ],
+    "actual": [
+      144,
+      21.69791666666667
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_0_41013_24h",
+    "layout": "time_first",
+    "expected": [
+      144,
+      21.69791666666667
+    ],
+    "actual": [
+      144,
+      21.69791666666667
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_0_41013_168h",
+    "layout": "station_first",
+    "expected": [
+      1006,
+      20.91312127236579
+    ],
+    "actual": [
+      1006,
+      20.91312127236579
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_0_41013_168h",
+    "layout": "station_aligned",
+    "expected": [
+      1006,
+      20.91312127236579
+    ],
+    "actual": [
+      1006,
+      20.91312127236579
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_0_41013_168h",
+    "layout": "time_first",
+    "expected": [
+      1006,
+      20.91312127236579
+    ],
+    "actual": [
+      1006,
+      20.91312127236579
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_0_41013_720h",
+    "layout": "station_first",
+    "expected": [
+      4292,
+      19.86367660764214
+    ],
+    "actual": [
+      4292,
+      19.86367660764214
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_0_41013_720h",
+    "layout": "station_aligned",
+    "expected": [
+      4292,
+      19.86367660764214
+    ],
+    "actual": [
+      4292,
+      19.86367660764214
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_0_41013_720h",
+    "layout": "time_first",
+    "expected": [
+      4292,
+      19.86367660764214
+    ],
+    "actual": [
+      4292,
+      19.86367660764214
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_0_41025_24h",
+    "layout": "station_first",
+    "expected": [
+      144,
+      21.262500000000003
+    ],
+    "actual": [
+      144,
+      21.262500000000003
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_0_41025_24h",
+    "layout": "station_aligned",
+    "expected": [
+      144,
+      21.262500000000003
+    ],
+    "actual": [
+      144,
+      21.262500000000003
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_0_41025_24h",
+    "layout": "time_first",
+    "expected": [
+      144,
+      21.262500000000003
+    ],
+    "actual": [
+      144,
+      21.262500000000003
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_0_41025_168h",
+    "layout": "station_first",
+    "expected": [
+      991,
+      21.38163471241184
+    ],
+    "actual": [
+      991,
+      21.38163471241184
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_0_41025_168h",
+    "layout": "station_aligned",
+    "expected": [
+      991,
+      21.38163471241184
+    ],
+    "actual": [
+      991,
+      21.38163471241184
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_0_41025_168h",
+    "layout": "time_first",
+    "expected": [
+      991,
+      21.38163471241184
+    ],
+    "actual": [
+      991,
+      21.38163471241184
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_0_41025_720h",
+    "layout": "station_first",
+    "expected": [
+      4279,
+      20.379364337462206
+    ],
+    "actual": [
+      4279,
+      20.379364337462206
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_0_41025_720h",
+    "layout": "station_aligned",
+    "expected": [
+      4279,
+      20.379364337462206
+    ],
+    "actual": [
+      4279,
+      20.379364337462206
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_0_41025_720h",
+    "layout": "time_first",
+    "expected": [
+      4279,
+      20.379364337462206
+    ],
+    "actual": [
+      4279,
+      20.379364337462206
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q2_0_1h",
+    "layout": "station_first",
+    "expected": [
+      43,
+      21.85116279069767
+    ],
+    "actual": [
+      43,
+      21.85116279069767
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q2_0_1h",
+    "layout": "station_aligned",
+    "expected": [
+      43,
+      21.85116279069767
+    ],
+    "actual": [
+      43,
+      21.85116279069767
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q2_0_1h",
+    "layout": "time_first",
+    "expected": [
+      43,
+      21.85116279069767
+    ],
+    "actual": [
+      43,
+      21.85116279069767
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q2_0_24h",
+    "layout": "station_first",
+    "expected": [
+      1015,
+      21.771921182266016
+    ],
+    "actual": [
+      1015,
+      21.771921182266016
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q2_0_24h",
+    "layout": "station_aligned",
+    "expected": [
+      1015,
+      21.771921182266016
+    ],
+    "actual": [
+      1015,
+      21.771921182266016
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q2_0_24h",
+    "layout": "time_first",
+    "expected": [
+      1015,
+      21.771921182266016
+    ],
+    "actual": [
+      1015,
+      21.771921182266105
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q2_0_168h",
+    "layout": "station_first",
+    "expected": [
+      7046,
+      21.730471189327297
+    ],
+    "actual": [
+      7046,
+      21.730471189327297
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q2_0_168h",
+    "layout": "station_aligned",
+    "expected": [
+      7046,
+      21.730471189327297
+    ],
+    "actual": [
+      7046,
+      21.730471189327297
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q2_0_168h",
+    "layout": "time_first",
+    "expected": [
+      7046,
+      21.730471189327297
+    ],
+    "actual": [
+      7046,
+      21.73047118932759
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_1_41001_24h",
+    "layout": "station_first",
+    "expected": [
+      143,
+      28.43706293706298
+    ],
+    "actual": [
+      143,
+      28.43706293706298
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_1_41001_24h",
+    "layout": "station_aligned",
+    "expected": [
+      143,
+      28.43706293706298
+    ],
+    "actual": [
+      143,
+      28.43706293706298
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_1_41001_24h",
+    "layout": "time_first",
+    "expected": [
+      143,
+      28.43706293706298
+    ],
+    "actual": [
+      143,
+      28.43706293706298
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_1_41001_168h",
+    "layout": "station_first",
+    "expected": [
+      1001,
+      27.946353646353565
+    ],
+    "actual": [
+      1001,
+      27.946353646353565
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_1_41001_168h",
+    "layout": "station_aligned",
+    "expected": [
+      1001,
+      27.946353646353565
+    ],
+    "actual": [
+      1001,
+      27.946353646353565
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_1_41001_168h",
+    "layout": "time_first",
+    "expected": [
+      1001,
+      27.946353646353565
+    ],
+    "actual": [
+      1001,
+      27.946353646353565
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_1_41001_720h",
+    "layout": "station_first",
+    "expected": [
+      4284,
+      28.186227824463348
+    ],
+    "actual": [
+      4284,
+      28.186227824463348
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_1_41001_720h",
+    "layout": "station_aligned",
+    "expected": [
+      4284,
+      28.186227824463348
+    ],
+    "actual": [
+      4284,
+      28.186227824463348
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_1_41001_720h",
+    "layout": "time_first",
+    "expected": [
+      4284,
+      28.186227824463348
+    ],
+    "actual": [
+      4284,
+      28.186227824463348
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_1_41002_24h",
+    "layout": "station_first",
+    "expected": [
+      144,
+      29.184027777777732
+    ],
+    "actual": [
+      144,
+      29.184027777777732
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_1_41002_24h",
+    "layout": "station_aligned",
+    "expected": [
+      144,
+      29.184027777777732
+    ],
+    "actual": [
+      144,
+      29.184027777777732
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_1_41002_24h",
+    "layout": "time_first",
+    "expected": [
+      144,
+      29.184027777777732
+    ],
+    "actual": [
+      144,
+      29.184027777777732
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_1_41002_168h",
+    "layout": "station_first",
+    "expected": [
+      1002,
+      29.153293413173582
+    ],
+    "actual": [
+      1002,
+      29.153293413173582
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_1_41002_168h",
+    "layout": "station_aligned",
+    "expected": [
+      1002,
+      29.153293413173582
+    ],
+    "actual": [
+      1002,
+      29.153293413173582
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_1_41002_168h",
+    "layout": "time_first",
+    "expected": [
+      1002,
+      29.153293413173582
+    ],
+    "actual": [
+      1002,
+      29.153293413173582
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_1_41002_720h",
+    "layout": "station_first",
+    "expected": [
+      4291,
+      29.4015147984152
+    ],
+    "actual": [
+      4291,
+      29.4015147984152
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_1_41002_720h",
+    "layout": "station_aligned",
+    "expected": [
+      4291,
+      29.4015147984152
+    ],
+    "actual": [
+      4291,
+      29.4015147984152
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_1_41002_720h",
+    "layout": "time_first",
+    "expected": [
+      4291,
+      29.4015147984152
+    ],
+    "actual": [
+      4291,
+      29.4015147984152
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_1_41004_24h",
+    "layout": "station_first",
+    "expected": [
+      144,
+      29.293055555555497
+    ],
+    "actual": [
+      144,
+      29.293055555555497
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_1_41004_24h",
+    "layout": "station_aligned",
+    "expected": [
+      144,
+      29.293055555555497
+    ],
+    "actual": [
+      144,
+      29.293055555555497
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_1_41004_24h",
+    "layout": "time_first",
+    "expected": [
+      144,
+      29.293055555555497
+    ],
+    "actual": [
+      144,
+      29.293055555555497
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_1_41004_168h",
+    "layout": "station_first",
+    "expected": [
+      1000,
+      29.15199999999989
+    ],
+    "actual": [
+      1000,
+      29.15199999999989
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_1_41004_168h",
+    "layout": "station_aligned",
+    "expected": [
+      1000,
+      29.15199999999989
+    ],
+    "actual": [
+      1000,
+      29.15199999999989
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_1_41004_168h",
+    "layout": "time_first",
+    "expected": [
+      1000,
+      29.15199999999989
+    ],
+    "actual": [
+      1000,
+      29.15199999999989
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_1_41004_720h",
+    "layout": "station_first",
+    "expected": [
+      4274,
+      29.5464436125409
+    ],
+    "actual": [
+      4274,
+      29.5464436125409
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_1_41004_720h",
+    "layout": "station_aligned",
+    "expected": [
+      4274,
+      29.5464436125409
+    ],
+    "actual": [
+      4274,
+      29.5464436125409
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_1_41004_720h",
+    "layout": "time_first",
+    "expected": [
+      4274,
+      29.5464436125409
+    ],
+    "actual": [
+      4274,
+      29.5464436125409
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_1_41008_24h",
+    "layout": "station_first",
+    "expected": [
+      142,
+      29.468309859154935
+    ],
+    "actual": [
+      142,
+      29.468309859154935
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_1_41008_24h",
+    "layout": "station_aligned",
+    "expected": [
+      142,
+      29.468309859154935
+    ],
+    "actual": [
+      142,
+      29.468309859154935
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_1_41008_24h",
+    "layout": "time_first",
+    "expected": [
+      142,
+      29.468309859154935
+    ],
+    "actual": [
+      142,
+      29.468309859154935
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_1_41008_168h",
+    "layout": "station_first",
+    "expected": [
+      1000,
+      29.51099999999994
+    ],
+    "actual": [
+      1000,
+      29.51099999999994
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_1_41008_168h",
+    "layout": "station_aligned",
+    "expected": [
+      1000,
+      29.51099999999994
+    ],
+    "actual": [
+      1000,
+      29.51099999999994
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_1_41008_168h",
+    "layout": "time_first",
+    "expected": [
+      1000,
+      29.51099999999994
+    ],
+    "actual": [
+      1000,
+      29.51099999999994
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_1_41008_720h",
+    "layout": "station_first",
+    "expected": [
+      3886,
+      29.758080288214067
+    ],
+    "actual": [
+      3886,
+      29.758080288214067
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_1_41008_720h",
+    "layout": "station_aligned",
+    "expected": [
+      3886,
+      29.758080288214067
+    ],
+    "actual": [
+      3886,
+      29.758080288214067
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_1_41008_720h",
+    "layout": "time_first",
+    "expected": [
+      3886,
+      29.758080288214067
+    ],
+    "actual": [
+      3886,
+      29.758080288214067
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_1_41009_24h",
+    "layout": "station_first",
+    "expected": [
+      142,
+      29.43098591549293
+    ],
+    "actual": [
+      142,
+      29.43098591549293
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_1_41009_24h",
+    "layout": "station_aligned",
+    "expected": [
+      142,
+      29.43098591549293
+    ],
+    "actual": [
+      142,
+      29.43098591549293
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_1_41009_24h",
+    "layout": "time_first",
+    "expected": [
+      142,
+      29.43098591549293
+    ],
+    "actual": [
+      142,
+      29.43098591549293
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_1_41009_168h",
+    "layout": "station_first",
+    "expected": [
+      999,
+      29.213813813813793
+    ],
+    "actual": [
+      999,
+      29.213813813813793
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_1_41009_168h",
+    "layout": "station_aligned",
+    "expected": [
+      999,
+      29.213813813813793
+    ],
+    "actual": [
+      999,
+      29.213813813813793
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_1_41009_168h",
+    "layout": "time_first",
+    "expected": [
+      999,
+      29.213813813813793
+    ],
+    "actual": [
+      999,
+      29.213813813813793
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_1_41009_720h",
+    "layout": "station_first",
+    "expected": [
+      4278,
+      29.331510051426104
+    ],
+    "actual": [
+      4278,
+      29.331510051426104
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_1_41009_720h",
+    "layout": "station_aligned",
+    "expected": [
+      4278,
+      29.331510051426104
+    ],
+    "actual": [
+      4278,
+      29.331510051426104
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_1_41009_720h",
+    "layout": "time_first",
+    "expected": [
+      4278,
+      29.331510051426104
+    ],
+    "actual": [
+      4278,
+      29.331510051426104
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_1_41010_24h",
+    "layout": "station_first",
+    "expected": [
+      0,
+      null
+    ],
+    "actual": [
+      0,
+      null
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_1_41010_24h",
+    "layout": "station_aligned",
+    "expected": [
+      0,
+      null
+    ],
+    "actual": [
+      0,
+      null
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_1_41010_24h",
+    "layout": "time_first",
+    "expected": [
+      0,
+      null
+    ],
+    "actual": [
+      0,
+      null
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_1_41010_168h",
+    "layout": "station_first",
+    "expected": [
+      0,
+      null
+    ],
+    "actual": [
+      0,
+      null
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_1_41010_168h",
+    "layout": "station_aligned",
+    "expected": [
+      0,
+      null
+    ],
+    "actual": [
+      0,
+      null
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_1_41010_168h",
+    "layout": "time_first",
+    "expected": [
+      0,
+      null
+    ],
+    "actual": [
+      0,
+      null
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_1_41010_720h",
+    "layout": "station_first",
+    "expected": [
+      0,
+      null
+    ],
+    "actual": [
+      0,
+      null
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_1_41010_720h",
+    "layout": "station_aligned",
+    "expected": [
+      0,
+      null
+    ],
+    "actual": [
+      0,
+      null
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_1_41010_720h",
+    "layout": "time_first",
+    "expected": [
+      0,
+      null
+    ],
+    "actual": [
+      0,
+      null
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_1_41013_24h",
+    "layout": "station_first",
+    "expected": [
+      144,
+      28.76666666666669
+    ],
+    "actual": [
+      144,
+      28.76666666666669
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_1_41013_24h",
+    "layout": "station_aligned",
+    "expected": [
+      144,
+      28.76666666666669
+    ],
+    "actual": [
+      144,
+      28.76666666666669
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_1_41013_24h",
+    "layout": "time_first",
+    "expected": [
+      144,
+      28.76666666666669
+    ],
+    "actual": [
+      144,
+      28.76666666666669
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_1_41013_168h",
+    "layout": "station_first",
+    "expected": [
+      1005,
+      28.4771144278606
+    ],
+    "actual": [
+      1005,
+      28.4771144278606
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_1_41013_168h",
+    "layout": "station_aligned",
+    "expected": [
+      1005,
+      28.4771144278606
+    ],
+    "actual": [
+      1005,
+      28.4771144278606
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_1_41013_168h",
+    "layout": "time_first",
+    "expected": [
+      1005,
+      28.4771144278606
+    ],
+    "actual": [
+      1005,
+      28.4771144278606
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_1_41013_720h",
+    "layout": "station_first",
+    "expected": [
+      4289,
+      28.966402424807583
+    ],
+    "actual": [
+      4289,
+      28.966402424807583
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_1_41013_720h",
+    "layout": "station_aligned",
+    "expected": [
+      4289,
+      28.966402424807583
+    ],
+    "actual": [
+      4289,
+      28.966402424807583
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_1_41013_720h",
+    "layout": "time_first",
+    "expected": [
+      4289,
+      28.966402424807583
+    ],
+    "actual": [
+      4289,
+      28.966402424807583
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_1_41025_24h",
+    "layout": "station_first",
+    "expected": [
+      144,
+      29.70555555555552
+    ],
+    "actual": [
+      144,
+      29.70555555555552
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_1_41025_24h",
+    "layout": "station_aligned",
+    "expected": [
+      144,
+      29.70555555555552
+    ],
+    "actual": [
+      144,
+      29.70555555555552
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_1_41025_24h",
+    "layout": "time_first",
+    "expected": [
+      144,
+      29.70555555555552
+    ],
+    "actual": [
+      144,
+      29.70555555555552
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_1_41025_168h",
+    "layout": "station_first",
+    "expected": [
+      1006,
+      29.030417495029884
+    ],
+    "actual": [
+      1006,
+      29.030417495029884
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_1_41025_168h",
+    "layout": "station_aligned",
+    "expected": [
+      1006,
+      29.030417495029884
+    ],
+    "actual": [
+      1006,
+      29.030417495029884
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_1_41025_168h",
+    "layout": "time_first",
+    "expected": [
+      1006,
+      29.030417495029884
+    ],
+    "actual": [
+      1006,
+      29.030417495029884
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_1_41025_720h",
+    "layout": "station_first",
+    "expected": [
+      4279,
+      28.828207525122725
+    ],
+    "actual": [
+      4279,
+      28.828207525122725
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_1_41025_720h",
+    "layout": "station_aligned",
+    "expected": [
+      4279,
+      28.828207525122725
+    ],
+    "actual": [
+      4279,
+      28.828207525122725
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q1_1_41025_720h",
+    "layout": "time_first",
+    "expected": [
+      4279,
+      28.828207525122725
+    ],
+    "actual": [
+      4279,
+      28.828207525122725
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q2_1_1h",
+    "layout": "station_first",
+    "expected": [
+      42,
+      29.23095238095238
+    ],
+    "actual": [
+      42,
+      29.23095238095238
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q2_1_1h",
+    "layout": "station_aligned",
+    "expected": [
+      42,
+      29.23095238095238
+    ],
+    "actual": [
+      42,
+      29.23095238095238
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q2_1_1h",
+    "layout": "time_first",
+    "expected": [
+      42,
+      29.23095238095238
+    ],
+    "actual": [
+      42,
+      29.230952380952377
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q2_1_24h",
+    "layout": "station_first",
+    "expected": [
+      1003,
+      29.18334995014954
+    ],
+    "actual": [
+      1003,
+      29.18334995014954
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q2_1_24h",
+    "layout": "station_aligned",
+    "expected": [
+      1003,
+      29.18334995014954
+    ],
+    "actual": [
+      1003,
+      29.18334995014954
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q2_1_24h",
+    "layout": "time_first",
+    "expected": [
+      1003,
+      29.18334995014954
+    ],
+    "actual": [
+      1003,
+      29.183349950149676
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q2_1_168h",
+    "layout": "station_first",
+    "expected": [
+      7013,
+      28.92593754455949
+    ],
+    "actual": [
+      7013,
+      28.92593754455949
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q2_1_168h",
+    "layout": "station_aligned",
+    "expected": [
+      7013,
+      28.92593754455949
+    ],
+    "actual": [
+      7013,
+      28.92593754455949
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "tuning_Q2_1_168h",
+    "layout": "time_first",
+    "expected": [
+      7013,
+      28.92593754455949
+    ],
+    "actual": [
+      7013,
+      28.925937544560263
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_0_41001_24h",
+    "layout": "station_first",
+    "expected": [
+      0,
+      null
+    ],
+    "actual": [
+      0,
+      null
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_0_41001_24h",
+    "layout": "station_aligned",
+    "expected": [
+      0,
+      null
+    ],
+    "actual": [
+      0,
+      null
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_0_41001_24h",
+    "layout": "time_first",
+    "expected": [
+      0,
+      null
+    ],
+    "actual": [
+      0,
+      null
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_0_41001_168h",
+    "layout": "station_first",
+    "expected": [
+      0,
+      null
+    ],
+    "actual": [
+      0,
+      null
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_0_41001_168h",
+    "layout": "station_aligned",
+    "expected": [
+      0,
+      null
+    ],
+    "actual": [
+      0,
+      null
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_0_41001_168h",
+    "layout": "time_first",
+    "expected": [
+      0,
+      null
+    ],
+    "actual": [
+      0,
+      null
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_0_41001_720h",
+    "layout": "station_first",
+    "expected": [
+      0,
+      null
+    ],
+    "actual": [
+      0,
+      null
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_0_41001_720h",
+    "layout": "station_aligned",
+    "expected": [
+      0,
+      null
+    ],
+    "actual": [
+      0,
+      null
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_0_41001_720h",
+    "layout": "time_first",
+    "expected": [
+      0,
+      null
+    ],
+    "actual": [
+      0,
+      null
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_0_41002_24h",
+    "layout": "station_first",
+    "expected": [
+      144,
+      23.085416666666685
+    ],
+    "actual": [
+      144,
+      23.085416666666685
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_0_41002_24h",
+    "layout": "station_aligned",
+    "expected": [
+      144,
+      23.085416666666685
+    ],
+    "actual": [
+      144,
+      23.085416666666685
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_0_41002_24h",
+    "layout": "time_first",
+    "expected": [
+      144,
+      23.085416666666685
+    ],
+    "actual": [
+      144,
+      23.085416666666685
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_0_41002_168h",
+    "layout": "station_first",
+    "expected": [
+      1006,
+      23.24900596421481
+    ],
+    "actual": [
+      1006,
+      23.24900596421481
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_0_41002_168h",
+    "layout": "station_aligned",
+    "expected": [
+      1006,
+      23.24900596421481
+    ],
+    "actual": [
+      1006,
+      23.24900596421481
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_0_41002_168h",
+    "layout": "time_first",
+    "expected": [
+      1006,
+      23.24900596421481
+    ],
+    "actual": [
+      1006,
+      23.24900596421481
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_0_41002_720h",
+    "layout": "station_first",
+    "expected": [
+      4301,
+      22.714787258776877
+    ],
+    "actual": [
+      4301,
+      22.714787258776877
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_0_41002_720h",
+    "layout": "station_aligned",
+    "expected": [
+      4301,
+      22.714787258776877
+    ],
+    "actual": [
+      4301,
+      22.714787258776877
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_0_41002_720h",
+    "layout": "time_first",
+    "expected": [
+      4301,
+      22.714787258776877
+    ],
+    "actual": [
+      4301,
+      22.714787258776877
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_0_41004_24h",
+    "layout": "station_first",
+    "expected": [
+      143,
+      19.122377622377662
+    ],
+    "actual": [
+      143,
+      19.122377622377662
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_0_41004_24h",
+    "layout": "station_aligned",
+    "expected": [
+      143,
+      19.122377622377662
+    ],
+    "actual": [
+      143,
+      19.122377622377662
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_0_41004_24h",
+    "layout": "time_first",
+    "expected": [
+      143,
+      19.122377622377662
+    ],
+    "actual": [
+      143,
+      19.122377622377662
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_0_41004_168h",
+    "layout": "station_first",
+    "expected": [
+      1003,
+      19.025523429710823
+    ],
+    "actual": [
+      1003,
+      19.025523429710823
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_0_41004_168h",
+    "layout": "station_aligned",
+    "expected": [
+      1003,
+      19.025523429710823
+    ],
+    "actual": [
+      1003,
+      19.025523429710823
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_0_41004_168h",
+    "layout": "time_first",
+    "expected": [
+      1003,
+      19.025523429710823
+    ],
+    "actual": [
+      1003,
+      19.025523429710823
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_0_41004_720h",
+    "layout": "station_first",
+    "expected": [
+      4296,
+      19.31101024208576
+    ],
+    "actual": [
+      4296,
+      19.31101024208576
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_0_41004_720h",
+    "layout": "station_aligned",
+    "expected": [
+      4296,
+      19.31101024208576
+    ],
+    "actual": [
+      4296,
+      19.31101024208576
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_0_41004_720h",
+    "layout": "time_first",
+    "expected": [
+      4296,
+      19.31101024208576
+    ],
+    "actual": [
+      4296,
+      19.31101024208576
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_0_41008_24h",
+    "layout": "station_first",
+    "expected": [
+      143,
+      12.906293706293706
+    ],
+    "actual": [
+      143,
+      12.906293706293706
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_0_41008_24h",
+    "layout": "station_aligned",
+    "expected": [
+      143,
+      12.906293706293706
+    ],
+    "actual": [
+      143,
+      12.906293706293706
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_0_41008_24h",
+    "layout": "time_first",
+    "expected": [
+      143,
+      12.906293706293706
+    ],
+    "actual": [
+      143,
+      12.906293706293706
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_0_41008_168h",
+    "layout": "station_first",
+    "expected": [
+      1003,
+      13.067397806580267
+    ],
+    "actual": [
+      1003,
+      13.067397806580267
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_0_41008_168h",
+    "layout": "station_aligned",
+    "expected": [
+      1003,
+      13.067397806580267
+    ],
+    "actual": [
+      1003,
+      13.067397806580267
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_0_41008_168h",
+    "layout": "time_first",
+    "expected": [
+      1003,
+      13.067397806580267
+    ],
+    "actual": [
+      1003,
+      13.067397806580267
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_0_41008_720h",
+    "layout": "station_first",
+    "expected": [
+      4294,
+      13.49687936655811
+    ],
+    "actual": [
+      4294,
+      13.49687936655811
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_0_41008_720h",
+    "layout": "station_aligned",
+    "expected": [
+      4294,
+      13.49687936655811
+    ],
+    "actual": [
+      4294,
+      13.49687936655811
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_0_41008_720h",
+    "layout": "time_first",
+    "expected": [
+      4294,
+      13.49687936655811
+    ],
+    "actual": [
+      4294,
+      13.49687936655811
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_0_41009_24h",
+    "layout": "station_first",
+    "expected": [
+      143,
+      22.695804195804193
+    ],
+    "actual": [
+      143,
+      22.695804195804193
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_0_41009_24h",
+    "layout": "station_aligned",
+    "expected": [
+      143,
+      22.695804195804193
+    ],
+    "actual": [
+      143,
+      22.695804195804193
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_0_41009_24h",
+    "layout": "time_first",
+    "expected": [
+      143,
+      22.695804195804193
+    ],
+    "actual": [
+      143,
+      22.695804195804193
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_0_41009_168h",
+    "layout": "station_first",
+    "expected": [
+      1005,
+      22.250149253731323
+    ],
+    "actual": [
+      1005,
+      22.250149253731323
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_0_41009_168h",
+    "layout": "station_aligned",
+    "expected": [
+      1005,
+      22.250149253731323
+    ],
+    "actual": [
+      1005,
+      22.250149253731323
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_0_41009_168h",
+    "layout": "time_first",
+    "expected": [
+      1005,
+      22.250149253731323
+    ],
+    "actual": [
+      1005,
+      22.250149253731323
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_0_41009_720h",
+    "layout": "station_first",
+    "expected": [
+      4298,
+      21.567449976733116
+    ],
+    "actual": [
+      4298,
+      21.567449976733116
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_0_41009_720h",
+    "layout": "station_aligned",
+    "expected": [
+      4298,
+      21.567449976733116
+    ],
+    "actual": [
+      4298,
+      21.567449976733116
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_0_41009_720h",
+    "layout": "time_first",
+    "expected": [
+      4298,
+      21.567449976733116
+    ],
+    "actual": [
+      4298,
+      21.567449976733116
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_0_41010_24h",
+    "layout": "station_first",
+    "expected": [
+      0,
+      null
+    ],
+    "actual": [
+      0,
+      null
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_0_41010_24h",
+    "layout": "station_aligned",
+    "expected": [
+      0,
+      null
+    ],
+    "actual": [
+      0,
+      null
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_0_41010_24h",
+    "layout": "time_first",
+    "expected": [
+      0,
+      null
+    ],
+    "actual": [
+      0,
+      null
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_0_41010_168h",
+    "layout": "station_first",
+    "expected": [
+      0,
+      null
+    ],
+    "actual": [
+      0,
+      null
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_0_41010_168h",
+    "layout": "station_aligned",
+    "expected": [
+      0,
+      null
+    ],
+    "actual": [
+      0,
+      null
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_0_41010_168h",
+    "layout": "time_first",
+    "expected": [
+      0,
+      null
+    ],
+    "actual": [
+      0,
+      null
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_0_41010_720h",
+    "layout": "station_first",
+    "expected": [
+      0,
+      null
+    ],
+    "actual": [
+      0,
+      null
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_0_41010_720h",
+    "layout": "station_aligned",
+    "expected": [
+      0,
+      null
+    ],
+    "actual": [
+      0,
+      null
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_0_41010_720h",
+    "layout": "time_first",
+    "expected": [
+      0,
+      null
+    ],
+    "actual": [
+      0,
+      null
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_0_41013_24h",
+    "layout": "station_first",
+    "expected": [
+      144,
+      15.11388888888888
+    ],
+    "actual": [
+      144,
+      15.11388888888888
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_0_41013_24h",
+    "layout": "station_aligned",
+    "expected": [
+      144,
+      15.11388888888888
+    ],
+    "actual": [
+      144,
+      15.11388888888888
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_0_41013_24h",
+    "layout": "time_first",
+    "expected": [
+      144,
+      15.11388888888888
+    ],
+    "actual": [
+      144,
+      15.11388888888888
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_0_41013_168h",
+    "layout": "station_first",
+    "expected": [
+      1000,
+      15.737899999999987
+    ],
+    "actual": [
+      1000,
+      15.737899999999987
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_0_41013_168h",
+    "layout": "station_aligned",
+    "expected": [
+      1000,
+      15.737899999999987
+    ],
+    "actual": [
+      1000,
+      15.737899999999987
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_0_41013_168h",
+    "layout": "time_first",
+    "expected": [
+      1000,
+      15.737899999999987
+    ],
+    "actual": [
+      1000,
+      15.737899999999987
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_0_41013_720h",
+    "layout": "station_first",
+    "expected": [
+      4283,
+      16.081765117908002
+    ],
+    "actual": [
+      4283,
+      16.081765117908002
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_0_41013_720h",
+    "layout": "station_aligned",
+    "expected": [
+      4283,
+      16.081765117908002
+    ],
+    "actual": [
+      4283,
+      16.081765117908002
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_0_41013_720h",
+    "layout": "time_first",
+    "expected": [
+      4283,
+      16.081765117908002
+    ],
+    "actual": [
+      4283,
+      16.081765117908002
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_0_41025_24h",
+    "layout": "station_first",
+    "expected": [
+      142,
+      8.548591549295775
+    ],
+    "actual": [
+      142,
+      8.548591549295775
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_0_41025_24h",
+    "layout": "station_aligned",
+    "expected": [
+      142,
+      8.548591549295775
+    ],
+    "actual": [
+      142,
+      8.548591549295775
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_0_41025_24h",
+    "layout": "time_first",
+    "expected": [
+      142,
+      8.548591549295775
+    ],
+    "actual": [
+      142,
+      8.548591549295775
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_0_41025_168h",
+    "layout": "station_first",
+    "expected": [
+      1003,
+      8.609371884347006
+    ],
+    "actual": [
+      1003,
+      8.609371884347006
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_0_41025_168h",
+    "layout": "station_aligned",
+    "expected": [
+      1003,
+      8.609371884347006
+    ],
+    "actual": [
+      1003,
+      8.609371884347006
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_0_41025_168h",
+    "layout": "time_first",
+    "expected": [
+      1003,
+      8.609371884347006
+    ],
+    "actual": [
+      1003,
+      8.609371884347006
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_0_41025_720h",
+    "layout": "station_first",
+    "expected": [
+      4294,
+      10.378132277596672
+    ],
+    "actual": [
+      4294,
+      10.378132277596672
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_0_41025_720h",
+    "layout": "station_aligned",
+    "expected": [
+      4294,
+      10.378132277596672
+    ],
+    "actual": [
+      4294,
+      10.378132277596672
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_0_41025_720h",
+    "layout": "time_first",
+    "expected": [
+      4294,
+      10.378132277596672
+    ],
+    "actual": [
+      4294,
+      10.378132277596672
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q2_0_1h",
+    "layout": "station_first",
+    "expected": [
+      36,
+      17.166666666666668
+    ],
+    "actual": [
+      36,
+      17.166666666666668
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q2_0_1h",
+    "layout": "station_aligned",
+    "expected": [
+      36,
+      17.166666666666668
+    ],
+    "actual": [
+      36,
+      17.166666666666668
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q2_0_1h",
+    "layout": "time_first",
+    "expected": [
+      36,
+      17.166666666666668
+    ],
+    "actual": [
+      36,
+      17.166666666666664
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q2_0_24h",
+    "layout": "station_first",
+    "expected": [
+      859,
+      16.926891734575083
+    ],
+    "actual": [
+      859,
+      16.926891734575083
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q2_0_24h",
+    "layout": "station_aligned",
+    "expected": [
+      859,
+      16.926891734575083
+    ],
+    "actual": [
+      859,
+      16.926891734575083
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q2_0_24h",
+    "layout": "time_first",
+    "expected": [
+      859,
+      16.926891734575083
+    ],
+    "actual": [
+      859,
+      16.926891734575058
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q2_0_168h",
+    "layout": "station_first",
+    "expected": [
+      6020,
+      16.9953820598007
+    ],
+    "actual": [
+      6020,
+      16.9953820598007
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q2_0_168h",
+    "layout": "station_aligned",
+    "expected": [
+      6020,
+      16.9953820598007
+    ],
+    "actual": [
+      6020,
+      16.9953820598007
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q2_0_168h",
+    "layout": "time_first",
+    "expected": [
+      6020,
+      16.9953820598007
+    ],
+    "actual": [
+      6020,
+      16.99538205980069
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_1_41001_24h",
+    "layout": "station_first",
+    "expected": [
+      144,
+      28.197916666666607
+    ],
+    "actual": [
+      144,
+      28.197916666666607
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_1_41001_24h",
+    "layout": "station_aligned",
+    "expected": [
+      144,
+      28.197916666666607
+    ],
+    "actual": [
+      144,
+      28.197916666666607
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_1_41001_24h",
+    "layout": "time_first",
+    "expected": [
+      144,
+      28.197916666666607
+    ],
+    "actual": [
+      144,
+      28.197916666666607
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_1_41001_168h",
+    "layout": "station_first",
+    "expected": [
+      1002,
+      28.197005988023935
+    ],
+    "actual": [
+      1002,
+      28.197005988023935
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_1_41001_168h",
+    "layout": "station_aligned",
+    "expected": [
+      1002,
+      28.197005988023935
+    ],
+    "actual": [
+      1002,
+      28.197005988023935
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_1_41001_168h",
+    "layout": "time_first",
+    "expected": [
+      1002,
+      28.197005988023935
+    ],
+    "actual": [
+      1002,
+      28.197005988023935
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_1_41001_720h",
+    "layout": "station_first",
+    "expected": [
+      4295,
+      27.862607683352966
+    ],
+    "actual": [
+      4295,
+      27.862607683352966
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_1_41001_720h",
+    "layout": "station_aligned",
+    "expected": [
+      4295,
+      27.862607683352966
+    ],
+    "actual": [
+      4295,
+      27.862607683352966
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_1_41001_720h",
+    "layout": "time_first",
+    "expected": [
+      4295,
+      27.862607683352966
+    ],
+    "actual": [
+      4295,
+      27.862607683352966
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_1_41002_24h",
+    "layout": "station_first",
+    "expected": [
+      144,
+      28.3736111111112
+    ],
+    "actual": [
+      144,
+      28.3736111111112
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_1_41002_24h",
+    "layout": "station_aligned",
+    "expected": [
+      144,
+      28.3736111111112
+    ],
+    "actual": [
+      144,
+      28.3736111111112
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_1_41002_24h",
+    "layout": "time_first",
+    "expected": [
+      144,
+      28.3736111111112
+    ],
+    "actual": [
+      144,
+      28.3736111111112
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_1_41002_168h",
+    "layout": "station_first",
+    "expected": [
+      1001,
+      28.685514485514698
+    ],
+    "actual": [
+      1001,
+      28.685514485514698
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_1_41002_168h",
+    "layout": "station_aligned",
+    "expected": [
+      1001,
+      28.685514485514698
+    ],
+    "actual": [
+      1001,
+      28.685514485514698
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_1_41002_168h",
+    "layout": "time_first",
+    "expected": [
+      1001,
+      28.685514485514698
+    ],
+    "actual": [
+      1001,
+      28.685514485514698
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_1_41002_720h",
+    "layout": "station_first",
+    "expected": [
+      4288,
+      28.647994402985184
+    ],
+    "actual": [
+      4288,
+      28.647994402985184
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_1_41002_720h",
+    "layout": "station_aligned",
+    "expected": [
+      4288,
+      28.647994402985184
+    ],
+    "actual": [
+      4288,
+      28.647994402985184
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_1_41002_720h",
+    "layout": "time_first",
+    "expected": [
+      4288,
+      28.647994402985184
+    ],
+    "actual": [
+      4288,
+      28.647994402985184
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_1_41004_24h",
+    "layout": "station_first",
+    "expected": [
+      144,
+      29.06527777777775
+    ],
+    "actual": [
+      144,
+      29.06527777777775
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_1_41004_24h",
+    "layout": "station_aligned",
+    "expected": [
+      144,
+      29.06527777777775
+    ],
+    "actual": [
+      144,
+      29.06527777777775
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_1_41004_24h",
+    "layout": "time_first",
+    "expected": [
+      144,
+      29.06527777777775
+    ],
+    "actual": [
+      144,
+      29.06527777777775
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_1_41004_168h",
+    "layout": "station_first",
+    "expected": [
+      998,
+      28.889178356713387
+    ],
+    "actual": [
+      998,
+      28.889178356713387
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_1_41004_168h",
+    "layout": "station_aligned",
+    "expected": [
+      998,
+      28.889178356713387
+    ],
+    "actual": [
+      998,
+      28.889178356713387
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_1_41004_168h",
+    "layout": "time_first",
+    "expected": [
+      998,
+      28.889178356713387
+    ],
+    "actual": [
+      998,
+      28.889178356713387
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_1_41004_720h",
+    "layout": "station_first",
+    "expected": [
+      4294,
+      28.50742897065698
+    ],
+    "actual": [
+      4294,
+      28.50742897065698
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_1_41004_720h",
+    "layout": "station_aligned",
+    "expected": [
+      4294,
+      28.50742897065698
+    ],
+    "actual": [
+      4294,
+      28.50742897065698
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_1_41004_720h",
+    "layout": "time_first",
+    "expected": [
+      4294,
+      28.50742897065698
+    ],
+    "actual": [
+      4294,
+      28.50742897065698
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_1_41008_24h",
+    "layout": "station_first",
+    "expected": [
+      144,
+      28.75833333333334
+    ],
+    "actual": [
+      144,
+      28.75833333333334
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_1_41008_24h",
+    "layout": "station_aligned",
+    "expected": [
+      144,
+      28.75833333333334
+    ],
+    "actual": [
+      144,
+      28.75833333333334
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_1_41008_24h",
+    "layout": "time_first",
+    "expected": [
+      144,
+      28.75833333333334
+    ],
+    "actual": [
+      144,
+      28.75833333333334
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_1_41008_168h",
+    "layout": "station_first",
+    "expected": [
+      1001,
+      28.47842157842165
+    ],
+    "actual": [
+      1001,
+      28.47842157842165
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_1_41008_168h",
+    "layout": "station_aligned",
+    "expected": [
+      1001,
+      28.47842157842165
+    ],
+    "actual": [
+      1001,
+      28.47842157842165
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_1_41008_168h",
+    "layout": "time_first",
+    "expected": [
+      1001,
+      28.47842157842165
+    ],
+    "actual": [
+      1001,
+      28.47842157842165
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_1_41008_720h",
+    "layout": "station_first",
+    "expected": [
+      4292,
+      28.611742777260286
+    ],
+    "actual": [
+      4292,
+      28.611742777260286
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_1_41008_720h",
+    "layout": "station_aligned",
+    "expected": [
+      4292,
+      28.611742777260286
+    ],
+    "actual": [
+      4292,
+      28.611742777260286
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_1_41008_720h",
+    "layout": "time_first",
+    "expected": [
+      4292,
+      28.611742777260286
+    ],
+    "actual": [
+      4292,
+      28.611742777260286
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_1_41009_24h",
+    "layout": "station_first",
+    "expected": [
+      142,
+      28.70422535211267
+    ],
+    "actual": [
+      142,
+      28.70422535211267
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_1_41009_24h",
+    "layout": "station_aligned",
+    "expected": [
+      142,
+      28.70422535211267
+    ],
+    "actual": [
+      142,
+      28.70422535211267
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_1_41009_24h",
+    "layout": "time_first",
+    "expected": [
+      142,
+      28.70422535211267
+    ],
+    "actual": [
+      142,
+      28.70422535211267
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_1_41009_168h",
+    "layout": "station_first",
+    "expected": [
+      1002,
+      28.126546906187528
+    ],
+    "actual": [
+      1002,
+      28.126546906187528
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_1_41009_168h",
+    "layout": "station_aligned",
+    "expected": [
+      1002,
+      28.126546906187528
+    ],
+    "actual": [
+      1002,
+      28.126546906187528
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_1_41009_168h",
+    "layout": "time_first",
+    "expected": [
+      1002,
+      28.126546906187528
+    ],
+    "actual": [
+      1002,
+      28.126546906187528
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_1_41009_720h",
+    "layout": "station_first",
+    "expected": [
+      4296,
+      29.12493016759779
+    ],
+    "actual": [
+      4296,
+      29.12493016759779
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_1_41009_720h",
+    "layout": "station_aligned",
+    "expected": [
+      4296,
+      29.12493016759779
+    ],
+    "actual": [
+      4296,
+      29.12493016759779
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_1_41009_720h",
+    "layout": "time_first",
+    "expected": [
+      4296,
+      29.12493016759779
+    ],
+    "actual": [
+      4296,
+      29.12493016759779
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_1_41010_24h",
+    "layout": "station_first",
+    "expected": [
+      142,
+      30.239436619718305
+    ],
+    "actual": [
+      142,
+      30.239436619718305
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_1_41010_24h",
+    "layout": "station_aligned",
+    "expected": [
+      142,
+      30.239436619718305
+    ],
+    "actual": [
+      142,
+      30.239436619718305
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_1_41010_24h",
+    "layout": "time_first",
+    "expected": [
+      142,
+      30.239436619718305
+    ],
+    "actual": [
+      142,
+      30.239436619718305
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_1_41010_168h",
+    "layout": "station_first",
+    "expected": [
+      1006,
+      29.83717693836969
+    ],
+    "actual": [
+      1006,
+      29.83717693836969
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_1_41010_168h",
+    "layout": "station_aligned",
+    "expected": [
+      1006,
+      29.83717693836969
+    ],
+    "actual": [
+      1006,
+      29.83717693836969
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_1_41010_168h",
+    "layout": "time_first",
+    "expected": [
+      1006,
+      29.83717693836969
+    ],
+    "actual": [
+      1006,
+      29.83717693836969
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_1_41010_720h",
+    "layout": "station_first",
+    "expected": [
+      4300,
+      29.72206976744203
+    ],
+    "actual": [
+      4300,
+      29.72206976744203
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_1_41010_720h",
+    "layout": "station_aligned",
+    "expected": [
+      4300,
+      29.72206976744203
+    ],
+    "actual": [
+      4300,
+      29.72206976744203
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_1_41010_720h",
+    "layout": "time_first",
+    "expected": [
+      4300,
+      29.72206976744203
+    ],
+    "actual": [
+      4300,
+      29.72206976744203
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_1_41013_24h",
+    "layout": "station_first",
+    "expected": [
+      144,
+      28.455555555555545
+    ],
+    "actual": [
+      144,
+      28.455555555555545
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_1_41013_24h",
+    "layout": "station_aligned",
+    "expected": [
+      144,
+      28.455555555555545
+    ],
+    "actual": [
+      144,
+      28.455555555555545
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_1_41013_24h",
+    "layout": "time_first",
+    "expected": [
+      144,
+      28.455555555555545
+    ],
+    "actual": [
+      144,
+      28.455555555555545
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_1_41013_168h",
+    "layout": "station_first",
+    "expected": [
+      1004,
+      27.95677290836642
+    ],
+    "actual": [
+      1004,
+      27.95677290836642
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_1_41013_168h",
+    "layout": "station_aligned",
+    "expected": [
+      1004,
+      27.95677290836642
+    ],
+    "actual": [
+      1004,
+      27.95677290836642
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_1_41013_168h",
+    "layout": "time_first",
+    "expected": [
+      1004,
+      27.95677290836642
+    ],
+    "actual": [
+      1004,
+      27.95677290836642
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_1_41013_720h",
+    "layout": "station_first",
+    "expected": [
+      4297,
+      27.582685594600818
+    ],
+    "actual": [
+      4297,
+      27.582685594600818
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_1_41013_720h",
+    "layout": "station_aligned",
+    "expected": [
+      4297,
+      27.582685594600818
+    ],
+    "actual": [
+      4297,
+      27.582685594600818
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_1_41013_720h",
+    "layout": "time_first",
+    "expected": [
+      4297,
+      27.582685594600818
+    ],
+    "actual": [
+      4297,
+      27.582685594600818
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_1_41025_24h",
+    "layout": "station_first",
+    "expected": [
+      144,
+      27.870833333333312
+    ],
+    "actual": [
+      144,
+      27.870833333333312
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_1_41025_24h",
+    "layout": "station_aligned",
+    "expected": [
+      144,
+      27.870833333333312
+    ],
+    "actual": [
+      144,
+      27.870833333333312
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_1_41025_24h",
+    "layout": "time_first",
+    "expected": [
+      144,
+      27.870833333333312
+    ],
+    "actual": [
+      144,
+      27.870833333333312
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_1_41025_168h",
+    "layout": "station_first",
+    "expected": [
+      1001,
+      27.846853146853146
+    ],
+    "actual": [
+      1001,
+      27.846853146853146
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_1_41025_168h",
+    "layout": "station_aligned",
+    "expected": [
+      1001,
+      27.846853146853146
+    ],
+    "actual": [
+      1001,
+      27.846853146853146
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_1_41025_168h",
+    "layout": "time_first",
+    "expected": [
+      1001,
+      27.846853146853146
+    ],
+    "actual": [
+      1001,
+      27.846853146853146
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_1_41025_720h",
+    "layout": "station_first",
+    "expected": [
+      4297,
+      28.06830346753531
+    ],
+    "actual": [
+      4297,
+      28.06830346753531
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_1_41025_720h",
+    "layout": "station_aligned",
+    "expected": [
+      4297,
+      28.06830346753531
+    ],
+    "actual": [
+      4297,
+      28.06830346753531
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q1_1_41025_720h",
+    "layout": "time_first",
+    "expected": [
+      4297,
+      28.06830346753531
+    ],
+    "actual": [
+      4297,
+      28.06830346753531
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q2_1_1h",
+    "layout": "station_first",
+    "expected": [
+      48,
+      28.633333333333344
+    ],
+    "actual": [
+      48,
+      28.633333333333344
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q2_1_1h",
+    "layout": "station_aligned",
+    "expected": [
+      48,
+      28.633333333333344
+    ],
+    "actual": [
+      48,
+      28.633333333333344
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q2_1_1h",
+    "layout": "time_first",
+    "expected": [
+      48,
+      28.633333333333344
+    ],
+    "actual": [
+      48,
+      28.63333333333333
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q2_1_24h",
+    "layout": "station_first",
+    "expected": [
+      1148,
+      28.705487804878043
+    ],
+    "actual": [
+      1148,
+      28.705487804878043
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q2_1_24h",
+    "layout": "station_aligned",
+    "expected": [
+      1148,
+      28.705487804878043
+    ],
+    "actual": [
+      1148,
+      28.705487804878043
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q2_1_24h",
+    "layout": "time_first",
+    "expected": [
+      1148,
+      28.705487804878043
+    ],
+    "actual": [
+      1148,
+      28.70548780487809
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q2_1_168h",
+    "layout": "station_first",
+    "expected": [
+      8015,
+      28.502582657517454
+    ],
+    "actual": [
+      8015,
+      28.502582657517454
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q2_1_168h",
+    "layout": "station_aligned",
+    "expected": [
+      8015,
+      28.502582657517454
+    ],
+    "actual": [
+      8015,
+      28.502582657517454
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "validation_Q2_1_168h",
+    "layout": "time_first",
+    "expected": [
+      8015,
+      28.502582657517454
+    ],
+    "actual": [
+      8015,
+      28.502582657517646
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "overhead_Q0_full_scan",
+    "layout": "station_first",
+    "expected": [
+      713823,
+      24.295472407026732
+    ],
+    "actual": [
+      713823,
+      24.295472407026732
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "overhead_Q0_full_scan",
+    "layout": "station_aligned",
+    "expected": [
+      713823,
+      24.295472407026732
+    ],
+    "actual": [
+      713823,
+      24.295472407026732
+    ],
+    "passed": true
+  },
+  {
+    "query_id": "overhead_Q0_full_scan",
+    "layout": "time_first",
+    "expected": [
+      713823,
+      24.295472407026732
+    ],
+    "actual": [
+      713823,
+      24.29547240702347
+    ],
+    "passed": true
+  }
+]

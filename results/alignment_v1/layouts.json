@@ -1,0 +1,42 @@
+{
+  "station_first": {
+    "path": "data/parquet/pilot_v1/station_first.parquet",
+    "rows": 713823,
+    "row_groups": 44,
+    "file_bytes": 2679571,
+    "file_sha256": "0f2265db066ab00239f5c7d663e2ef08d899437fc694608ae149589b3a80660a",
+    "logical_sha256": "5584573b88b5722881e88c90aefe290b73d947b2160e4623225a79c324733783",
+    "ordering_ms": 50.677288,
+    "writing_ms": 58.623161,
+    "footer_bytes": 14979,
+    "short_groups": 1,
+    "min_group_rows": 9311,
+    "mixed_station_groups": 7
+  },
+  "time_first": {
+    "path": "data/parquet/pilot_v1/time_first.parquet",
+    "rows": 713823,
+    "row_groups": 44,
+    "file_bytes": 875334,
+    "file_sha256": "a1691aa2b539c7090b6ec0f16d63aa0d2a913644c121effd7ed069be98c0e78a",
+    "logical_sha256": "5584573b88b5722881e88c90aefe290b73d947b2160e4623225a79c324733783",
+    "ordering_ms": 30.015063,
+    "writing_ms": 43.638311,
+    "footer_bytes": 14866,
+    "short_groups": 1,
+    "min_group_rows": 9311,
+    "mixed_station_groups": 44
+  },
+  "station_aligned": {
+    "path": "data/parquet/alignment_v1/station_aligned.parquet",
+    "file_sha256": "d6b4fd6675db06840299748f1e67da12c5d9049eb64e026e765452b7420fd20b",
+    "logical_sha256": "5584573b88b5722881e88c90aefe290b73d947b2160e4623225a79c324733783",
+    "rows": 713823,
+    "row_groups": 48,
+    "file_bytes": 2681507,
+    "footer_bytes": 16248,
+    "short_groups": 8,
+    "min_group_rows": 1669,
+    "mixed_station_groups": 0
+  }
+}

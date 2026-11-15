@@ -1,5 +1,19 @@
 # 数据筛查与实验代码
 
+## 站点边界对齐与新日期验证
+
+安装锁定依赖后，从仓库根目录运行：
+
+```bash
+python -m pip install -r requirements-formal.txt
+python code/restore_alignment_inputs.py
+python code/run_alignment_fresh_dates.py --run-id fresh_replication
+```
+
+恢复工具按已提交的 SHA-256 恢复原始与对齐 Parquet，不覆盖结果清单；上游无法匹配快照时明确失败。复测已见查询的探索轮可执行 `python code/run_alignment_extension.py --run-id alignment_replication`。新运行 ID 不得覆盖已有结果。
+
+`analyze_alignment_extension.py` 生成探索图表；`build_final_report.py` 使用 results/alignment_fresh_v1 的已保存结果生成新日期图表、检查及完整版报告，不重新执行 SQL。新日期配置在 config/alignment_fresh_dates.json，实际冻结副本及哈希在对应运行目录。
+
 当前正式实验与图表已完成，入口为 [run_parquet_formal.py](run_parquet_formal.py)、[analyze_parquet_formal.py](analyze_parquet_formal.py)。正式结果复现使用以下流程，后文保留原始筛查与预跑说明。
 
 ```bash

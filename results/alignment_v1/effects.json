@@ -1,0 +1,10 @@
+{
+  "latency_reduction_vs_station_fixed_percent": {
+    "Q1": 16.65047290507079,
+    "Q2": 23.59959611111295
+  },
+  "extra_file_bytes": 1936,
+  "extra_file_percent": 0.07225037142139544,
+  "analysis_script_sha256": "1d61efe989e688708f0e6a33893e4bbfd1a41dedbc5ea4d3828725ed57bdad28",
+  "scope": "exploratory rerun of previously seen queries; no new held-out set"
+}

@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "completed_at_utc": "2026-11-15T09:59:40.539728+00:00",
+  "queries": 54,
+  "answer_checks": 162,
+  "measured_executions": 810,
+  "extra_warmups": 162,
+  "empty_queries": 3,
+  "no_method_or_query_revision": true
+}

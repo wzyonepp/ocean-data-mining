@@ -1,0 +1,12 @@
+{
+  "run_passed": true,
+  "54_queries": true,
+  "162_correct_answers": true,
+  "810_timings": true,
+  "162_warmups": true,
+  "query_dates_unused_before": true,
+  "frozen_plan_matches": true,
+  "frozen_config_matches": true,
+  "runner_matches": true,
+  "layouts_unchanged": true
+}

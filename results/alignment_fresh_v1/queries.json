@@ -1,0 +1,488 @@
+[
+  {
+    "query_id": "fresh_Q1_0_41001_24",
+    "role": "fresh_dates",
+    "kind": "Q1",
+    "station_id": "41001",
+    "start_utc": "2024-06-15T00:00:00+00:00",
+    "end_utc": "2024-06-16T00:00:00+00:00",
+    "window_hours": 24
+  },
+  {
+    "query_id": "fresh_Q1_0_41001_168",
+    "role": "fresh_dates",
+    "kind": "Q1",
+    "station_id": "41001",
+    "start_utc": "2024-06-15T00:00:00+00:00",
+    "end_utc": "2024-06-22T00:00:00+00:00",
+    "window_hours": 168
+  },
+  {
+    "query_id": "fresh_Q1_0_41001_720",
+    "role": "fresh_dates",
+    "kind": "Q1",
+    "station_id": "41001",
+    "start_utc": "2024-06-15T00:00:00+00:00",
+    "end_utc": "2024-07-15T00:00:00+00:00",
+    "window_hours": 720
+  },
+  {
+    "query_id": "fresh_Q1_0_41002_24",
+    "role": "fresh_dates",
+    "kind": "Q1",
+    "station_id": "41002",
+    "start_utc": "2024-06-15T00:00:00+00:00",
+    "end_utc": "2024-06-16T00:00:00+00:00",
+    "window_hours": 24
+  },
+  {
+    "query_id": "fresh_Q1_0_41002_168",
+    "role": "fresh_dates",
+    "kind": "Q1",
+    "station_id": "41002",
+    "start_utc": "2024-06-15T00:00:00+00:00",
+    "end_utc": "2024-06-22T00:00:00+00:00",
+    "window_hours": 168
+  },
+  {
+    "query_id": "fresh_Q1_0_41002_720",
+    "role": "fresh_dates",
+    "kind": "Q1",
+    "station_id": "41002",
+    "start_utc": "2024-06-15T00:00:00+00:00",
+    "end_utc": "2024-07-15T00:00:00+00:00",
+    "window_hours": 720
+  },
+  {
+    "query_id": "fresh_Q1_0_41004_24",
+    "role": "fresh_dates",
+    "kind": "Q1",
+    "station_id": "41004",
+    "start_utc": "2024-06-15T00:00:00+00:00",
+    "end_utc": "2024-06-16T00:00:00+00:00",
+    "window_hours": 24
+  },
+  {
+    "query_id": "fresh_Q1_0_41004_168",
+    "role": "fresh_dates",
+    "kind": "Q1",
+    "station_id": "41004",
+    "start_utc": "2024-06-15T00:00:00+00:00",
+    "end_utc": "2024-06-22T00:00:00+00:00",
+    "window_hours": 168
+  },
+  {
+    "query_id": "fresh_Q1_0_41004_720",
+    "role": "fresh_dates",
+    "kind": "Q1",
+    "station_id": "41004",
+    "start_utc": "2024-06-15T00:00:00+00:00",
+    "end_utc": "2024-07-15T00:00:00+00:00",
+    "window_hours": 720
+  },
+  {
+    "query_id": "fresh_Q1_0_41008_24",
+    "role": "fresh_dates",
+    "kind": "Q1",
+    "station_id": "41008",
+    "start_utc": "2024-06-15T00:00:00+00:00",
+    "end_utc": "2024-06-16T00:00:00+00:00",
+    "window_hours": 24
+  },
+  {
+    "query_id": "fresh_Q1_0_41008_168",
+    "role": "fresh_dates",
+    "kind": "Q1",
+    "station_id": "41008",
+    "start_utc": "2024-06-15T00:00:00+00:00",
+    "end_utc": "2024-06-22T00:00:00+00:00",
+    "window_hours": 168
+  },
+  {
+    "query_id": "fresh_Q1_0_41008_720",
+    "role": "fresh_dates",
+    "kind": "Q1",
+    "station_id": "41008",
+    "start_utc": "2024-06-15T00:00:00+00:00",
+    "end_utc": "2024-07-15T00:00:00+00:00",
+    "window_hours": 720
+  },
+  {
+    "query_id": "fresh_Q1_0_41009_24",
+    "role": "fresh_dates",
+    "kind": "Q1",
+    "station_id": "41009",
+    "start_utc": "2024-06-15T00:00:00+00:00",
+    "end_utc": "2024-06-16T00:00:00+00:00",
+    "window_hours": 24
+  },
+  {
+    "query_id": "fresh_Q1_0_41009_168",
+    "role": "fresh_dates",
+    "kind": "Q1",
+    "station_id": "41009",
+    "start_utc": "2024-06-15T00:00:00+00:00",
+    "end_utc": "2024-06-22T00:00:00+00:00",
+    "window_hours": 168
+  },
+  {
+    "query_id": "fresh_Q1_0_41009_720",
+    "role": "fresh_dates",
+    "kind": "Q1",
+    "station_id": "41009",
+    "start_utc": "2024-06-15T00:00:00+00:00",
+    "end_utc": "2024-07-15T00:00:00+00:00",
+    "window_hours": 720
+  },
+  {
+    "query_id": "fresh_Q1_0_41010_24",
+    "role": "fresh_dates",
+    "kind": "Q1",
+    "station_id": "41010",
+    "start_utc": "2024-06-15T00:00:00+00:00",
+    "end_utc": "2024-06-16T00:00:00+00:00",
+    "window_hours": 24
+  },
+  {
+    "query_id": "fresh_Q1_0_41010_168",
+    "role": "fresh_dates",
+    "kind": "Q1",
+    "station_id": "41010",
+    "start_utc": "2024-06-15T00:00:00+00:00",
+    "end_utc": "2024-06-22T00:00:00+00:00",
+    "window_hours": 168
+  },
+  {
+    "query_id": "fresh_Q1_0_41010_720",
+    "role": "fresh_dates",
+    "kind": "Q1",
+    "station_id": "41010",
+    "start_utc": "2024-06-15T00:00:00+00:00",
+    "end_utc": "2024-07-15T00:00:00+00:00",
+    "window_hours": 720
+  },
+  {
+    "query_id": "fresh_Q1_0_41013_24",
+    "role": "fresh_dates",
+    "kind": "Q1",
+    "station_id": "41013",
+    "start_utc": "2024-06-15T00:00:00+00:00",
+    "end_utc": "2024-06-16T00:00:00+00:00",
+    "window_hours": 24
+  },
+  {
+    "query_id": "fresh_Q1_0_41013_168",
+    "role": "fresh_dates",
+    "kind": "Q1",
+    "station_id": "41013",
+    "start_utc": "2024-06-15T00:00:00+00:00",
+    "end_utc": "2024-06-22T00:00:00+00:00",
+    "window_hours": 168
+  },
+  {
+    "query_id": "fresh_Q1_0_41013_720",
+    "role": "fresh_dates",
+    "kind": "Q1",
+    "station_id": "41013",
+    "start_utc": "2024-06-15T00:00:00+00:00",
+    "end_utc": "2024-07-15T00:00:00+00:00",
+    "window_hours": 720
+  },
+  {
+    "query_id": "fresh_Q1_0_41025_24",
+    "role": "fresh_dates",
+    "kind": "Q1",
+    "station_id": "41025",
+    "start_utc": "2024-06-15T00:00:00+00:00",
+    "end_utc": "2024-06-16T00:00:00+00:00",
+    "window_hours": 24
+  },
+  {
+    "query_id": "fresh_Q1_0_41025_168",
+    "role": "fresh_dates",
+    "kind": "Q1",
+    "station_id": "41025",
+    "start_utc": "2024-06-15T00:00:00+00:00",
+    "end_utc": "2024-06-22T00:00:00+00:00",
+    "window_hours": 168
+  },
+  {
+    "query_id": "fresh_Q1_0_41025_720",
+    "role": "fresh_dates",
+    "kind": "Q1",
+    "station_id": "41025",
+    "start_utc": "2024-06-15T00:00:00+00:00",
+    "end_utc": "2024-07-15T00:00:00+00:00",
+    "window_hours": 720
+  },
+  {
+    "query_id": "fresh_Q2_0_1",
+    "role": "fresh_dates",
+    "kind": "Q2",
+    "station_id": null,
+    "start_utc": "2024-06-15T00:00:00+00:00",
+    "end_utc": "2024-06-15T01:00:00+00:00",
+    "window_hours": 1
+  },
+  {
+    "query_id": "fresh_Q2_0_24",
+    "role": "fresh_dates",
+    "kind": "Q2",
+    "station_id": null,
+    "start_utc": "2024-06-15T00:00:00+00:00",
+    "end_utc": "2024-06-16T00:00:00+00:00",
+    "window_hours": 24
+  },
+  {
+    "query_id": "fresh_Q2_0_168",
+    "role": "fresh_dates",
+    "kind": "Q2",
+    "station_id": null,
+    "start_utc": "2024-06-15T00:00:00+00:00",
+    "end_utc": "2024-06-22T00:00:00+00:00",
+    "window_hours": 168
+  },
+  {
+    "query_id": "fresh_Q1_1_41001_24",
+    "role": "fresh_dates",
+    "kind": "Q1",
+    "station_id": "41001",
+    "start_utc": "2024-11-15T00:00:00+00:00",
+    "end_utc": "2024-11-16T00:00:00+00:00",
+    "window_hours": 24
+  },
+  {
+    "query_id": "fresh_Q1_1_41001_168",
+    "role": "fresh_dates",
+    "kind": "Q1",
+    "station_id": "41001",
+    "start_utc": "2024-11-15T00:00:00+00:00",
+    "end_utc": "2024-11-22T00:00:00+00:00",
+    "window_hours": 168
+  },
+  {
+    "query_id": "fresh_Q1_1_41001_720",
+    "role": "fresh_dates",
+    "kind": "Q1",
+    "station_id": "41001",
+    "start_utc": "2024-11-15T00:00:00+00:00",
+    "end_utc": "2024-12-15T00:00:00+00:00",
+    "window_hours": 720
+  },
+  {
+    "query_id": "fresh_Q1_1_41002_24",
+    "role": "fresh_dates",
+    "kind": "Q1",
+    "station_id": "41002",
+    "start_utc": "2024-11-15T00:00:00+00:00",
+    "end_utc": "2024-11-16T00:00:00+00:00",
+    "window_hours": 24
+  },
+  {
+    "query_id": "fresh_Q1_1_41002_168",
+    "role": "fresh_dates",
+    "kind": "Q1",
+    "station_id": "41002",
+    "start_utc": "2024-11-15T00:00:00+00:00",
+    "end_utc": "2024-11-22T00:00:00+00:00",
+    "window_hours": 168
+  },
+  {
+    "query_id": "fresh_Q1_1_41002_720",
+    "role": "fresh_dates",
+    "kind": "Q1",
+    "station_id": "41002",
+    "start_utc": "2024-11-15T00:00:00+00:00",
+    "end_utc": "2024-12-15T00:00:00+00:00",
+    "window_hours": 720
+  },
+  {
+    "query_id": "fresh_Q1_1_41004_24",
+    "role": "fresh_dates",
+    "kind": "Q1",
+    "station_id": "41004",
+    "start_utc": "2024-11-15T00:00:00+00:00",
+    "end_utc": "2024-11-16T00:00:00+00:00",
+    "window_hours": 24
+  },
+  {
+    "query_id": "fresh_Q1_1_41004_168",
+    "role": "fresh_dates",
+    "kind": "Q1",
+    "station_id": "41004",
+    "start_utc": "2024-11-15T00:00:00+00:00",
+    "end_utc": "2024-11-22T00:00:00+00:00",
+    "window_hours": 168
+  },
+  {
+    "query_id": "fresh_Q1_1_41004_720",
+    "role": "fresh_dates",
+    "kind": "Q1",
+    "station_id": "41004",
+    "start_utc": "2024-11-15T00:00:00+00:00",
+    "end_utc": "2024-12-15T00:00:00+00:00",
+    "window_hours": 720
+  },
+  {
+    "query_id": "fresh_Q1_1_41008_24",
+    "role": "fresh_dates",
+    "kind": "Q1",
+    "station_id": "41008",
+    "start_utc": "2024-11-15T00:00:00+00:00",
+    "end_utc": "2024-11-16T00:00:00+00:00",
+    "window_hours": 24
+  },
+  {
+    "query_id": "fresh_Q1_1_41008_168",
+    "role": "fresh_dates",
+    "kind": "Q1",
+    "station_id": "41008",
+    "start_utc": "2024-11-15T00:00:00+00:00",
+    "end_utc": "2024-11-22T00:00:00+00:00",
+    "window_hours": 168
+  },
+  {
+    "query_id": "fresh_Q1_1_41008_720",
+    "role": "fresh_dates",
+    "kind": "Q1",
+    "station_id": "41008",
+    "start_utc": "2024-11-15T00:00:00+00:00",
+    "end_utc": "2024-12-15T00:00:00+00:00",
+    "window_hours": 720
+  },
+  {
+    "query_id": "fresh_Q1_1_41009_24",
+    "role": "fresh_dates",
+    "kind": "Q1",
+    "station_id": "41009",
+    "start_utc": "2024-11-15T00:00:00+00:00",
+    "end_utc": "2024-11-16T00:00:00+00:00",
+    "window_hours": 24
+  },
+  {
+    "query_id": "fresh_Q1_1_41009_168",
+    "role": "fresh_dates",
+    "kind": "Q1",
+    "station_id": "41009",
+    "start_utc": "2024-11-15T00:00:00+00:00",
+    "end_utc": "2024-11-22T00:00:00+00:00",
+    "window_hours": 168
+  },
+  {
+    "query_id": "fresh_Q1_1_41009_720",
+    "role": "fresh_dates",
+    "kind": "Q1",
+    "station_id": "41009",
+    "start_utc": "2024-11-15T00:00:00+00:00",
+    "end_utc": "2024-12-15T00:00:00+00:00",
+    "window_hours": 720
+  },
+  {
+    "query_id": "fresh_Q1_1_41010_24",
+    "role": "fresh_dates",
+    "kind": "Q1",
+    "station_id": "41010",
+    "start_utc": "2024-11-15T00:00:00+00:00",
+    "end_utc": "2024-11-16T00:00:00+00:00",
+    "window_hours": 24
+  },
+  {
+    "query_id": "fresh_Q1_1_41010_168",
+    "role": "fresh_dates",
+    "kind": "Q1",
+    "station_id": "41010",
+    "start_utc": "2024-11-15T00:00:00+00:00",
+    "end_utc": "2024-11-22T00:00:00+00:00",
+    "window_hours": 168
+  },
+  {
+    "query_id": "fresh_Q1_1_41010_720",
+    "role": "fresh_dates",
+    "kind": "Q1",
+    "station_id": "41010",
+    "start_utc": "2024-11-15T00:00:00+00:00",
+    "end_utc": "2024-12-15T00:00:00+00:00",
+    "window_hours": 720
+  },
+  {
+    "query_id": "fresh_Q1_1_41013_24",
+    "role": "fresh_dates",
+    "kind": "Q1",
+    "station_id": "41013",
+    "start_utc": "2024-11-15T00:00:00+00:00",
+    "end_utc": "2024-11-16T00:00:00+00:00",
+    "window_hours": 24
+  },
+  {
+    "query_id": "fresh_Q1_1_41013_168",
+    "role": "fresh_dates",
+    "kind": "Q1",
+    "station_id": "41013",
+    "start_utc": "2024-11-15T00:00:00+00:00",
+    "end_utc": "2024-11-22T00:00:00+00:00",
+    "window_hours": 168
+  },
+  {
+    "query_id": "fresh_Q1_1_41013_720",
+    "role": "fresh_dates",
+    "kind": "Q1",
+    "station_id": "41013",
+    "start_utc": "2024-11-15T00:00:00+00:00",
+    "end_utc": "2024-12-15T00:00:00+00:00",
+    "window_hours": 720
+  },
+  {
+    "query_id": "fresh_Q1_1_41025_24",
+    "role": "fresh_dates",
+    "kind": "Q1",
+    "station_id": "41025",
+    "start_utc": "2024-11-15T00:00:00+00:00",
+    "end_utc": "2024-11-16T00:00:00+00:00",
+    "window_hours": 24
+  },
+  {
+    "query_id": "fresh_Q1_1_41025_168",
+    "role": "fresh_dates",
+    "kind": "Q1",
+    "station_id": "41025",
+    "start_utc": "2024-11-15T00:00:00+00:00",
+    "end_utc": "2024-11-22T00:00:00+00:00",
+    "window_hours": 168
+  },
+  {
+    "query_id": "fresh_Q1_1_41025_720",
+    "role": "fresh_dates",
+    "kind": "Q1",
+    "station_id": "41025",
+    "start_utc": "2024-11-15T00:00:00+00:00",
+    "end_utc": "2024-12-15T00:00:00+00:00",
+    "window_hours": 720
+  },
+  {
+    "query_id": "fresh_Q2_1_1",
+    "role": "fresh_dates",
+    "kind": "Q2",
+    "station_id": null,
+    "start_utc": "2024-11-15T00:00:00+00:00",
+    "end_utc": "2024-11-15T01:00:00+00:00",
+    "window_hours": 1
+  },
+  {
+    "query_id": "fresh_Q2_1_24",
+    "role": "fresh_dates",
+    "kind": "Q2",
+    "station_id": null,
+    "start_utc": "2024-11-15T00:00:00+00:00",
+    "end_utc": "2024-11-16T00:00:00+00:00",
+    "window_hours": 24
+  },
+  {
+    "query_id": "fresh_Q2_1_168",
+    "role": "fresh_dates",
+    "kind": "Q2",
+    "station_id": null,
+    "start_utc": "2024-11-15T00:00:00+00:00",
+    "end_utc": "2024-11-22T00:00:00+00:00",
+    "window_hours": 168
+  }
+]

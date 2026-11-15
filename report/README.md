@@ -1,5 +1,12 @@
 # 研究文档与报告
 
+**[完整实验报告](实验报告.md)**：按研究问题、相关资料、原始对照、诊断、改动、新日期验证、收益与成本、局限整理，首页列出公开仓库与对话链接。提交人姓名、学号需提交时填写。
+
+- [08：边界对齐扩展方案](08_alignment_protocol.md)
+- [09：探索复测结果](09_alignment_results.md)
+- [10：新日期预先方案](10_fresh_dates_protocol.md)
+- [11：新日期验证结果](11_fresh_dates_results.md)
+
 - [01：研究问题与边界](01_research_scope.md)
 - [02：资料调研](02_literature_review.md)
 - [03：数据筛选](03_data_selection.md)

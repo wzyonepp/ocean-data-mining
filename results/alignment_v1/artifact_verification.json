@@ -1,0 +1,12 @@
+{
+  "run_passed": true,
+  "327_answers_correct": true,
+  "1635_measurements": true,
+  "327_warmups": true,
+  "same_rows": true,
+  "no_mixed_aligned_groups": true,
+  "unchanged_files": true,
+  "writer_control_byte_equal": true,
+  "frozen_plan_matches": true,
+  "runner_matches": true
+}

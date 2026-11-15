@@ -1,0 +1,7 @@
+{
+  "action": "rebuilt_and_verified",
+  "aligned_sha256": "d6b4fd6675db06840299748f1e67da12c5d9049eb64e026e765452b7420fd20b",
+  "expected_sha256": "d6b4fd6675db06840299748f1e67da12c5d9049eb64e026e765452b7420fd20b",
+  "result_manifests_modified": false,
+  "restore_script_sha256": "b59257fae15382f3a9ddf6a95c1f7db33f162d4fc4fc0df5355b6124e5f442c1"
+}

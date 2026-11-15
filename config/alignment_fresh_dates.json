@@ -1,0 +1,14 @@
+{
+  "name": "alignment_fresh_dates_v1",
+  "start_dates_utc": ["2024-06-15T00:00:00Z", "2024-11-15T00:00:00Z"],
+  "q1_hours": [24, 168, 720],
+  "q2_hours": [1, 24, 168],
+  "layouts": ["station_first", "station_aligned", "time_first"],
+  "warmup_repetitions": 1,
+  "measured_repetitions": 5,
+  "seed": 20261115,
+  "layout_manifest": "results/alignment_v1/layouts.json",
+  "primary_metric": "class mean of per-query means, retaining empty queries",
+  "secondary_metric": "nonempty-query class mean",
+  "policy": "No method, date, or parameter revision based on these outcomes"
+}

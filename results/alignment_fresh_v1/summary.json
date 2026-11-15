@@ -1,0 +1,68 @@
+{
+  "stats": [
+    {
+      "kind": "Q1",
+      "layout": "station_first",
+      "mean_ms": 3.4916815083333335,
+      "nonempty_mean_ms": 3.5794325155555557,
+      "candidate_groups": 2.5555555555555554,
+      "matching_groups": 1.0888888888888888,
+      "false_positive_groups": 1.4666666666666666
+    },
+    {
+      "kind": "Q1",
+      "layout": "station_aligned",
+      "mean_ms": 3.140633033333333,
+      "nonempty_mean_ms": 3.196124511111111,
+      "candidate_groups": 1.2,
+      "matching_groups": 1.2,
+      "false_positive_groups": 0
+    },
+    {
+      "kind": "Q1",
+      "layout": "time_first",
+      "mean_ms": 2.9332761916666668,
+      "nonempty_mean_ms": 2.9915192088888887,
+      "candidate_groups": 1.8222222222222222,
+      "matching_groups": 1.8222222222222222,
+      "false_positive_groups": 0
+    },
+    {
+      "kind": "Q2",
+      "layout": "station_first",
+      "mean_ms": 7.716695266666667,
+      "nonempty_mean_ms": 7.716695266666667,
+      "candidate_groups": 12.5,
+      "matching_groups": 7.5,
+      "false_positive_groups": 5
+    },
+    {
+      "kind": "Q2",
+      "layout": "station_aligned",
+      "mean_ms": 6.936055566666667,
+      "nonempty_mean_ms": 6.936055566666667,
+      "candidate_groups": 8.166666666666666,
+      "matching_groups": 8.166666666666666,
+      "false_positive_groups": 0
+    },
+    {
+      "kind": "Q2",
+      "layout": "time_first",
+      "mean_ms": 2.5795805333333335,
+      "nonempty_mean_ms": 2.5795805333333335,
+      "candidate_groups": 1.1666666666666667,
+      "matching_groups": 1.1666666666666667,
+      "false_positive_groups": 0
+    }
+  ],
+  "latency_reduction_percent": {
+    "Q1": 10.053851537208624,
+    "Q2": 10.116243716038408
+  },
+  "dates": [
+    "2024-06-15T00:00:00Z",
+    "2024-11-15T00:00:00Z"
+  ],
+  "build_script_sha256": "47e7a1e20bcf3e6a8fc7ff8aa095caa494c64970d0cb9807d41f2d5d02409901",
+  "scope": "new query dates; same historical dataset and machine"
+}
