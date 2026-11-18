@@ -2,3 +2,12 @@
 __pycache__/
 *.py[cod]
 .venv/
+
+# Final report authoring stays local; experiment figures under results/ stay tracked.
+/outputs/
+/report/实验报告.md
+/report/最终报告.md
+/report/最终实验报告.md
+*.docx
+/*.pdf
+/report/*.pdf

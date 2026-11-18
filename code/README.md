@@ -1,77 +1,81 @@
-# 数据筛查与实验代码
+# 实验代码与复现
 
-报告文字与补充统计可通过 `python code/build_final_report.py --report-only` 更新，不重跑 SQL，也不重新生成既有图表。详细贡献拆解和反例由 report_revision_sections.py 根据已保存证据生成；原始计时保持不变。
-
-## 站点边界对齐与新日期验证
-
-安装锁定依赖后，从仓库根目录运行：
+从仓库根目录运行命令，先安装固定依赖：
 
 ```bash
 python -m pip install -r requirements-formal.txt
-python code/restore_alignment_inputs.py
-python code/run_alignment_fresh_dates.py --run-id fresh_replication
 ```
 
-恢复工具按已提交的 SHA-256 恢复原始与对齐 Parquet，不覆盖结果清单；上游无法匹配快照时明确失败。复测已见查询的探索轮可执行 `python code/run_alignment_extension.py --run-id alignment_replication`。新运行 ID 不得覆盖已有结果。
+Python 与包版本须与运行协议一致；原实验使用 Python 3.12.14、PyArrow 26.0.1、DuckDB 2.0.0。
 
-`analyze_alignment_extension.py` 生成探索图表；`build_final_report.py` 使用 results/alignment_fresh_v1 的已保存结果生成新日期图表、检查及完整版报告，不重新执行 SQL。新日期配置在 config/alignment_fresh_dates.json，实际冻结副本及哈希在对应运行目录。
-
-当前正式实验与图表已完成，入口为 [run_parquet_formal.py](run_parquet_formal.py)、[analyze_parquet_formal.py](analyze_parquet_formal.py)。正式结果复现使用以下流程，后文保留原始筛查与预跑说明。
+## 只分析已有新日期结果
 
 ```bash
-python -m pip install -r requirements-formal.txt
+python code/analyze_alignment_fresh_dates.py
+```
+
+入口读取 `results/alignment_fresh_v1/`，默认写入其 `analysis/` 子目录。它不执行 SQL、不构建布局、不生成最终报告，也不覆盖已发表的原始结果或派生统计。输出包括：
+
+- `analysis_checks.json`：查询集合、计时数量、正确性、冻结条件及源文件哈希检查。
+- `summary.json`、`class_summary.csv`：两类查询的平均耗时和行组统计。
+- `per_query_effects.csv`、`query_effect_evidence.json`：逐查询比较、未改善数量和长尾样例的全部重复计时。
+- `figures/`：耗时与候选行组的 PNG/PDF 图表。
+
+```bash
+python code/analyze_alignment_fresh_dates.py --statistics-only
+python code/analyze_alignment_fresh_dates.py --run-dir results/fresh_replication
+```
+
+可用 `--output-dir` 指定独立分析目录，但不能写回源运行目录或其父目录。默认校验已保存结果与元数据；加 `--verify-inputs` 才会额外读取本地 Parquet 文件计算 SHA-256，需要先恢复输入。元数据候选行组统计不是实际引擎读取量。
+
+新入口由原来的报告工具拆出，保留实验分析和作图，移除了最终报告撰写功能。历史结果中的旧分析代码哈希保持原样，新分析输出记录当前脚本及输入哈希。
+
+## 恢复输入
+
+```bash
 python code/restore_parquet_inputs.py
-python code/run_parquet_formal.py --run-id formal_v1_replication
-python code/analyze_parquet_formal.py --run-dir results/formal_v1_replication
+python code/restore_alignment_inputs.py
 ```
 
-[restore_parquet_inputs.py](restore_parquet_inputs.py) 按仓库中冻结的 SHA-256 下载缺失 CSV，并重建本地 Parquet 文件，不修改已提交的源数据和结果清单。需要原 Python 3.12.14 及锁定依赖；上游数据修订导致无法匹配时明确失败。不要用默认筛查命令覆盖已提交的清单来复现原结果。
+恢复工具只在 `data/` 保存 CSV、Parquet 与恢复日志，按已提交来源和 SHA-256 校验，不改写原数据清单。上游变化或本地字节不匹配时明确失败。不要用重新筛查覆盖清单来复现旧结果。
 
-正式运行复用哈希校验过的三个布局，保存调整集测量并冻结选择，再开始验证计时。已有运行 ID 不可覆盖。分析脚本只读取已有测量，重新生成统计、报告和 PNG/PDF，不重新执行查询。
+## 另行运行各阶段
 
-当前提供 [screen_ndbc_data.py](screen_ndbc_data.py)，用于从 NOAA ERDDAP 下载固定浮标子集并检查数据规模、缺测、重复键和时间覆盖；它尚不执行 Parquet 性能实验。
-
-## 运行
-
-本脚本只依赖 Python 标准库，已在 Python 3.12.14 实际运行。在仓库根目录执行：
+每次选用未使用过的运行 ID，以下命令供需要重新测量时执行：
 
 ```bash
-python code/screen_ndbc_data.py
+python code/run_parquet_pilot.py --run-id pilot_replication
+python code/run_parquet_formal.py --run-id formal_replication
+python code/analyze_parquet_formal.py --run-dir results/formal_replication
+python code/run_alignment_extension.py --run-id alignment_replication
+python code/analyze_alignment_extension.py --run-dir results/alignment_replication
+python code/run_alignment_fresh_dates.py --run-id fresh_replication
+python code/analyze_alignment_fresh_dates.py --run-dir results/fresh_replication
 ```
 
-默认筛查 8 个站点的 2023、2024 年，共 16 个 CSV。最多同时发送两个子集请求，主站失败时尝试 NOAA 备用站；清单始终记录实际来源，不假定镜像相同。
+各运行脚本使用原有的固定输入和方案，不会因为运行了另一个新 ID 而自动替换后续阶段的输入。新日期验证仍按配置读取原扩展布局清单。若更改数据、布局或查询，应另定方案，不沿用旧验证结论。
 
-输出：
+正式与探索分析脚本可生成实验阶段结果说明；它们不生成最终课程报告。新日期统计和图表只写到独立分析目录。
 
-- `data/raw/`：输入 CSV、提供方元数据及下载侧写文件，仅保留在本地。
-- `results/data_screening_manifest.json`：来源、取得时间、SHA-256、行数、缺测、时间覆盖及完整性状态。
+## 文件用途
 
-重复运行会校验并复用已有缓存；缺失的文件重新尝试下载。缓存来源或哈希不匹配时会报错，不会静默覆盖。
+| 文件 | 用途 |
+|---|---|
+| screen_ndbc_data.py | 下载和筛查浮标数据 |
+| restore_parquet_inputs.py / restore_alignment_inputs.py | 按快照恢复输入 |
+| run_parquet_pilot.py | 预跑、原始布局生成与基础查询 |
+| run_parquet_formal.py | 调整集、验证集与行组诊断 |
+| run_alignment_extension.py | 边界对齐与全表扫描探索 |
+| run_alignment_fresh_dates.py | 固定新日期验证 |
+| analyze_parquet_formal.py | 正式结果分析和作图 |
+| analyze_alignment_extension.py | 探索结果分析和作图 |
+| analyze_alignment_fresh_dates.py | 新日期检查、统计和作图 |
+| analyze_query_effects.py | 逐查询变化与长尾样例计算 |
 
-小范围检查可使用独立输出路径，避免覆盖正式清单：
+## 另取数据时的独立筛查
 
 ```bash
-python code/screen_ndbc_data.py --stations 41001 --years 2024 --output-dir data/smoke --manifest results/smoke_manifest.json
+python code/screen_ndbc_data.py --output-dir data/new_screening --manifest results/new_screening_manifest.json
 ```
 
-发生下载或解析错误时，清单标记 `complete: false`，脚本返回非零退出码；检查并解决错误后重新运行。重新取得的上游数据应与原清单比对，变化需作为新版本记录。
-
-PyArrow、DuckDB 的依赖版本将在后续实验设计和试跑阶段锁定。
-
-## Parquet 预跑
-
-[run_parquet_pilot.py](run_parquet_pilot.py) 已完成一次真实运行：三种布局、12 条查询、36 次正确性检查、180 次计时及 36 次额外预热。
-
-先完成数据筛查，再安装锁定依赖：
-
-```bash
-python -m pip install -r requirements-pilot.txt
-python code/run_parquet_pilot.py --run-id pilot_v1_replication
-```
-
-命令从仓库根目录执行。配置来源为 config/pilot_v1.json；新运行 ID 不得与已存在的结果或 Parquet 目录重名。
-
-脚本验证输入哈希，生成三个布局并检查逻辑内容，保存逐行组统计、查询计划、每次耗时及校验结果。计时为预热后端到端查询，不是冷磁盘 I/O 测试。
-
-results/pilot_v1/ 为已有预跑证据；说明修订没有改变其脚本、数据、配置或计时。正式的 108 条查询已由 run_parquet_formal.py 执行；run_parquet_pilot.py 仍仅负责预跑。
-
+该命令用于新的数据筛查，不是恢复原实验。原始数据提供方、取得时间、缺测和重复键等信息见 `results/data_screening_manifest.json`。
